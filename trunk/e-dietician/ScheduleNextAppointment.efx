@@ -3,15 +3,15 @@
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.fragment" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <umlnotation:UMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:res="http://www.ibm.com/xtools/7.1.0/resources" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_vs8PMRkEEeGeKc-PyQrmzw" type="Sequence" name="ScheduleNextAppointment" measurementUnit="Himetric">
-  <eAnnotations xmi:id="_g96ZgRkFEeGeKc-PyQrmzw" source="com.ibm.xtools.uml.msl.fragments"/>
-  <eAnnotations xmi:id="_g96ZgBkFEeGeKc-PyQrmzw" source="com.ibm.xtools.uml.msl.fragmentContainer">
-    <references xmi:type="res:DiagramHolder" href="RUP%20Analysis%20Model.emx#_g90S4BkFEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Collaboration1/Interaction2/%3CDiagramHolder%3E?"/>
+  <eAnnotations xmi:id="_1NfSgBoIEeGuTprYHcgF3g" source="com.ibm.xtools.uml.msl.fragmentContainer">
+    <references xmi:type="res:DiagramHolder" href="RUP%20Analysis%20Model.emx#_g90S4BkFEeGeKc-PyQrmzw?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization/Interaction2/%3CDiagramHolder%3E?"/>
   </eAnnotations>
+  <eAnnotations xmi:id="_g96ZgRkFEeGeKc-PyQrmzw" source="com.ibm.xtools.uml.msl.fragments"/>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_vs8PMhkEEeGeKc-PyQrmzw" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
     <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vs8PMxkEEeGeKc-PyQrmzw" type="interaction_compartment"/>
     <children xmi:type="notation:BasicDecorationNode" xmi:id="_vs8PNBkEEeGeKc-PyQrmzw" type="Name"/>
-    <element xmi:type="uml:Interaction" href="RUP%20Analysis%20Model.emx#_vs2IkBkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Collaboration1/Interaction2?"/>
+    <element xmi:type="uml:Interaction" href="RUP%20Analysis%20Model.emx#_vs2IkBkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization/Interaction2?"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vs8PNRkEEeGeKc-PyQrmzw" x="793" y="793"/>
   </children>
-  <element xmi:type="uml:Interaction" href="RUP%20Analysis%20Model.emx#_vs2IkBkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Collaboration1/Interaction2?"/>
+  <element xmi:type="uml:Interaction" href="RUP%20Analysis%20Model.emx#_vs2IkBkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization/Interaction2?"/>
 </umlnotation:UMLDiagram>
