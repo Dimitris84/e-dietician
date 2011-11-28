@@ -2,342 +2,106 @@
 <!--xtools2_universal_type_manager-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:RUPAnalysis="http:///schemas/RUPAnalysis/3" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:res="http://www.ibm.com/xtools/7.1.0/resources" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/RUPAnalysis/3 pathmap://RUP_PROFILES/RUPAnalysis.epx#_DM6zsMmEEdqP1b5S0px2VQ?RUPAnalysis/RUPAnalysis?">
-  <uml:Model xmi:id="_Nma_MBjrEeGeKc-PyQrmzw" name="RUP Analysis Model">
-    <eAnnotations xmi:id="_nZjcsRkEEeGeKc-PyQrmzw" source="com.ibm.xtools.uml.msl.fragments">
-      <references xmi:type="umlnotation:UMLDiagram" href="GenerateDietProgram.efx#_auCzYRkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Collaboration1/Interaction1/GenerateDietProgram?"/>
-      <references xmi:type="umlnotation:UMLDiagram" href="ScheduleNextAppointment.efx#_vs8PMRkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Collaboration1/Interaction2/ScheduleNextAppointment?"/>
-      <references xmi:type="umlnotation:UMLDiagram" href="ClientsPersonalDataManagement.efx#_5kK9kRkFEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Collaboration1/Interaction3/ClientsPersonalDataManagement?"/>
-      <references xmi:type="umlnotation:UMLDiagram" href="domainModel.efx#_hwlycBjrEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Domain%20Model?"/>
+<uml:Model xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:res="http://www.ibm.com/xtools/7.1.0/resources" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_Nma_MBjrEeGeKc-PyQrmzw" name="RUP Analysis Model">
+  <eAnnotations xmi:id="_nZjcsRkEEeGeKc-PyQrmzw" source="com.ibm.xtools.uml.msl.fragments">
+    <references xmi:type="umlnotation:UMLDiagram" href="GenerateDietProgram.efx#_auCzYRkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/GenerateDietProgramme%20Realization/Interaction1/GenerateDietProgram?"/>
+    <references xmi:type="umlnotation:UMLDiagram" href="ScheduleNextAppointment.efx#_vs8PMRkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/GenerateDietProgramme%20Realization/Interaction2/ScheduleNextAppointment?"/>
+    <references xmi:type="umlnotation:UMLDiagram" href="ClientsPersonalDataManagement.efx#_5kK9kRkFEeGeKc-PyQrmzw?RUP%20Analysis%20Model/GenerateDietProgramme%20Realization/Interaction3/ClientsPersonalDataManagement?"/>
+    <references xmi:type="umlnotation:UMLDiagram" href="domainModel.efx#_hwlycBjrEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Domain%20Model?"/>
+    <references xmi:type="uml:Package" href="ModelFragment_3.efx#_Xu8lABkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Boundary%20Classes?"/>
+    <references xmi:type="uml:Package" href="ModelFragment_2.efx#_U5SmgBkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Controller%20Classes?"/>
+    <references xmi:type="uml:Package" href="ModelFragment_1.efx#_XU0XIBjrEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes?"/>
+  </eAnnotations>
+  <eAnnotations xmi:type="res:DiagramHolder" xmi:id="_twjToBkHEeGeKc-PyQrmzw" source="uml2.diagrams">
+    <details xmi:id="_tvsYABkHEeGeKc-PyQrmzw" key="_hwlycBjrEeGeKc-PyQrmzw" value="Class"/>
+    <ownedDiagrams xmi:type="umlnotation:UMLDiagram" href="domainModel.efx#_hwlycBjrEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Domain%20Model?"/>
+  </eAnnotations>
+  <eAnnotations xmi:id="_Nma_UBjrEeGeKc-PyQrmzw" source="uml2.isTemplate"/>
+  <eAnnotations xmi:id="_Nma_URjrEeGeKc-PyQrmzw" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+    <details xmi:id="_Nma_UhjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBActivityDiagram" value="1"/>
+    <details xmi:id="_Nma_UxjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBClassDiagram" value="1"/>
+    <details xmi:id="_Nma_VBjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBFreeFormDiagram" value="1"/>
+    <details xmi:id="_Nma_VRjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBSequenceDiagram" value="1"/>
+    <details xmi:id="_Nma_VhjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBUseCaseDiagram" value="1"/>
+    <details xmi:id="_Nma_VxjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBAction" value="1"/>
+    <details xmi:id="_Nma_WBjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBActivity1" value="1"/>
+    <details xmi:id="_Nma_WRjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBActivity2" value="1"/>
+    <details xmi:id="_Nma_WhjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBActivity3" value="1"/>
+    <details xmi:id="_Nma_WxjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBClass" value="1"/>
+    <details xmi:id="_Nma_XBjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBClassTemplateParameter" value="1"/>
+    <details xmi:id="_Nma_XRjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBCollaboration" value="1"/>
+    <details xmi:id="_Nma_XhjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBComment1" value="1"/>
+    <details xmi:id="_Nma_XxjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBComment2" value="1"/>
+    <details xmi:id="_Nma_YBjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBCommunication" value="1"/>
+    <details xmi:id="_Nma_YRjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBFragment" value="1"/>
+    <details xmi:id="_Nma_YhjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBInterface" value="1"/>
+    <details xmi:id="_Nma_YxjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBInterfaceTemplateParameter" value="1"/>
+    <details xmi:id="_Nma_ZBjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBLifeLine" value="1"/>
+    <details xmi:id="_Nma_ZRjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBPackage" value="1"/>
+    <details xmi:id="_Nma_ZhjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBPackageTemplateParameter" value="1"/>
+    <details xmi:id="_Nma_ZxjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBRealization" value="1"/>
+    <details xmi:id="_Nma_aBjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBRelationship1" value="1"/>
+    <details xmi:id="_Nma_aRjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBRelationship2" value="1"/>
+    <details xmi:id="_Nma_ahjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBSequence1" value="1"/>
+    <details xmi:id="_Nma_axjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBSequence2" value="1"/>
+    <details xmi:id="_Nma_bBjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBSubsystem" value="1"/>
+    <details xmi:id="_Nma_bRjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBTypes1" value="1"/>
+    <details xmi:id="_Nma_bhjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBTypes2" value="1"/>
+    <details xmi:id="_Nma_bxjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBTypes3" value="1"/>
+    <details xmi:id="_Nma_cBjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBTypes4" value="1"/>
+    <details xmi:id="_Nma_cRjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBUseCase1" value="1"/>
+    <details xmi:id="_Nma_chjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBUseCase2" value="1"/>
+    <details xmi:id="_Nma_cxjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBFunction" value="1"/>
+    <details xmi:id="_Nma_dBjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBStereotypedClass" value="1"/>
+  </eAnnotations>
+  <packageImport xmi:id="_Nma_dRjrEeGeKc-PyQrmzw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Package" href="ModelFragment_1.efx#_XU0XIBjrEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes?"/>
+  <packagedElement xmi:type="uml:Package" href="ModelFragment_2.efx#_U5SmgBkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Controller%20Classes?"/>
+  <packagedElement xmi:type="uml:Package" href="ModelFragment_3.efx#_Xu8lABkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Boundary%20Classes?"/>
+  <packagedElement xmi:type="uml:Collaboration" xmi:id="_arX54BkEEeGeKc-PyQrmzw" name="GenerateDietProgramme Realization">
+    <ownedBehavior xmi:type="uml:Interaction" xmi:id="_aszdQBkEEeGeKc-PyQrmzw" name="Interaction1">
+      <eAnnotations xmi:type="res:DiagramHolder" xmi:id="_nZXPcBkEEeGeKc-PyQrmzw" source="uml2.diagrams">
+        <details xmi:id="_nYshEBkEEeGeKc-PyQrmzw" key="_auCzYRkEEeGeKc-PyQrmzw" value="Sequence"/>
+        <ownedDiagrams xmi:type="umlnotation:UMLDiagram" href="GenerateDietProgram.efx#_auCzYRkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/GenerateDietProgramme%20Realization/Interaction1/GenerateDietProgram?"/>
+      </eAnnotations>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:Interaction" xmi:id="_vs2IkBkEEeGeKc-PyQrmzw" name="Interaction2">
+      <eAnnotations xmi:type="res:DiagramHolder" xmi:id="_g90S4BkFEeGeKc-PyQrmzw" source="uml2.diagrams">
+        <details xmi:id="_g9uMQBkFEeGeKc-PyQrmzw" key="_vs8PMRkEEeGeKc-PyQrmzw" value="Sequence"/>
+        <ownedDiagrams xmi:type="umlnotation:UMLDiagram" href="ScheduleNextAppointment.efx#_vs8PMRkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/GenerateDietProgramme%20Realization/Interaction2/ScheduleNextAppointment?"/>
+      </eAnnotations>
+    </ownedBehavior>
+    <ownedBehavior xmi:type="uml:Interaction" xmi:id="_5kE28BkFEeGeKc-PyQrmzw" name="Interaction3">
+      <eAnnotations xmi:type="res:DiagramHolder" xmi:id="_GATHEBkGEeGeKc-PyQrmzw" source="uml2.diagrams">
+        <details xmi:id="_GANAcBkGEeGeKc-PyQrmzw" key="_5kK9kRkFEeGeKc-PyQrmzw" value="Sequence"/>
+        <ownedDiagrams xmi:type="umlnotation:UMLDiagram" href="ClientsPersonalDataManagement.efx#_5kK9kRkFEeGeKc-PyQrmzw?RUP%20Analysis%20Model/GenerateDietProgramme%20Realization/Interaction3/ClientsPersonalDataManagement?"/>
+      </eAnnotations>
+    </ownedBehavior>
+  </packagedElement>
+  <profileApplication xmi:id="_NmhGQRjrEeGeKc-PyQrmzw">
+    <eAnnotations xmi:id="_NmhGQhjrEeGeKc-PyQrmzw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
     </eAnnotations>
-    <eAnnotations xmi:type="res:DiagramHolder" xmi:id="_twjToBkHEeGeKc-PyQrmzw" source="uml2.diagrams">
-      <details xmi:id="_tvsYABkHEeGeKc-PyQrmzw" key="_hwlycBjrEeGeKc-PyQrmzw" value="Class"/>
-      <ownedDiagrams xmi:type="umlnotation:UMLDiagram" href="domainModel.efx#_hwlycBjrEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Domain%20Model?"/>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
+  <profileApplication xmi:id="_NmhGQxjrEeGeKc-PyQrmzw">
+    <eAnnotations xmi:id="_NmhGRBjrEeGeKc-PyQrmzw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
     </eAnnotations>
-    <eAnnotations xmi:id="_Nma_UBjrEeGeKc-PyQrmzw" source="uml2.isTemplate"/>
-    <eAnnotations xmi:id="_Nma_URjrEeGeKc-PyQrmzw" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
-      <details xmi:id="_Nma_UhjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBActivityDiagram" value="1"/>
-      <details xmi:id="_Nma_UxjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBClassDiagram" value="1"/>
-      <details xmi:id="_Nma_VBjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBFreeFormDiagram" value="1"/>
-      <details xmi:id="_Nma_VRjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBSequenceDiagram" value="1"/>
-      <details xmi:id="_Nma_VhjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBUseCaseDiagram" value="1"/>
-      <details xmi:id="_Nma_VxjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBAction" value="1"/>
-      <details xmi:id="_Nma_WBjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBActivity1" value="1"/>
-      <details xmi:id="_Nma_WRjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBActivity2" value="1"/>
-      <details xmi:id="_Nma_WhjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBActivity3" value="1"/>
-      <details xmi:id="_Nma_WxjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBClass" value="1"/>
-      <details xmi:id="_Nma_XBjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBClassTemplateParameter" value="1"/>
-      <details xmi:id="_Nma_XRjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBCollaboration" value="1"/>
-      <details xmi:id="_Nma_XhjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBComment1" value="1"/>
-      <details xmi:id="_Nma_XxjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBComment2" value="1"/>
-      <details xmi:id="_Nma_YBjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBCommunication" value="1"/>
-      <details xmi:id="_Nma_YRjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBFragment" value="1"/>
-      <details xmi:id="_Nma_YhjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBInterface" value="1"/>
-      <details xmi:id="_Nma_YxjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBInterfaceTemplateParameter" value="1"/>
-      <details xmi:id="_Nma_ZBjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBLifeLine" value="1"/>
-      <details xmi:id="_Nma_ZRjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBPackage" value="1"/>
-      <details xmi:id="_Nma_ZhjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBPackageTemplateParameter" value="1"/>
-      <details xmi:id="_Nma_ZxjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBRealization" value="1"/>
-      <details xmi:id="_Nma_aBjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBRelationship1" value="1"/>
-      <details xmi:id="_Nma_aRjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBRelationship2" value="1"/>
-      <details xmi:id="_Nma_ahjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBSequence1" value="1"/>
-      <details xmi:id="_Nma_axjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBSequence2" value="1"/>
-      <details xmi:id="_Nma_bBjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBSubsystem" value="1"/>
-      <details xmi:id="_Nma_bRjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBTypes1" value="1"/>
-      <details xmi:id="_Nma_bhjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBTypes2" value="1"/>
-      <details xmi:id="_Nma_bxjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBTypes3" value="1"/>
-      <details xmi:id="_Nma_cBjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBTypes4" value="1"/>
-      <details xmi:id="_Nma_cRjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBUseCase1" value="1"/>
-      <details xmi:id="_Nma_chjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBUseCase2" value="1"/>
-      <details xmi:id="_Nma_cxjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBFunction" value="1"/>
-      <details xmi:id="_Nma_dBjrEeGeKc-PyQrmzw" key="com.ibm.xtools.activities.umlBBStereotypedClass" value="1"/>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
+  </profileApplication>
+  <profileApplication xmi:id="_NmhGRRjrEeGeKc-PyQrmzw">
+    <eAnnotations xmi:id="_NmhGRhjrEeGeKc-PyQrmzw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_IrdAUMmBEdqBcN1R6EvWUw?Deployment/Deployment?"/>
     </eAnnotations>
-    <packageImport xmi:id="_Nma_dRjrEeGeKc-PyQrmzw">
-      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
-    </packageImport>
-    <packagedElement xmi:type="uml:Package" xmi:id="_XU0XIBjrEeGeKc-PyQrmzw" name="Analysis Classes">
-      <eAnnotations xmi:id="_XV4HEBjrEeGeKc-PyQrmzw" source="uml2.diagrams" references="_XV4HERjrEeGeKc-PyQrmzw">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_XV4HERjrEeGeKc-PyQrmzw" type="Freeform" name="Main">
-          <element xsi:nil="true"/>
-        </contents>
-      </eAnnotations>
-      <packagedElement xmi:type="uml:Class" xmi:id="_yTEtUBjrEeGeKc-PyQrmzw" name="Address"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_RH-_cBkBEeGeKc-PyQrmzw" name="Appointment">
-        <ownedAttribute xmi:id="_p5fxQBkBEeGeKc-PyQrmzw" name="patient" visibility="private" type="_pHbdIBjrEeGeKc-PyQrmzw" association="_p4coYBkBEeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_p5l34BkBEeGeKc-PyQrmzw" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_p5fxQRkBEeGeKc-PyQrmzw" value="1"/>
-        </ownedAttribute>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_xy9QkBjwEeGeKc-PyQrmzw" name="Breakfast">
-        <generalization xmi:id="_6gav8BjwEeGeKc-PyQrmzw" general="_r-fXkBjwEeGeKc-PyQrmzw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_fskNwBkCEeGeKc-PyQrmzw" name="Calendar">
-        <ownedAttribute xmi:id="_pKvYYBkCEeGeKc-PyQrmzw" name="appointment" visibility="private" type="_RH-_cBkBEeGeKc-PyQrmzw" association="_pKQ3QBkCEeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pK1fARkCEeGeKc-PyQrmzw" value="*"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pK1fABkCEeGeKc-PyQrmzw"/>
-        </ownedAttribute>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_9bngUBjxEeGeKc-PyQrmzw" name="DietProgram">
-        <ownedAttribute xmi:id="_MDRtQBjyEeGeKc-PyQrmzw" name="dietProgramDay" visibility="private" type="_GlWE8BjyEeGeKc-PyQrmzw" association="_MCg4QBjyEeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MDXz4RjyEeGeKc-PyQrmzw" value="*"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MDXz4BjyEeGeKc-PyQrmzw"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_J36IQBj6EeGeKc-PyQrmzw" name="customer" visibility="private" type="_pHbdIBjrEeGeKc-PyQrmzw" association="_J3VggBj6EeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J4AO4Rj6EeGeKc-PyQrmzw" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_J4AO4Bj6EeGeKc-PyQrmzw" value="1"/>
-        </ownedAttribute>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_GlWE8BjyEeGeKc-PyQrmzw" name="DietProgramDay">
-        <ownedAttribute xmi:id="_MC_ZYBjyEeGeKc-PyQrmzw" name="dietProgram" visibility="private" type="_9bngUBjxEeGeKc-PyQrmzw" association="_MCg4QBjyEeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MDFgABjyEeGeKc-PyQrmzw" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MC_ZYRjyEeGeKc-PyQrmzw" value="1"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_maWOABj6EeGeKc-PyQrmzw" name="breakfast" visibility="private" type="_xy9QkBjwEeGeKc-PyQrmzw" association="_mZ3s4Bj6EeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_macUoRj6EeGeKc-PyQrmzw" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_macUoBj6EeGeKc-PyQrmzw"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_0fPsIBj6EeGeKc-PyQrmzw" name="snack" visibility="private" type="_zx-iABjwEeGeKc-PyQrmzw" association="_0fDe4Bj6EeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0fPsIhj6EeGeKc-PyQrmzw" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0fPsIRj6EeGeKc-PyQrmzw"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_3Ort4Bj6EeGeKc-PyQrmzw" name="lunch" visibility="private" type="_1kY60BjwEeGeKc-PyQrmzw" association="_3ONMwBj6EeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3Ox0gRj6EeGeKc-PyQrmzw" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3Ox0gBj6EeGeKc-PyQrmzw"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_42-hYBj6EeGeKc-PyQrmzw" name="evSnack" visibility="private" type="_2uCDcBjwEeGeKc-PyQrmzw" association="_42yUIBj6EeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_42-hYhj6EeGeKc-PyQrmzw" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_42-hYRj6EeGeKc-PyQrmzw"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_6wdLgBj6EeGeKc-PyQrmzw" name="dinner" visibility="private" type="_4sYmgBjwEeGeKc-PyQrmzw" association="_6vydIBj6EeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6wdLghj6EeGeKc-PyQrmzw" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6wdLgRj6EeGeKc-PyQrmzw"/>
-        </ownedAttribute>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_4sYmgBjwEeGeKc-PyQrmzw" name="Dinner">
-        <generalization xmi:id="_FkBAQBjxEeGeKc-PyQrmzw" general="_r-fXkBjwEeGeKc-PyQrmzw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_2uCDcBjwEeGeKc-PyQrmzw" name="EvSnack">
-        <generalization xmi:id="_DX0OcBjxEeGeKc-PyQrmzw" general="_r-fXkBjwEeGeKc-PyQrmzw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_v0cHsBjrEeGeKc-PyQrmzw" name="Food">
-        <ownedAttribute xmi:id="_NUMU0BjtEeGeKc-PyQrmzw" name="ID" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_kRQGcBjtEeGeKc-PyQrmzw" name="name" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_m43B4BjtEeGeKc-PyQrmzw" name="calperUnit" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_omx8QBjtEeGeKc-PyQrmzw" name="protperUnit" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_p0z1oBjtEeGeKc-PyQrmzw" name="fatperUnit" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_t4AgIBj_EeGeKc-PyQrmzw" name="unit" visibility="private" type="_6c7WEBj7EeGeKc-PyQrmzw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_BeeGMBj8EeGeKc-PyQrmzw" name="FoodMeal">
-        <ownedAttribute xmi:id="_g9UAwBj-EeGeKc-PyQrmzw" name="food" visibility="private" type="_v0cHsBjrEeGeKc-PyQrmzw" association="_g9Bs4Bj-EeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_g9UAwhj-EeGeKc-PyQrmzw" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g9UAwRj-EeGeKc-PyQrmzw" value="1"/>
-        </ownedAttribute>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_1kY60BjwEeGeKc-PyQrmzw" name="Lunch">
-        <generalization xmi:id="_Bp4tABjxEeGeKc-PyQrmzw" general="_r-fXkBjwEeGeKc-PyQrmzw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_r-fXkBjwEeGeKc-PyQrmzw" name="Meal" isAbstract="true">
-        <ownedAttribute xmi:id="_rvNwABjxEeGeKc-PyQrmzw" name="ID" visibility="private">
-          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_sUDsABj9EeGeKc-PyQrmzw" name="foodMeal" visibility="private" type="_BeeGMBj8EeGeKc-PyQrmzw" association="_sTfEQBj9EeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sUDsAhj9EeGeKc-PyQrmzw" value="5"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sUDsARj9EeGeKc-PyQrmzw" value="3"/>
-        </ownedAttribute>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_0s1aABjrEeGeKc-PyQrmzw" name="Measurement"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_pHbdIBjrEeGeKc-PyQrmzw" name="Patient">
-        <ownedAttribute xmi:id="_k5WdsBjsEeGeKc-PyQrmzw" name="address" visibility="private" type="_yTEtUBjrEeGeKc-PyQrmzw" aggregation="composite" association="_k4x18BjsEeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k5WdshjsEeGeKc-PyQrmzw" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k5WdsRjsEeGeKc-PyQrmzw" value="1"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_J494MBj6EeGeKc-PyQrmzw" name="dietProgram" visibility="private" type="_9bngUBjxEeGeKc-PyQrmzw" association="_J3VggBj6EeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J5D-0Rj6EeGeKc-PyQrmzw" value="*"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_J5D-0Bj6EeGeKc-PyQrmzw"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_7fMkABj-EeGeKc-PyQrmzw" name="dislikes" visibility="private" type="_v0cHsBjrEeGeKc-PyQrmzw" association="_7euC4Bj-EeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7fSqoRj-EeGeKc-PyQrmzw" value="*"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7fSqoBj-EeGeKc-PyQrmzw"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_mQLMEBj_EeGeKc-PyQrmzw" name="measurement" visibility="private" type="_0s1aABjrEeGeKc-PyQrmzw" association="_mQFFcBj_EeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mQRSsRj_EeGeKc-PyQrmzw" value="*"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mQRSsBj_EeGeKc-PyQrmzw"/>
-        </ownedAttribute>
-        <ownedAttribute xmi:id="_p47JgBkBEeGeKc-PyQrmzw" name="nextAppointment" visibility="private" type="_RH-_cBkBEeGeKc-PyQrmzw" association="_p4coYBkBEeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_p5BQIRkBEeGeKc-PyQrmzw" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_p5BQIBkBEeGeKc-PyQrmzw" value="1"/>
-        </ownedAttribute>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_zx-iABjwEeGeKc-PyQrmzw" name="Snack">
-        <generalization xmi:id="_7XI8kBjwEeGeKc-PyQrmzw" general="_r-fXkBjwEeGeKc-PyQrmzw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Enumeration" xmi:id="_7TD6kBkAEeGeKc-PyQrmzw" name="Timeslots">
-        <ownedLiteral xmi:id="__7mzABkAEeGeKc-PyQrmzw" name="9:00" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
-        <ownedLiteral xmi:id="_BF6C8BkBEeGeKc-PyQrmzw" name="9:30" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
-        <ownedLiteral xmi:id="_CfAj4BkBEeGeKc-PyQrmzw" name="10:00" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Enumeration" xmi:id="_6c7WEBj7EeGeKc-PyQrmzw" name="Unit">
-        <ownedLiteral xmi:id="_3JSeQBj_EeGeKc-PyQrmzw" name="ml" classifier="_6c7WEBj7EeGeKc-PyQrmzw"/>
-        <ownedLiteral xmi:id="_5Fo2MBj_EeGeKc-PyQrmzw" name="gr" classifier="_6c7WEBj7EeGeKc-PyQrmzw"/>
-        <ownedLiteral xmi:id="_6ZfDsBj_EeGeKc-PyQrmzw" name="st" classifier="_6c7WEBj7EeGeKc-PyQrmzw"/>
-        <ownedLiteral xmi:id="_7az90Bj_EeGeKc-PyQrmzw" name="cup" classifier="_6c7WEBj7EeGeKc-PyQrmzw"/>
-        <ownedLiteral xmi:id="_9hkO8Bj_EeGeKc-PyQrmzw" name="slice" classifier="_6c7WEBj7EeGeKc-PyQrmzw"/>
-        <ownedLiteral xmi:id="_-fdakBj_EeGeKc-PyQrmzw" name="glass" classifier="_6c7WEBj7EeGeKc-PyQrmzw"/>
-        <ownedLiteral xmi:id="_BgkbIBkAEeGeKc-PyQrmzw" name="plate" classifier="_6c7WEBj7EeGeKc-PyQrmzw"/>
-        <ownedLiteral xmi:id="_CEYS0BkAEeGeKc-PyQrmzw" name="spoon" classifier="_6c7WEBj7EeGeKc-PyQrmzw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_mQFFcBj_EeGeKc-PyQrmzw" memberEnd="_mQLMEBj_EeGeKc-PyQrmzw _mQXZUBj_EeGeKc-PyQrmzw">
-        <ownedEnd xmi:id="_mQXZUBj_EeGeKc-PyQrmzw" name="" visibility="private" type="_pHbdIBjrEeGeKc-PyQrmzw" association="_mQFFcBj_EeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mQXZUhj_EeGeKc-PyQrmzw" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mQXZURj_EeGeKc-PyQrmzw" value="1"/>
-        </ownedEnd>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_p4coYBkBEeGeKc-PyQrmzw" memberEnd="_p47JgBkBEeGeKc-PyQrmzw _p5fxQBkBEeGeKc-PyQrmzw"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_7euC4Bj-EeGeKc-PyQrmzw" memberEnd="_7fMkABj-EeGeKc-PyQrmzw _7fxLwBj-EeGeKc-PyQrmzw">
-        <ownedEnd xmi:id="_7fxLwBj-EeGeKc-PyQrmzw" name="" visibility="private" type="_pHbdIBjrEeGeKc-PyQrmzw" association="_7euC4Bj-EeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7fxLwhj-EeGeKc-PyQrmzw" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7fxLwRj-EeGeKc-PyQrmzw" value="1"/>
-        </ownedEnd>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_k4x18BjsEeGeKc-PyQrmzw" memberEnd="_k5WdsBjsEeGeKc-PyQrmzw _k50-0BjsEeGeKc-PyQrmzw">
-        <ownedEnd xmi:id="_k50-0BjsEeGeKc-PyQrmzw" name="" visibility="private" type="_pHbdIBjrEeGeKc-PyQrmzw" association="_k4x18BjsEeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k57FcRjsEeGeKc-PyQrmzw" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_k57FcBjsEeGeKc-PyQrmzw" value="1"/>
-        </ownedEnd>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_sTfEQBj9EeGeKc-PyQrmzw" memberEnd="_sUDsABj9EeGeKc-PyQrmzw _sUiNIBj9EeGeKc-PyQrmzw">
-        <ownedEnd xmi:id="_sUiNIBj9EeGeKc-PyQrmzw" name="" visibility="private" type="_r-fXkBjwEeGeKc-PyQrmzw" association="_sTfEQBj9EeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sUiNIhj9EeGeKc-PyQrmzw" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sUiNIRj9EeGeKc-PyQrmzw" value="1"/>
-        </ownedEnd>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_g9Bs4Bj-EeGeKc-PyQrmzw" memberEnd="_g9UAwBj-EeGeKc-PyQrmzw _g9aHYBj-EeGeKc-PyQrmzw">
-        <ownedEnd xmi:id="_g9aHYBj-EeGeKc-PyQrmzw" name="" visibility="private" type="_BeeGMBj8EeGeKc-PyQrmzw" association="_g9Bs4Bj-EeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_g9aHYhj-EeGeKc-PyQrmzw" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g9aHYRj-EeGeKc-PyQrmzw" value="1"/>
-        </ownedEnd>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_42yUIBj6EeGeKc-PyQrmzw" memberEnd="_42-hYBj6EeGeKc-PyQrmzw _43EoABj6EeGeKc-PyQrmzw">
-        <ownedEnd xmi:id="_43EoABj6EeGeKc-PyQrmzw" name="" visibility="private" type="_GlWE8BjyEeGeKc-PyQrmzw" association="_42yUIBj6EeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_43EoAhj6EeGeKc-PyQrmzw" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_43EoARj6EeGeKc-PyQrmzw" value="1"/>
-        </ownedEnd>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_0fDe4Bj6EeGeKc-PyQrmzw" memberEnd="_0fPsIBj6EeGeKc-PyQrmzw _0fb5YBj6EeGeKc-PyQrmzw">
-        <ownedEnd xmi:id="_0fb5YBj6EeGeKc-PyQrmzw" name="" visibility="private" type="_GlWE8BjyEeGeKc-PyQrmzw" association="_0fDe4Bj6EeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_0fiAARj6EeGeKc-PyQrmzw" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_0fiAABj6EeGeKc-PyQrmzw" value="1"/>
-        </ownedEnd>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_mZ3s4Bj6EeGeKc-PyQrmzw" memberEnd="_maWOABj6EeGeKc-PyQrmzw _ma61wBj6EeGeKc-PyQrmzw">
-        <ownedEnd xmi:id="_ma61wBj6EeGeKc-PyQrmzw" name="" visibility="private" type="_GlWE8BjyEeGeKc-PyQrmzw" association="_mZ3s4Bj6EeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mbA8YRj6EeGeKc-PyQrmzw" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mbA8YBj6EeGeKc-PyQrmzw" value="1"/>
-        </ownedEnd>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_3ONMwBj6EeGeKc-PyQrmzw" memberEnd="_3Ort4Bj6EeGeKc-PyQrmzw _3O37IBj6EeGeKc-PyQrmzw">
-        <ownedEnd xmi:id="_3O37IBj6EeGeKc-PyQrmzw" name="" visibility="private" type="_GlWE8BjyEeGeKc-PyQrmzw" association="_3ONMwBj6EeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3O37Ihj6EeGeKc-PyQrmzw" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3O37IRj6EeGeKc-PyQrmzw" value="1"/>
-        </ownedEnd>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_MCg4QBjyEeGeKc-PyQrmzw" memberEnd="_MC_ZYBjyEeGeKc-PyQrmzw _MDRtQBjyEeGeKc-PyQrmzw"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_6vydIBj6EeGeKc-PyQrmzw" memberEnd="_6wdLgBj6EeGeKc-PyQrmzw _6xBzQBj6EeGeKc-PyQrmzw">
-        <ownedEnd xmi:id="_6xBzQBj6EeGeKc-PyQrmzw" name="" visibility="private" type="_GlWE8BjyEeGeKc-PyQrmzw" association="_6vydIBj6EeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6xBzQhj6EeGeKc-PyQrmzw" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6xBzQRj6EeGeKc-PyQrmzw" value="1"/>
-        </ownedEnd>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_J3VggBj6EeGeKc-PyQrmzw" memberEnd="_J36IQBj6EeGeKc-PyQrmzw _J494MBj6EeGeKc-PyQrmzw"/>
-      <packagedElement xmi:type="uml:Association" xmi:id="_pKQ3QBkCEeGeKc-PyQrmzw" memberEnd="_pKvYYBkCEeGeKc-PyQrmzw _pLUAIBkCEeGeKc-PyQrmzw">
-        <ownedEnd xmi:id="_pLUAIBkCEeGeKc-PyQrmzw" name="" visibility="private" type="_fskNwBkCEeGeKc-PyQrmzw" association="_pKQ3QBkCEeGeKc-PyQrmzw">
-          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pLUAIhkCEeGeKc-PyQrmzw" value="1"/>
-          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pLUAIRkCEeGeKc-PyQrmzw" value="1"/>
-        </ownedEnd>
-      </packagedElement>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_U5SmgBkEEeGeKc-PyQrmzw" name="Controller Classes">
-      <eAnnotations xmi:id="_U5SmgRkEEeGeKc-PyQrmzw" source="uml2.diagrams" references="_U5SmghkEEeGeKc-PyQrmzw">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_U5SmghkEEeGeKc-PyQrmzw" type="Freeform" name="Main">
-          <element xsi:nil="true"/>
-        </contents>
-      </eAnnotations>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_Xu8lABkEEeGeKc-PyQrmzw" name="Boundary Classes">
-      <eAnnotations xmi:id="_Xu8lARkEEeGeKc-PyQrmzw" source="uml2.diagrams" references="_Xu8lAhkEEeGeKc-PyQrmzw">
-        <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Xu8lAhkEEeGeKc-PyQrmzw" type="Freeform" name="Main">
-          <element xsi:nil="true"/>
-        </contents>
-      </eAnnotations>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Collaboration" xmi:id="_arX54BkEEeGeKc-PyQrmzw" name="GenerateDietProgramme Realization">
-      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_aszdQBkEEeGeKc-PyQrmzw" name="Interaction1">
-        <eAnnotations xmi:type="res:DiagramHolder" xmi:id="_nZXPcBkEEeGeKc-PyQrmzw" source="uml2.diagrams">
-          <details xmi:id="_nYshEBkEEeGeKc-PyQrmzw" key="_auCzYRkEEeGeKc-PyQrmzw" value="Sequence"/>
-          <ownedDiagrams xmi:type="umlnotation:UMLDiagram" href="GenerateDietProgram.efx#_auCzYRkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Collaboration1/Interaction1/GenerateDietProgram?"/>
-        </eAnnotations>
-      </ownedBehavior>
-      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_vs2IkBkEEeGeKc-PyQrmzw" name="Interaction2">
-        <eAnnotations xmi:type="res:DiagramHolder" xmi:id="_g90S4BkFEeGeKc-PyQrmzw" source="uml2.diagrams">
-          <details xmi:id="_g9uMQBkFEeGeKc-PyQrmzw" key="_vs8PMRkEEeGeKc-PyQrmzw" value="Sequence"/>
-          <ownedDiagrams xmi:type="umlnotation:UMLDiagram" href="ScheduleNextAppointment.efx#_vs8PMRkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Collaboration1/Interaction2/ScheduleNextAppointment?"/>
-        </eAnnotations>
-      </ownedBehavior>
-      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_5kE28BkFEeGeKc-PyQrmzw" name="Interaction3">
-        <eAnnotations xmi:type="res:DiagramHolder" xmi:id="_GATHEBkGEeGeKc-PyQrmzw" source="uml2.diagrams">
-          <details xmi:id="_GANAcBkGEeGeKc-PyQrmzw" key="_5kK9kRkFEeGeKc-PyQrmzw" value="Sequence"/>
-          <ownedDiagrams xmi:type="umlnotation:UMLDiagram" href="ClientsPersonalDataManagement.efx#_5kK9kRkFEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Collaboration1/Interaction3/ClientsPersonalDataManagement?"/>
-        </eAnnotations>
-      </ownedBehavior>
-    </packagedElement>
-    <profileApplication xmi:id="_NmhGQRjrEeGeKc-PyQrmzw">
-      <eAnnotations xmi:id="_NmhGQhjrEeGeKc-PyQrmzw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
-      </eAnnotations>
-      <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
-    </profileApplication>
-    <profileApplication xmi:id="_NmhGQxjrEeGeKc-PyQrmzw">
-      <eAnnotations xmi:id="_NmhGRBjrEeGeKc-PyQrmzw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default?"/>
-      </eAnnotations>
-      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Default.epx#_a_S3wNWLEdiy4IqP8whjFA?Default?"/>
-    </profileApplication>
-    <profileApplication xmi:id="_NmhGRRjrEeGeKc-PyQrmzw">
-      <eAnnotations xmi:id="_NmhGRhjrEeGeKc-PyQrmzw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_IrdAUMmBEdqBcN1R6EvWUw?Deployment/Deployment?"/>
-      </eAnnotations>
-      <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
-    </profileApplication>
-    <profileApplication xmi:id="_NmhGRxjrEeGeKc-PyQrmzw">
-      <eAnnotations xmi:id="_NmhGSBjrEeGeKc-PyQrmzw" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="pathmap://RUP_PROFILES/RUPAnalysis.epx#_DM6zsMmEEdqP1b5S0px2VQ?RUPAnalysis/RUPAnalysis?"/>
-      </eAnnotations>
-      <appliedProfile href="pathmap://RUP_PROFILES/RUPAnalysis.epx#_ptUk0NtREdi6_tWeNeG1pw?RUPAnalysis?"/>
-    </profileApplication>
-  </uml:Model>
-  <RUPAnalysis:Entity xmi:id="_pgKtQBjrEeGeKc-PyQrmzw" base_Class="_pHbdIBjrEeGeKc-PyQrmzw"/>
-  <RUPAnalysis:Entity xmi:id="_wDJSEBjrEeGeKc-PyQrmzw" base_Class="_v0cHsBjrEeGeKc-PyQrmzw"/>
-  <RUPAnalysis:Entity xmi:id="_yj-QEBjrEeGeKc-PyQrmzw" base_Class="_yTEtUBjrEeGeKc-PyQrmzw"/>
-  <RUPAnalysis:Entity xmi:id="_09KVABjrEeGeKc-PyQrmzw" base_Class="_0s1aABjrEeGeKc-PyQrmzw"/>
-  <RUPAnalysis:Entity xmi:id="_sKVbMBjwEeGeKc-PyQrmzw" base_Class="_r-fXkBjwEeGeKc-PyQrmzw"/>
-  <RUPAnalysis:Entity xmi:id="_yIKEgBjwEeGeKc-PyQrmzw" base_Class="_xy9QkBjwEeGeKc-PyQrmzw"/>
-  <RUPAnalysis:Entity xmi:id="_0FdesBjwEeGeKc-PyQrmzw" base_Class="_zx-iABjwEeGeKc-PyQrmzw"/>
-  <RUPAnalysis:Entity xmi:id="_1v8qkBjwEeGeKc-PyQrmzw" base_Class="_1kY60BjwEeGeKc-PyQrmzw"/>
-  <RUPAnalysis:Entity xmi:id="_25MxoBjwEeGeKc-PyQrmzw" base_Class="_2uCDcBjwEeGeKc-PyQrmzw"/>
-  <RUPAnalysis:Entity xmi:id="_43dOEBjwEeGeKc-PyQrmzw" base_Class="_4sYmgBjwEeGeKc-PyQrmzw"/>
-  <RUPAnalysis:Entity xmi:id="_9r8bUBjxEeGeKc-PyQrmzw" base_Class="_9bngUBjxEeGeKc-PyQrmzw"/>
-  <RUPAnalysis:Entity xmi:id="_G3ryIBjyEeGeKc-PyQrmzw" base_Class="_GlWE8BjyEeGeKc-PyQrmzw"/>
-  <RUPAnalysis:Entity xmi:id="_Bt8FkBj8EeGeKc-PyQrmzw" base_Class="_BeeGMBj8EeGeKc-PyQrmzw"/>
-  <RUPAnalysis:Entity xmi:id="_RanAgBkBEeGeKc-PyQrmzw" base_Class="_RH-_cBkBEeGeKc-PyQrmzw"/>
-  <RUPAnalysis:Entity xmi:id="_gFx_ABkCEeGeKc-PyQrmzw" base_Class="_fskNwBkCEeGeKc-PyQrmzw"/>
-</xmi:XMI>
+    <appliedProfile href="pathmap://UML2_MSL_PROFILES/Deployment.epx#_vjbuwOvHEdiDX5bji0iVSA?Deployment?"/>
+  </profileApplication>
+  <profileApplication xmi:id="_NmhGRxjrEeGeKc-PyQrmzw">
+    <eAnnotations xmi:id="_NmhGSBjrEeGeKc-PyQrmzw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://RUP_PROFILES/RUPAnalysis.epx#_DM6zsMmEEdqP1b5S0px2VQ?RUPAnalysis/RUPAnalysis?"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://RUP_PROFILES/RUPAnalysis.epx#_ptUk0NtREdi6_tWeNeG1pw?RUPAnalysis?"/>
+  </profileApplication>
+</uml:Model>
