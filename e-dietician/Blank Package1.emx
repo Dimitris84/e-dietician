@@ -95,16 +95,6 @@
           <children xmi:type="notation:ListCompartment" xmi:id="_ArmqYQL5EeGzl9RzglytTQ" visible="false" type="Extension_Points"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ArkOIQL5EeGzl9RzglytTQ" x="4884" y="4752"/>
         </children>
-        <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_-NplEBoAEeGhNvMJs5tRCQ" element="_-K3W0BoAEeGhNvMJs5tRCQ" fontName="Segoe UI" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-          <children xmi:type="notation:DecorationNode" xmi:id="_-NwSwBoAEeGhNvMJs5tRCQ" type="ImageCompartment">
-            <layoutConstraint xmi:type="notation:Size" xmi:id="_-Nw50BoAEeGhNvMJs5tRCQ" width="2216" height="1322"/>
-          </children>
-          <children xmi:type="notation:BasicDecorationNode" xmi:id="_-Nxg4BoAEeGhNvMJs5tRCQ" type="Stereotype"/>
-          <children xmi:type="notation:BasicDecorationNode" xmi:id="_-NyH8BoAEeGhNvMJs5tRCQ" type="Name"/>
-          <children xmi:type="notation:BasicDecorationNode" xmi:id="_-NyH8RoAEeGhNvMJs5tRCQ" type="Parent"/>
-          <children xmi:type="notation:ListCompartment" xmi:id="_-NyvABoAEeGhNvMJs5tRCQ" visible="false" type="Extension_Points"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-NplERoAEeGhNvMJs5tRCQ" x="13678" y="12356"/>
-        </children>
         <edges xmi:type="umlnotation:UMLConnector" xmi:id="_Cnwf8AL3EeGzl9RzglytTQ" element="_CmulMAL3EeGzl9RzglytTQ" source="_HSbUwAL2EeGzl9RzglytTQ" target="_4vfaUAL2EeGzl9RzglytTQ" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" lineColor="8421504" lineWidth="1" showStereotype="Text">
           <children xmi:type="notation:DecorationNode" xmi:id="_CnxuEAL3EeGzl9RzglytTQ" type="NameLabel">
             <children xmi:type="notation:BasicDecorationNode" xmi:id="_CnyVIAL3EeGzl9RzglytTQ" type="Stereotype"/>
@@ -3798,7 +3788,6 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ioCkQBCaEeGMRpv1ox5Ntw" value="1"/>
       </ownedEnd>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_-K3W0BoAEeGhNvMJs5tRCQ" name="UseCase1"/>
     <profileApplication xmi:id="_uLyCEvwGEeCKWNHoow6cmw">
       <eAnnotations xmi:id="_uLyCE_wGEeCKWNHoow6cmw" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
