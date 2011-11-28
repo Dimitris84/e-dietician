@@ -280,7 +280,7 @@
         </contents>
       </eAnnotations>
     </packagedElement>
-    <packagedElement xmi:type="uml:Collaboration" xmi:id="_arX54BkEEeGeKc-PyQrmzw" name="Collaboration1">
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="_arX54BkEEeGeKc-PyQrmzw" name="GenerateDietProgramme Realization">
       <ownedBehavior xmi:type="uml:Interaction" xmi:id="_aszdQBkEEeGeKc-PyQrmzw" name="Interaction1">
         <eAnnotations xmi:type="res:DiagramHolder" xmi:id="_nZXPcBkEEeGeKc-PyQrmzw" source="uml2.diagrams">
           <details xmi:id="_nYshEBkEEeGeKc-PyQrmzw" key="_auCzYRkEEeGeKc-PyQrmzw" value="Sequence"/>
