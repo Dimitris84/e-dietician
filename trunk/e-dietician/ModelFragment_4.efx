@@ -13,7 +13,9 @@
         <element xsi:nil="true"/>
       </contents>
     </eAnnotations>
-    <packagedElement xmi:type="uml:Class" xmi:id="_yTEtUBjrEeGeKc-PyQrmzw" name="Address"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_yTEtUBjrEeGeKc-PyQrmzw" name="Address">
+      <ownedOperation xmi:id="_saXAABq4EeGtzbXyaXGnqg" name="setClientsAddress"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_RH-_cBkBEeGeKc-PyQrmzw" name="Appointment">
       <ownedAttribute xmi:id="_p5fxQBkBEeGeKc-PyQrmzw" name="patient" visibility="private" type="_pHbdIBjrEeGeKc-PyQrmzw" association="_p4coYBkBEeGeKc-PyQrmzw">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_p5l34BkBEeGeKc-PyQrmzw" value="1"/>
@@ -129,6 +131,8 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_p5BQIRkBEeGeKc-PyQrmzw" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_p5BQIBkBEeGeKc-PyQrmzw" value="1"/>
       </ownedAttribute>
+      <ownedOperation xmi:id="_eO9twBq3EeGtzbXyaXGnqg" name="isClientExisting"/>
+      <ownedOperation xmi:id="_mxkykBq4EeGtzbXyaXGnqg" name="setClientsData"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_zx-iABjwEeGeKc-PyQrmzw" name="Snack">
       <generalization xmi:id="_7XI8kBjwEeGeKc-PyQrmzw" general="_r-fXkBjwEeGeKc-PyQrmzw"/>
