@@ -2,14 +2,30 @@
 <!--xtools2_universal_type_manager-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.fragment" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
-<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_Xu8lABkEEeGeKc-PyQrmzw" name="Boundary Classes">
-  <eAnnotations xmi:id="_j3R_MRoJEeGuTprYHcgF3g" source="com.ibm.xtools.uml.msl.fragments"/>
-  <eAnnotations xmi:id="_j3R_MBoJEeGuTprYHcgF3g" source="com.ibm.xtools.uml.msl.fragmentContainer">
-    <references xmi:type="uml:Model" href="RUP%20Analysis%20Model.emx#_Nma_MBjrEeGeKc-PyQrmzw?RUP%20Analysis%20Model?"/>
-  </eAnnotations>
-  <eAnnotations xmi:id="_Xu8lARkEEeGeKc-PyQrmzw" source="uml2.diagrams" references="_Xu8lAhkEEeGeKc-PyQrmzw">
-    <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Xu8lAhkEEeGeKc-PyQrmzw" type="Freeform" name="Main">
-      <element xsi:nil="true"/>
-    </contents>
-  </eAnnotations>
-</uml:Package>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:RUPAnalysis="http:///schemas/RUPAnalysis/3" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/RUPAnalysis/3 pathmap://RUP_PROFILES/RUPAnalysis.epx#_DM6zsMmEEdqP1b5S0px2VQ?RUPAnalysis/RUPAnalysis?">
+  <uml:Package xmi:id="_Xu8lABkEEeGeKc-PyQrmzw" name="Boundary Classes">
+    <eAnnotations xmi:id="_j3R_MRoJEeGuTprYHcgF3g" source="com.ibm.xtools.uml.msl.fragments"/>
+    <eAnnotations xmi:id="_j3R_MBoJEeGuTprYHcgF3g" source="com.ibm.xtools.uml.msl.fragmentContainer">
+      <references xmi:type="uml:Model" href="RUP%20Analysis%20Model.emx#_Nma_MBjrEeGeKc-PyQrmzw?RUP%20Analysis%20Model?"/>
+    </eAnnotations>
+    <eAnnotations xmi:id="_Xu8lARkEEeGeKc-PyQrmzw" source="uml2.diagrams" references="_Xu8lAhkEEeGeKc-PyQrmzw">
+      <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_Xu8lAhkEEeGeKc-PyQrmzw" type="Freeform" name="Main">
+        <element xsi:nil="true"/>
+      </contents>
+    </eAnnotations>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Eyq2YBqzEeGtzbXyaXGnqg" name="ClientsPersonalDataManagement UI">
+      <ownedAttribute xmi:id="_xDDbsBqzEeGtzbXyaXGnqg" name="clientsPersonalDataManagement Controller" visibility="private" association="_xDAYYBqzEeGtzbXyaXGnqg">
+        <type xmi:type="uml:Class" href="ModelFragment_5.efx#_NBbnkBqzEeGtzbXyaXGnqg?RUP%20Analysis%20Model/Controller%20Classes/ClientsPersonalDataManagement%20Controller?"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_sIvoYBq0EeGtzbXyaXGnqg" name="Inser new patient"/>
+      <ownedOperation xmi:id="_w6oDABq0EeGtzbXyaXGnqg" name="Initialize"/>
+      <ownedOperation xmi:id="_2euS0Bq2EeGtzbXyaXGnqg" name="Initialise"/>
+      <ownedOperation xmi:id="_osAUYBq3EeGtzbXyaXGnqg" name="updateUI"/>
+      <ownedOperation xmi:id="_9_KI8Bq3EeGtzbXyaXGnqg" name="confirmData"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_xDAYYBqzEeGtzbXyaXGnqg" memberEnd="_xDDbsBqzEeGtzbXyaXGnqg _xDGfABqzEeGtzbXyaXGnqg">
+      <ownedEnd xmi:id="_xDGfABqzEeGtzbXyaXGnqg" name="" visibility="private" type="_Eyq2YBqzEeGtzbXyaXGnqg" association="_xDAYYBqzEeGtzbXyaXGnqg"/>
+    </packagedElement>
+  </uml:Package>
+  <RUPAnalysis:Boundary xmi:id="_FQWQ4BqzEeGtzbXyaXGnqg" base_Class="_Eyq2YBqzEeGtzbXyaXGnqg"/>
+</xmi:XMI>
