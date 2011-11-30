@@ -17,10 +17,7 @@
       <ownedAttribute xmi:id="_xDDbsBqzEeGtzbXyaXGnqg" name="clientsPersonalDataManagement Controller" visibility="private" association="_xDAYYBqzEeGtzbXyaXGnqg">
         <type xmi:type="uml:Class" href="ModelFragment_5.efx#_NBbnkBqzEeGtzbXyaXGnqg?RUP%20Analysis%20Model/Controller%20Classes/ClientsPersonalDataManagement%20Controller?"/>
       </ownedAttribute>
-      <ownedOperation xmi:id="_sIvoYBq0EeGtzbXyaXGnqg" name="Inser new patient"/>
-      <ownedOperation xmi:id="_w6oDABq0EeGtzbXyaXGnqg" name="Initialize"/>
-      <ownedOperation xmi:id="_2euS0Bq2EeGtzbXyaXGnqg" name="Initialise"/>
-      <ownedOperation xmi:id="_osAUYBq3EeGtzbXyaXGnqg" name="updateUI"/>
+      <ownedOperation xmi:id="_sIvoYBq0EeGtzbXyaXGnqg" name="Insert new patient"/>
       <ownedOperation xmi:id="_9_KI8Bq3EeGtzbXyaXGnqg" name="confirmData"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_xDAYYBqzEeGtzbXyaXGnqg" memberEnd="_xDDbsBqzEeGtzbXyaXGnqg _xDGfABqzEeGtzbXyaXGnqg">
