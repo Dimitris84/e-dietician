@@ -18,7 +18,7 @@
         <type xmi:type="uml:Class" href="ModelFragment_4.efx#_pHbdIBjrEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Patient?"/>
       </ownedAttribute>
       <ownedOperation xmi:id="_Vo_WcBq3EeGtzbXyaXGnqg" name="validateForm"/>
-      <ownedOperation xmi:id="_eR-JABq4EeGtzbXyaXGnqg" name="sendClientsData"/>
+      <ownedOperation xmi:id="_zBxBoBxUEeGvkbPdFpd2DA" name="isClientExisting"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_BOB1gBq0EeGtzbXyaXGnqg" memberEnd="_BOHVEBq0EeGtzbXyaXGnqg _BOK_cBq0EeGtzbXyaXGnqg">
       <ownedEnd xmi:id="_BOK_cBq0EeGtzbXyaXGnqg" name="" visibility="private" type="_NBbnkBqzEeGtzbXyaXGnqg" association="_BOB1gBq0EeGtzbXyaXGnqg"/>
