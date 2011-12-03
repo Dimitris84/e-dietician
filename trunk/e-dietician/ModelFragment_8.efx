@@ -1437,16 +1437,6 @@
           <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SpY45h3EEeGO3O9QSZV2sg" id="73510677:821"/>
           <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SpY45x3EEeGO3O9QSZV2sg" id="-737378664:0"/>
         </edges>
-        <edges xmi:type="umlnotation:UMLConnector" xmi:id="_sXAncB3hEeGeGNDUfGzErQ" element="_sV-FoB3hEeGeGNDUfGzErQ" source="_SpSyQh3EEeGO3O9QSZV2sg" target="_SpSySR3EEeGO3O9QSZV2sg" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
-          <children xmi:type="notation:DecorationNode" xmi:id="_sXER0B3hEeGeGNDUfGzErQ" type="MessageNameLabel">
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_sXH8MB3hEeGeGNDUfGzErQ" type="Stereotype"/>
-            <children xmi:type="notation:BasicDecorationNode" xmi:id="_sXH8MR3hEeGeGNDUfGzErQ" type="Name"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sXER0R3hEeGeGNDUfGzErQ" y="-317"/>
-          </children>
-          <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sXAncR3hEeGeGNDUfGzErQ" points="[0, 0, -150, 0]$[150, 0, 0, 0]"/>
-          <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sXV-oB3hEeGeGNDUfGzErQ" id="2:1248"/>
-          <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sXV-oR3hEeGeGNDUfGzErQ" id="19:0"/>
-        </edges>
       </contents>
     </eAnnotations>
     <ownedConnector xmi:id="_SpMrph3EEeGO3O9QSZV2sg">
@@ -1457,8 +1447,8 @@
       <end xmi:id="_e0OeFx3EEeGO3O9QSZV2sg" role="_dKm04R3EEeGO3O9QSZV2sg"/>
       <end xmi:id="_e0OeGB3EEeGO3O9QSZV2sg" role="__d_3kRz-EeGiq7q1WHBvdw"/>
     </ownedConnector>
-    <lifeline xmi:id="_SpGlAB3EEeGO3O9QSZV2sg" name="dietician" represents="_8LaFcRz-EeGiq7q1WHBvdw" coveredBy="_SpMroR3EEeGO3O9QSZV2sg _sWAh4B3hEeGeGNDUfGzErQ _sWEzUB3hEeGeGNDUfGzErQ"/>
-    <lifeline xmi:id="_SpMroB3EEeGO3O9QSZV2sg" name="generateDietProgram UI" represents="__d_3kRz-EeGiq7q1WHBvdw" coveredBy="_SpMroh3EEeGO3O9QSZV2sg _SpMrox3EEeGO3O9QSZV2sg _SpMrpB3EEeGO3O9QSZV2sg _aeAnkB3LEeGO3O9QSZV2sg _sWCXEB3hEeGeGNDUfGzErQ _sWC-IB3hEeGeGNDUfGzErQ _sWDlMB3hEeGeGNDUfGzErQ"/>
+    <lifeline xmi:id="_SpGlAB3EEeGO3O9QSZV2sg" name="dietician" represents="_8LaFcRz-EeGiq7q1WHBvdw" coveredBy="_SpMroR3EEeGO3O9QSZV2sg"/>
+    <lifeline xmi:id="_SpMroB3EEeGO3O9QSZV2sg" name="generateDietProgram UI" represents="__d_3kRz-EeGiq7q1WHBvdw" coveredBy="_SpMroh3EEeGO3O9QSZV2sg _SpMrox3EEeGO3O9QSZV2sg _SpMrpB3EEeGO3O9QSZV2sg _aeAnkB3LEeGO3O9QSZV2sg"/>
     <lifeline xmi:id="_dKm04B3EEeGO3O9QSZV2sg" name="generateDietProgram Controller" represents="_dKm04R3EEeGO3O9QSZV2sg" coveredBy="_aeAnkB3LEeGO3O9QSZV2sg"/>
     <lifeline xmi:id="_aknqEB3EEeGO3O9QSZV2sg" name="meal" represents="_aknqER3EEeGO3O9QSZV2sg" coveredBy="_aeAnkB3LEeGO3O9QSZV2sg"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_SpMroR3EEeGO3O9QSZV2sg" covered="_SpGlAB3EEeGO3O9QSZV2sg" message="_SpMrpR3EEeGO3O9QSZV2sg"/>
@@ -1476,14 +1466,7 @@
         </guard>
       </operand>
     </fragment>
-    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_sWAh4B3hEeGeGNDUfGzErQ" covered="_SpGlAB3EEeGO3O9QSZV2sg" message="_sV-FoB3hEeGeGNDUfGzErQ"/>
-    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_sWCXEB3hEeGeGNDUfGzErQ" covered="_SpMroB3EEeGO3O9QSZV2sg" message="_sV-FoB3hEeGeGNDUfGzErQ"/>
-    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_sWC-IB3hEeGeGNDUfGzErQ" covered="_SpMroB3EEeGO3O9QSZV2sg" start="_sWCXEB3hEeGeGNDUfGzErQ" finish="_sWDlMB3hEeGeGNDUfGzErQ"/>
-    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_sWDlMB3hEeGeGNDUfGzErQ" covered="_SpMroB3EEeGO3O9QSZV2sg" message="_sWEMQB3hEeGeGNDUfGzErQ"/>
-    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_sWEzUB3hEeGeGNDUfGzErQ" covered="_SpGlAB3EEeGO3O9QSZV2sg" message="_sWEMQB3hEeGeGNDUfGzErQ"/>
     <message xmi:id="_SpMrpR3EEeGO3O9QSZV2sg" name="\Generate Programs\" messageSort="asynchCall" receiveEvent="_SpMroh3EEeGO3O9QSZV2sg" sendEvent="_SpMroR3EEeGO3O9QSZV2sg" connector="_SpMrph3EEeGO3O9QSZV2sg"/>
-    <message xmi:id="_sV-FoB3hEeGeGNDUfGzErQ" name="\Unspecified\" receiveEvent="_sWCXEB3hEeGeGNDUfGzErQ" sendEvent="_sWAh4B3hEeGeGNDUfGzErQ" connector="_SpMrph3EEeGO3O9QSZV2sg"/>
-    <message xmi:id="_sWEMQB3hEeGeGNDUfGzErQ" name="\Unspecified\" messageSort="reply" receiveEvent="_sWEzUB3hEeGeGNDUfGzErQ" sendEvent="_sWDlMB3hEeGeGNDUfGzErQ" connector="_SpMrph3EEeGO3O9QSZV2sg"/>
   </ownedBehavior>
   <ownedBehavior xmi:type="uml:Interaction" xmi:id="_ESJ-gB3NEeGO3O9QSZV2sg" name="test">
     <eAnnotations xmi:id="_ESQFIB3NEeGO3O9QSZV2sg" source="uml2.diagrams">
