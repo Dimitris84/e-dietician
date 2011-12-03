@@ -13,16 +13,30 @@
         <element xsi:nil="true"/>
       </contents>
     </eAnnotations>
+    <packagedElement xmi:type="uml:Class" xmi:id="_NdD_wB2JEeGPjv3V5pay3w" name="ConfirmClientData UI">
+      <ownedAttribute xmi:id="_SbDjwB2JEeGPjv3V5pay3w" name="patient" visibility="private" association="_Sam30B2JEeGPjv3V5pay3w">
+        <type xmi:type="uml:Class" href="ModelFragment_4.efx#_pHbdIBjrEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Patient?"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="__DuGMB2JEeGPjv3V5pay3w" name="Initialise"/>
+      <ownedOperation xmi:id="_H5WDEB2KEeGPjv3V5pay3w" name="ConfirmData"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_Eyq2YBqzEeGtzbXyaXGnqg" name="ClientsPersonalDataManagement UI">
       <ownedAttribute xmi:id="_xDDbsBqzEeGtzbXyaXGnqg" name="clientsPersonalDataManagement Controller" visibility="private" association="_xDAYYBqzEeGtzbXyaXGnqg">
         <type xmi:type="uml:Class" href="ModelFragment_5.efx#_NBbnkBqzEeGtzbXyaXGnqg?RUP%20Analysis%20Model/Controller%20Classes/ClientsPersonalDataManagement%20Controller?"/>
       </ownedAttribute>
+      <ownedAttribute xmi:id="_kyTn4B2JEeGPjv3V5pay3w" name="confirmClientData UI" visibility="private" type="_NdD_wB2JEeGPjv3V5pay3w" association="_kyQkkB2JEeGPjv3V5pay3w"/>
       <ownedOperation xmi:id="_sIvoYBq0EeGtzbXyaXGnqg" name="Insert new patient"/>
-      <ownedOperation xmi:id="_9_KI8Bq3EeGtzbXyaXGnqg" name="confirmData"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_xDAYYBqzEeGtzbXyaXGnqg" memberEnd="_xDDbsBqzEeGtzbXyaXGnqg _xDGfABqzEeGtzbXyaXGnqg">
       <ownedEnd xmi:id="_xDGfABqzEeGtzbXyaXGnqg" name="" visibility="private" type="_Eyq2YBqzEeGtzbXyaXGnqg" association="_xDAYYBqzEeGtzbXyaXGnqg"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_kyQkkB2JEeGPjv3V5pay3w" memberEnd="_kyTn4B2JEeGPjv3V5pay3w _kyZugB2JEeGPjv3V5pay3w">
+      <ownedEnd xmi:id="_kyZugB2JEeGPjv3V5pay3w" name="" visibility="private" type="_Eyq2YBqzEeGtzbXyaXGnqg" association="_kyQkkB2JEeGPjv3V5pay3w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Sam30B2JEeGPjv3V5pay3w" memberEnd="_SbDjwB2JEeGPjv3V5pay3w _SbJDUB2JEeGPjv3V5pay3w">
+      <ownedEnd xmi:id="_SbJDUB2JEeGPjv3V5pay3w" name="" visibility="private" type="_NdD_wB2JEeGPjv3V5pay3w" association="_Sam30B2JEeGPjv3V5pay3w"/>
+    </packagedElement>
   </uml:Package>
   <RUPAnalysis:Boundary xmi:id="_FQWQ4BqzEeGtzbXyaXGnqg" base_Class="_Eyq2YBqzEeGtzbXyaXGnqg"/>
+  <RUPAnalysis:Boundary xmi:id="_N5_zYB2JEeGPjv3V5pay3w" base_Class="_NdD_wB2JEeGPjv3V5pay3w"/>
 </xmi:XMI>

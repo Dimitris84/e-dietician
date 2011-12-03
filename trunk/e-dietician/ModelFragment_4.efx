@@ -14,7 +14,7 @@
       </contents>
     </eAnnotations>
     <packagedElement xmi:type="uml:Class" xmi:id="_yTEtUBjrEeGeKc-PyQrmzw" name="Address">
-      <ownedOperation xmi:id="_KvCSwBxWEeGvkbPdFpd2DA" name="setAddress"/>
+      <ownedOperation xmi:id="_YuGZsB2KEeGPjv3V5pay3w" name="addAddress"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_RH-_cBkBEeGeKc-PyQrmzw" name="Appointment">
       <ownedAttribute xmi:id="_p5fxQBkBEeGeKc-PyQrmzw" name="patient" visibility="private" type="_pHbdIBjrEeGeKc-PyQrmzw" association="_p4coYBkBEeGeKc-PyQrmzw">
@@ -132,7 +132,7 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_p5BQIBkBEeGeKc-PyQrmzw" value="1"/>
       </ownedAttribute>
       <ownedOperation xmi:id="_72LdkBxUEeGvkbPdFpd2DA" name="findClient"/>
-      <ownedOperation xmi:id="_HaGXQBxWEeGvkbPdFpd2DA" name="setClientsData"/>
+      <ownedOperation xmi:id="_WVXnwB2KEeGPjv3V5pay3w" name="addClient"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_zx-iABjwEeGeKc-PyQrmzw" name="Snack">
       <generalization xmi:id="_7XI8kBjwEeGeKc-PyQrmzw" general="_r-fXkBjwEeGeKc-PyQrmzw"/>
