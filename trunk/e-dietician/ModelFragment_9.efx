@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.fragment" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<uml:Collaboration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:res="http://www.ibm.com/xtools/7.1.0/resources" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_U9WL8BoIEeGuTprYHcgF3g" name="ScheduleNextAppointment Realization">
+  <eAnnotations xmi:id="_GT9yUR3aEeGKvvdeucnPzw" source="com.ibm.xtools.uml.msl.fragments">
+    <references xmi:type="umlnotation:UMLDiagram" href="ScheduleNextAppointment.efx#_vs8PMRkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization/Interaction2/ScheduleNextAppointment?"/>
+  </eAnnotations>
+  <eAnnotations xmi:id="_GT9yUB3aEeGKvvdeucnPzw" source="com.ibm.xtools.uml.msl.fragmentContainer">
+    <references xmi:type="uml:Model" href="RUP%20Analysis%20Model.emx#_Nma_MBjrEeGeKc-PyQrmzw?RUP%20Analysis%20Model?"/>
+  </eAnnotations>
+  <eAnnotations xmi:id="_ZnOWQB3bEeGKvvdeucnPzw" source="uml2.diagrams">
+    <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_ZnOWQR3bEeGKvvdeucnPzw" type="Class" name="ScheduleNextAppointment">
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_ZnOWQh3bEeGKvvdeucnPzw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <children xmi:type="notation:DecorationNode" xmi:id="_ZnOWQx3bEeGKvvdeucnPzw" type="ImageCompartment">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_ZnOWRB3bEeGKvvdeucnPzw" width="1320" height="1320"/>
+        </children>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZnOWRR3bEeGKvvdeucnPzw" type="Stereotype"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZnOWRh3bEeGKvvdeucnPzw" type="Name"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZnOWRx3bEeGKvvdeucnPzw" type="Parent"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_ZnOWSB3bEeGKvvdeucnPzw" type="AttributeCompartment"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_ZnOWSR3bEeGKvvdeucnPzw" type="OperationCompartment"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_ZnOWSh3bEeGKvvdeucnPzw" visible="false" type="SignalCompartment"/>
+        <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_ZnOWSx3bEeGKvvdeucnPzw" visible="false" type="StructureCompartment"/>
+        <element xmi:type="uml:Class" href="platform:/resource/111201%20e-dietician/trunk/e-dietician/ModelFragment_6.efx#_rpJzEB0JEeGiq7q1WHBvdw?RUP%20Analysis%20Model/Boundary%20Classes/ScheduleNextAppointment%20UI?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZnOWTB3bEeGKvvdeucnPzw" x="5808" y="1188"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_ZnOWTR3bEeGKvvdeucnPzw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <children xmi:type="notation:DecorationNode" xmi:id="_ZnOWTh3bEeGKvvdeucnPzw" type="ImageCompartment">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_ZnOWTx3bEeGKvvdeucnPzw" width="1320" height="1320"/>
+        </children>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZnOWUB3bEeGKvvdeucnPzw" type="Stereotype"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZnOWUR3bEeGKvvdeucnPzw" type="Name"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZnOWUh3bEeGKvvdeucnPzw" type="Parent"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_ZnOWUx3bEeGKvvdeucnPzw" type="AttributeCompartment"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_ZnOWVB3bEeGKvvdeucnPzw" type="OperationCompartment"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_ZnOWVR3bEeGKvvdeucnPzw" visible="false" type="SignalCompartment"/>
+        <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_ZnOWVh3bEeGKvvdeucnPzw" visible="false" type="StructureCompartment"/>
+        <element xmi:type="uml:Class" href="platform:/resource/111201%20e-dietician/trunk/e-dietician/ModelFragment_5.efx#_2r-nUB0JEeGiq7q1WHBvdw?RUP%20Analysis%20Model/Controller%20Classes/ScheduleNextAppointment%20Controller?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZnOWVx3bEeGKvvdeucnPzw" x="12672" y="1320"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_ZnOWWB3bEeGKvvdeucnPzw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <children xmi:type="notation:DecorationNode" xmi:id="_ZnOWWR3bEeGKvvdeucnPzw" type="ImageCompartment">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_ZnOWWh3bEeGKvvdeucnPzw" width="1320" height="1320"/>
+        </children>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZnOWWx3bEeGKvvdeucnPzw" type="Stereotype"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZnOWXB3bEeGKvvdeucnPzw" type="Name"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZnOWXR3bEeGKvvdeucnPzw" type="Parent"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_ZnOWXh3bEeGKvvdeucnPzw" type="AttributeCompartment"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_ZnOWXx3bEeGKvvdeucnPzw" type="OperationCompartment"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_ZnOWYB3bEeGKvvdeucnPzw" visible="false" type="SignalCompartment"/>
+        <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_ZnOWYR3bEeGKvvdeucnPzw" visible="false" type="StructureCompartment"/>
+        <element xmi:type="uml:Class" href="platform:/resource/111201%20e-dietician/trunk/e-dietician/ModelFragment_4.efx#_RH-_cBkBEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Appointment?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZnOWYh3bEeGKvvdeucnPzw" x="9768" y="5412"/>
+      </children>
+      <element xsi:nil="true"/>
+    </contents>
+  </eAnnotations>
+  <ownedBehavior xmi:type="uml:Interaction" xmi:id="_vs2IkBkEEeGeKc-PyQrmzw" name="Interaction2">
+    <eAnnotations xmi:type="res:DiagramHolder" xmi:id="_g90S4BkFEeGeKc-PyQrmzw" source="uml2.diagrams">
+      <details xmi:id="_g9uMQBkFEeGeKc-PyQrmzw" key="_vs8PMRkEEeGeKc-PyQrmzw" value="Sequence"/>
+      <ownedDiagrams xmi:type="umlnotation:UMLDiagram" href="ScheduleNextAppointment.efx#_vs8PMRkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization/Interaction2/ScheduleNextAppointment?"/>
+    </eAnnotations>
+    <ownedConnector xmi:id="_NtWlQB3bEeGKvvdeucnPzw">
+      <end xmi:id="_NtWlQR3bEeGKvvdeucnPzw" role="_NtDqUx3bEeGKvvdeucnPzw"/>
+      <end xmi:id="_NtWlQh3bEeGKvvdeucnPzw" role="_NtDqVR3bEeGKvvdeucnPzw"/>
+    </ownedConnector>
+    <ownedConnector xmi:id="_NtWlQx3bEeGKvvdeucnPzw">
+      <end xmi:id="_NtWlRB3bEeGKvvdeucnPzw" role="_NtDqVB3bEeGKvvdeucnPzw"/>
+      <end xmi:id="_NtWlRR3bEeGKvvdeucnPzw" role="_NtDqUx3bEeGKvvdeucnPzw"/>
+    </ownedConnector>
+    <ownedConnector xmi:id="_NtWlRh3bEeGKvvdeucnPzw">
+      <end xmi:id="_NtWlRx3bEeGKvvdeucnPzw" role="_NtDqVh3bEeGKvvdeucnPzw"/>
+      <end xmi:id="_NtWlSB3bEeGKvvdeucnPzw" role="_NtDqVR3bEeGKvvdeucnPzw"/>
+    </ownedConnector>
+    <ownedConnector xmi:id="_NtWlSR3bEeGKvvdeucnPzw">
+      <end xmi:id="_NtWlSh3bEeGKvvdeucnPzw" role="_NtDqVR3bEeGKvvdeucnPzw"/>
+      <end xmi:id="_NtWlSx3bEeGKvvdeucnPzw" role="_NtDqVB3bEeGKvvdeucnPzw"/>
+    </ownedConnector>
+    <lifeline xmi:id="_Ns55UR3bEeGKvvdeucnPzw" name="dietician" represents="_NtDqVh3bEeGKvvdeucnPzw" coveredBy="_NtDqVx3bEeGKvvdeucnPzw _NtDqZR3bEeGKvvdeucnPzw _NtNbWB3bEeGKvvdeucnPzw"/>
+    <lifeline xmi:id="_NtDqUB3bEeGKvvdeucnPzw" name="scheduleNextAppointment UI" represents="_NtDqVR3bEeGKvvdeucnPzw" coveredBy="_NtDqWB3bEeGKvvdeucnPzw _NtDqWR3bEeGKvvdeucnPzw _NtDqZB3bEeGKvvdeucnPzw _NtDqWh3bEeGKvvdeucnPzw _NtDqYx3bEeGKvvdeucnPzw _NtNbUB3bEeGKvvdeucnPzw _NtNbUR3bEeGKvvdeucnPzw _NtNbVx3bEeGKvvdeucnPzw _NtNbUh3bEeGKvvdeucnPzw _NtNbVh3bEeGKvvdeucnPzw _NtNbWR3bEeGKvvdeucnPzw _NtNbWh3bEeGKvvdeucnPzw _NtNbWx3bEeGKvvdeucnPzw _YLBBgR3cEeGKvvdeucnPzw _YLBBhh3cEeGKvvdeucnPzw"/>
+    <lifeline xmi:id="_NtDqUR3bEeGKvvdeucnPzw" name="scheduleNextAppointment Controller" represents="_NtDqVB3bEeGKvvdeucnPzw" coveredBy="_NtDqWx3bEeGKvvdeucnPzw _NtDqXB3bEeGKvvdeucnPzw _NtDqYh3bEeGKvvdeucnPzw _NtDqXR3bEeGKvvdeucnPzw _NtDqYR3bEeGKvvdeucnPzw _YLBBgh3cEeGKvvdeucnPzw _YLBBgx3cEeGKvvdeucnPzw _YLBBhB3cEeGKvvdeucnPzw _AR1JYR3dEeGKvvdeucnPzw _AR1JZh3dEeGKvvdeucnPzw"/>
+    <lifeline xmi:id="_NtDqUh3bEeGKvvdeucnPzw" name="appointment" represents="_NtDqUx3bEeGKvvdeucnPzw" coveredBy="_NtDqXh3bEeGKvvdeucnPzw _NtDqXx3bEeGKvvdeucnPzw _NtDqYB3bEeGKvvdeucnPzw _NtNbUx3bEeGKvvdeucnPzw _NtNbVB3bEeGKvvdeucnPzw _NtNbVR3bEeGKvvdeucnPzw _AR1JYh3dEeGKvvdeucnPzw _AR1JYx3dEeGKvvdeucnPzw _AR1JZB3dEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NtDqVx3bEeGKvvdeucnPzw" covered="_Ns55UR3bEeGKvvdeucnPzw" message="_NtNbYB3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NtDqWB3bEeGKvvdeucnPzw" covered="_NtDqUB3bEeGKvvdeucnPzw" message="_NtNbYB3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_NtDqWR3bEeGKvvdeucnPzw" covered="_NtDqUB3bEeGKvvdeucnPzw" start="_NtDqWB3bEeGKvvdeucnPzw" finish="_NtDqZB3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NtDqWh3bEeGKvvdeucnPzw" covered="_NtDqUB3bEeGKvvdeucnPzw" message="_NtNbYh3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NtDqWx3bEeGKvvdeucnPzw" covered="_NtDqUR3bEeGKvvdeucnPzw" message="_NtNbYh3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_NtDqXB3bEeGKvvdeucnPzw" covered="_NtDqUR3bEeGKvvdeucnPzw" start="_NtDqWx3bEeGKvvdeucnPzw" finish="_NtDqYh3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NtDqXR3bEeGKvvdeucnPzw" covered="_NtDqUR3bEeGKvvdeucnPzw" message="_NtNbXR3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NtDqXh3bEeGKvvdeucnPzw" covered="_NtDqUh3bEeGKvvdeucnPzw" message="_NtNbXR3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_NtDqXx3bEeGKvvdeucnPzw" covered="_NtDqUh3bEeGKvvdeucnPzw" start="_NtDqXh3bEeGKvvdeucnPzw" finish="_NtDqYB3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NtDqYB3bEeGKvvdeucnPzw" covered="_NtDqUh3bEeGKvvdeucnPzw" message="_NtNbXx3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NtDqYR3bEeGKvvdeucnPzw" covered="_NtDqUR3bEeGKvvdeucnPzw" message="_NtNbXx3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NtDqYh3bEeGKvvdeucnPzw" covered="_NtDqUR3bEeGKvvdeucnPzw" message="_NtNbZB3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NtDqYx3bEeGKvvdeucnPzw" covered="_NtDqUB3bEeGKvvdeucnPzw" message="_NtNbZB3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_NtDqZB3bEeGKvvdeucnPzw" covered="_NtDqUB3bEeGKvvdeucnPzw" execution="_NtDqWR3bEeGKvvdeucnPzw">
+      <event xmi:type="uml:ExecutionEvent" href="RUP%20Analysis%20Model.emx#_oWthMBq0EeGtzbXyaXGnqg?RUP%20Analysis%20Model/ExecutionEvent1?"/>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NtDqZR3bEeGKvvdeucnPzw" covered="_Ns55UR3bEeGKvvdeucnPzw" message="_NtNbYR3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NtNbUB3bEeGKvvdeucnPzw" covered="_NtDqUB3bEeGKvvdeucnPzw" message="_NtNbYR3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_NtNbUR3bEeGKvvdeucnPzw" covered="_NtDqUB3bEeGKvvdeucnPzw" start="_NtNbUB3bEeGKvvdeucnPzw" finish="_NtNbVx3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NtNbUh3bEeGKvvdeucnPzw" covered="_NtDqUB3bEeGKvvdeucnPzw" message="_NtNbYx3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NtNbUx3bEeGKvvdeucnPzw" covered="_NtDqUh3bEeGKvvdeucnPzw" message="_NtNbYx3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_NtNbVB3bEeGKvvdeucnPzw" covered="_NtDqUh3bEeGKvvdeucnPzw" start="_NtNbUx3bEeGKvvdeucnPzw" finish="_NtNbVR3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NtNbVR3bEeGKvvdeucnPzw" covered="_NtDqUh3bEeGKvvdeucnPzw" message="_NtNbXB3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NtNbVh3bEeGKvvdeucnPzw" covered="_NtDqUB3bEeGKvvdeucnPzw" message="_NtNbXB3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_NtNbVx3bEeGKvvdeucnPzw" covered="_NtDqUB3bEeGKvvdeucnPzw" execution="_NtNbUR3bEeGKvvdeucnPzw">
+      <event xmi:type="uml:ExecutionEvent" href="RUP%20Analysis%20Model.emx#_oWthMBq0EeGtzbXyaXGnqg?RUP%20Analysis%20Model/ExecutionEvent1?"/>
+    </fragment>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NtNbWB3bEeGKvvdeucnPzw" covered="_Ns55UR3bEeGKvvdeucnPzw" message="_NtNbXh3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NtNbWR3bEeGKvvdeucnPzw" covered="_NtDqUB3bEeGKvvdeucnPzw" message="_NtNbXh3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_NtNbWh3bEeGKvvdeucnPzw" covered="_NtDqUB3bEeGKvvdeucnPzw" start="_NtNbWR3bEeGKvvdeucnPzw" finish="_NtNbWx3bEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YLBBgR3cEeGKvvdeucnPzw" covered="_NtDqUB3bEeGKvvdeucnPzw" message="_YLBBgB3cEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YLBBgh3cEeGKvvdeucnPzw" covered="_NtDqUR3bEeGKvvdeucnPzw" message="_YLBBgB3cEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_YLBBgx3cEeGKvvdeucnPzw" covered="_NtDqUR3bEeGKvvdeucnPzw" start="_YLBBgh3cEeGKvvdeucnPzw" finish="_YLBBhB3cEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_AR1JYR3dEeGKvvdeucnPzw" covered="_NtDqUR3bEeGKvvdeucnPzw" message="_AR1JYB3dEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_AR1JYh3dEeGKvvdeucnPzw" covered="_NtDqUh3bEeGKvvdeucnPzw" message="_AR1JYB3dEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_AR1JYx3dEeGKvvdeucnPzw" covered="_NtDqUh3bEeGKvvdeucnPzw" start="_AR1JYh3dEeGKvvdeucnPzw" finish="_AR1JZB3dEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_AR1JZB3dEeGKvvdeucnPzw" covered="_NtDqUh3bEeGKvvdeucnPzw" message="_AR1JZR3dEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_AR1JZh3dEeGKvvdeucnPzw" covered="_NtDqUR3bEeGKvvdeucnPzw" message="_AR1JZR3dEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YLBBhB3cEeGKvvdeucnPzw" covered="_NtDqUR3bEeGKvvdeucnPzw" message="_YLBBhR3cEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YLBBhh3cEeGKvvdeucnPzw" covered="_NtDqUB3bEeGKvvdeucnPzw" message="_YLBBhR3cEeGKvvdeucnPzw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NtNbWx3bEeGKvvdeucnPzw" covered="_NtDqUB3bEeGKvvdeucnPzw"/>
+    <message xmi:id="_NtNbXB3bEeGKvvdeucnPzw" name="addNewAppointment (appointment : Appointment)" messageSort="reply" receiveEvent="_NtNbVh3bEeGKvvdeucnPzw" sendEvent="_NtNbVR3bEeGKvvdeucnPzw" connector="_NtWlQB3bEeGKvvdeucnPzw"/>
+    <message xmi:id="_NtNbXR3bEeGKvvdeucnPzw" name="findAllAppointments" receiveEvent="_NtDqXh3bEeGKvvdeucnPzw" sendEvent="_NtDqXR3bEeGKvvdeucnPzw" connector="_NtWlQx3bEeGKvvdeucnPzw"/>
+    <message xmi:id="_NtNbXh3bEeGKvvdeucnPzw" name="Print schedule" receiveEvent="_NtNbWR3bEeGKvvdeucnPzw" sendEvent="_NtNbWB3bEeGKvvdeucnPzw" connector="_NtWlRh3bEeGKvvdeucnPzw"/>
+    <message xmi:id="_NtNbXx3bEeGKvvdeucnPzw" name="findAllAppointments" messageSort="reply" receiveEvent="_NtDqYR3bEeGKvvdeucnPzw" sendEvent="_NtDqYB3bEeGKvvdeucnPzw" connector="_NtWlQx3bEeGKvvdeucnPzw"/>
+    <message xmi:id="_NtNbYB3bEeGKvvdeucnPzw" name="Schedule next appointment" messageSort="asynchCall" receiveEvent="_NtDqWB3bEeGKvvdeucnPzw" sendEvent="_NtDqVx3bEeGKvvdeucnPzw" connector="_NtWlRh3bEeGKvvdeucnPzw"/>
+    <message xmi:id="_NtNbYR3bEeGKvvdeucnPzw" name="Select one appointment from available appointments" messageSort="asynchCall" receiveEvent="_NtNbUB3bEeGKvvdeucnPzw" sendEvent="_NtDqZR3bEeGKvvdeucnPzw" connector="_NtWlRh3bEeGKvvdeucnPzw"/>
+    <message xmi:id="_NtNbYh3bEeGKvvdeucnPzw" name="getAvailableTimeslots" receiveEvent="_NtDqWx3bEeGKvvdeucnPzw" sendEvent="_NtDqWh3bEeGKvvdeucnPzw" connector="_NtWlSR3bEeGKvvdeucnPzw"/>
+    <message xmi:id="_NtNbYx3bEeGKvvdeucnPzw" name="addNewAppointment (appointment : Appointment)" receiveEvent="_NtNbUx3bEeGKvvdeucnPzw" sendEvent="_NtNbUh3bEeGKvvdeucnPzw" connector="_NtWlQB3bEeGKvvdeucnPzw"/>
+    <message xmi:id="_NtNbZB3bEeGKvvdeucnPzw" name="getAvailableTimeslots" messageSort="reply" receiveEvent="_NtDqYx3bEeGKvvdeucnPzw" sendEvent="_NtDqYh3bEeGKvvdeucnPzw" connector="_NtWlSR3bEeGKvvdeucnPzw"/>
+    <message xmi:id="_YLBBgB3cEeGKvvdeucnPzw" name="\getAllAppointments\" receiveEvent="_YLBBgh3cEeGKvvdeucnPzw" sendEvent="_YLBBgR3cEeGKvvdeucnPzw" connector="_NtWlSR3bEeGKvvdeucnPzw"/>
+    <message xmi:id="_YLBBhR3cEeGKvvdeucnPzw" name="\getAllAppointments\" messageSort="reply" receiveEvent="_YLBBhh3cEeGKvvdeucnPzw" sendEvent="_YLBBhB3cEeGKvvdeucnPzw" connector="_NtWlSR3bEeGKvvdeucnPzw"/>
+    <message xmi:id="_AR1JYB3dEeGKvvdeucnPzw" name="\findAllAppointments\" receiveEvent="_AR1JYh3dEeGKvvdeucnPzw" sendEvent="_AR1JYR3dEeGKvvdeucnPzw" connector="_NtWlQx3bEeGKvvdeucnPzw"/>
+    <message xmi:id="_AR1JZR3dEeGKvvdeucnPzw" name="\findAllAppointments\" messageSort="reply" receiveEvent="_AR1JZh3dEeGKvvdeucnPzw" sendEvent="_AR1JZB3dEeGKvvdeucnPzw" connector="_NtWlQx3bEeGKvvdeucnPzw"/>
+  </ownedBehavior>
+  <ownedAttribute xmi:id="_NtDqUx3bEeGKvvdeucnPzw" name="appointment">
+    <type xmi:type="uml:Class" href="platform:/resource/111201%20e-dietician/trunk/e-dietician/ModelFragment_4.efx#_RH-_cBkBEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Appointment?"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_NtDqVB3bEeGKvvdeucnPzw" name="scheduleNextAppointment Controller">
+    <type xmi:type="uml:Class" href="platform:/resource/111201%20e-dietician/trunk/e-dietician/ModelFragment_5.efx#_2r-nUB0JEeGiq7q1WHBvdw?RUP%20Analysis%20Model/Controller%20Classes/ScheduleNextAppointment%20Controller?"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_NtDqVR3bEeGKvvdeucnPzw" name="scheduleNextAppointment UI">
+    <type xmi:type="uml:Class" href="platform:/resource/111201%20e-dietician/trunk/e-dietician/ModelFragment_6.efx#_rpJzEB0JEeGiq7q1WHBvdw?RUP%20Analysis%20Model/Boundary%20Classes/ScheduleNextAppointment%20UI?"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_NtDqVh3bEeGKvvdeucnPzw" name="dietician">
+    <type xmi:type="uml:Actor" href="platform:/resource/111201%20e-dietician/trunk/e-dietician/Blank%20Package1.emx#_HN4zAAL2EeGzl9RzglytTQ?Blank%20Package/Dietician?"/>
+  </ownedAttribute>
+</uml:Collaboration>

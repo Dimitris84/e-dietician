@@ -14,22 +14,42 @@
       </contents>
     </eAnnotations>
     <packagedElement xmi:type="uml:Class" xmi:id="_yTEtUBjrEeGeKc-PyQrmzw" name="Address">
-      <ownedOperation xmi:id="_YuGZsB2KEeGPjv3V5pay3w" name="addAddress"/>
+      <ownedAttribute xmi:id="_uVqccBzkEeGWDo17sU7-yA" name="ID" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_yDeK8BzkEeGWDo17sU7-yA" name="street" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_z8eT8BzkEeGWDo17sU7-yA" name="number" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1AFtEBzkEeGWDo17sU7-yA" name="town" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_2YPLwBzkEeGWDo17sU7-yA" name="zipCode" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_3qRbYBzkEeGWDo17sU7-yA" name="comments" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_saXAABq4EeGtzbXyaXGnqg" name="setClientsAddress"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_RH-_cBkBEeGeKc-PyQrmzw" name="Appointment">
       <ownedAttribute xmi:id="_p5fxQBkBEeGeKc-PyQrmzw" name="patient" visibility="private" type="_pHbdIBjrEeGeKc-PyQrmzw" association="_p4coYBkBEeGeKc-PyQrmzw">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_p5l34BkBEeGeKc-PyQrmzw" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_p5fxQRkBEeGeKc-PyQrmzw" value="1"/>
       </ownedAttribute>
+      <ownedAttribute xmi:id="_YemXoBzmEeGWDo17sU7-yA" name="ID" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZYqzMBzmEeGWDo17sU7-yA" name="date" visibility="private">
+        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q51ibwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/util/Date?"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_cn0PwBzmEeGWDo17sU7-yA" name="startTime" visibility="private" type="_7TD6kBkAEeGeKc-PyQrmzw"/>
+      <ownedAttribute xmi:id="_gCJBkBzmEeGWDo17sU7-yA" name="endTime" visibility="private" type="_7TD6kBkAEeGeKc-PyQrmzw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_xy9QkBjwEeGeKc-PyQrmzw" name="Breakfast">
       <generalization xmi:id="_6gav8BjwEeGeKc-PyQrmzw" general="_r-fXkBjwEeGeKc-PyQrmzw"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_fskNwBkCEeGeKc-PyQrmzw" name="Calendar">
-      <ownedAttribute xmi:id="_pKvYYBkCEeGeKc-PyQrmzw" name="appointment" visibility="private" type="_RH-_cBkBEeGeKc-PyQrmzw" association="_pKQ3QBkCEeGeKc-PyQrmzw">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pK1fARkCEeGeKc-PyQrmzw" value="*"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pK1fABkCEeGeKc-PyQrmzw"/>
-      </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_9bngUBjxEeGeKc-PyQrmzw" name="DietProgram">
       <ownedAttribute xmi:id="_MDRtQBjyEeGeKc-PyQrmzw" name="dietProgramDay" visibility="private" type="_GlWE8BjyEeGeKc-PyQrmzw" association="_MCg4QBjyEeGeKc-PyQrmzw">
@@ -40,6 +60,37 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J4AO4Rj6EeGeKc-PyQrmzw" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_J4AO4Bj6EeGeKc-PyQrmzw" value="1"/>
       </ownedAttribute>
+      <ownedAttribute xmi:id="_4Ch4cBzmEeGWDo17sU7-yA" name="ID" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_5Nl9YBzmEeGWDo17sU7-yA" name="startDate" visibility="private">
+        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q51ibwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/util/Date?"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_9TkUQBzmEeGWDo17sU7-yA" name="endDate" visibility="private">
+        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q51ibwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/util/Date?"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_CEOm4BznEeGWDo17sU7-yA" name="calories" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_KKPrwBznEeGWDo17sU7-yA" name="fileName" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_4uCp0B3GEeGO3O9QSZV2sg" name="breakfast" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_OpfNcB3HEeGO3O9QSZV2sg" name="snack" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Wzs10B3HEeGO3O9QSZV2sg" name="lunch" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_ZmMyoB3HEeGO3O9QSZV2sg" name="evSnack" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_b6hlsB3HEeGO3O9QSZV2sg" name="dinner" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_84u4sB2yEeGO3O9QSZV2sg" name="getAllDietPrograms(patient: Patient)"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_GlWE8BjyEeGeKc-PyQrmzw" name="DietProgramDay">
       <ownedAttribute xmi:id="_MC_ZYBjyEeGeKc-PyQrmzw" name="dietProgram" visibility="private" type="_9bngUBjxEeGeKc-PyQrmzw" association="_MCg4QBjyEeGeKc-PyQrmzw">
@@ -66,6 +117,12 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6wdLghj6EeGeKc-PyQrmzw" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6wdLgRj6EeGeKc-PyQrmzw"/>
       </ownedAttribute>
+      <ownedAttribute xmi:id="_nS4O0BznEeGWDo17sU7-yA" name="ID" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_q7DPYBznEeGWDo17sU7-yA" name="date" visibility="private">
+        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q51ibwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/util/Date?"/>
+      </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_4sYmgBjwEeGeKc-PyQrmzw" name="Dinner">
       <generalization xmi:id="_FkBAQBjxEeGeKc-PyQrmzw" general="_r-fXkBjwEeGeKc-PyQrmzw"/>
@@ -90,11 +147,32 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
       </ownedAttribute>
       <ownedAttribute xmi:id="_t4AgIBj_EeGeKc-PyQrmzw" name="unit" visibility="private" type="_6c7WEBj7EeGeKc-PyQrmzw"/>
+      <ownedAttribute xmi:id="_cNfUEB2-EeGO3O9QSZV2sg" name="breakfast" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_slcZ8B2-EeGO3O9QSZV2sg" name="snack" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_vfTjAB2-EeGO3O9QSZV2sg" name="lunch" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_GQ5EcB2_EeGO3O9QSZV2sg" name="evSnack" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_IfrQMB2_EeGO3O9QSZV2sg" name="dinner" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_BeeGMBj8EeGeKc-PyQrmzw" name="FoodMeal">
       <ownedAttribute xmi:id="_g9UAwBj-EeGeKc-PyQrmzw" name="food" visibility="private" type="_v0cHsBjrEeGeKc-PyQrmzw" association="_g9Bs4Bj-EeGeKc-PyQrmzw">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_g9UAwhj-EeGeKc-PyQrmzw" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g9UAwRj-EeGeKc-PyQrmzw" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_MgRp0Bz5EeGiq7q1WHBvdw" name="ID" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_UlDYkBz5EeGiq7q1WHBvdw" name="quantity" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_1kY60BjwEeGeKc-PyQrmzw" name="Lunch">
@@ -109,7 +187,25 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sUDsARj9EeGeKc-PyQrmzw" value="3"/>
       </ownedAttribute>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_0s1aABjrEeGeKc-PyQrmzw" name="Measurement"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_0s1aABjrEeGeKc-PyQrmzw" name="Measurement">
+      <ownedAttribute xmi:id="_5iObgBzkEeGWDo17sU7-yA" name="ID" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_71A9gBzkEeGWDo17sU7-yA" name="type" visibility="private">
+        <type xmi:type="uml:Enumeration" href="RUP%20Analysis%20Model.emx#__dqfMBzkEeGWDo17sU7-yA?RUP%20Analysis%20Model/MeasureType?"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_D-2LYBzlEeGWDo17sU7-yA" name="date" visibility="private">
+        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q51ibwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/util/Date?"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_h5tcoBzlEeGWDo17sU7-yA" name="value" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_oXuB4BzlEeGWDo17sU7-yA" name="comments" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_UqCSEB2wEeGO3O9QSZV2sg" name="getLatestMeasurements(patient: Patient)"/>
+      <ownedOperation xmi:id="_QAbXwB2yEeGO3O9QSZV2sg" name="getAllMeasures(patient: Patient)"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_pHbdIBjrEeGeKc-PyQrmzw" name="Patient">
       <ownedAttribute xmi:id="_k5WdsBjsEeGeKc-PyQrmzw" name="address" visibility="private" type="_yTEtUBjrEeGeKc-PyQrmzw" aggregation="composite" association="_k4x18BjsEeGeKc-PyQrmzw">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_k5WdshjsEeGeKc-PyQrmzw" value="1"/>
@@ -131,8 +227,53 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_p5BQIRkBEeGeKc-PyQrmzw" value="1"/>
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_p5BQIBkBEeGeKc-PyQrmzw" value="1"/>
       </ownedAttribute>
-      <ownedOperation xmi:id="_72LdkBxUEeGvkbPdFpd2DA" name="findClient"/>
-      <ownedOperation xmi:id="_WVXnwB2KEeGPjv3V5pay3w" name="addClient"/>
+      <ownedAttribute xmi:id="_yQuuYBzlEeGWDo17sU7-yA" name="ID" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_zbmmEBzlEeGWDo17sU7-yA" name="fname" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_0aDyYBzlEeGWDo17sU7-yA" name="lname" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_1xvXABzlEeGWDo17sU7-yA" name="sdate" visibility="private">
+        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q51ibwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/util/Date?"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_8mkg0BzlEeGWDo17sU7-yA" name="edate" visibility="private">
+        <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q51ibwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/util/Date?"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Aprw8BzmEeGWDo17sU7-yA" name="height" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_CKzlcBzmEeGWDo17sU7-yA" name="dateBirth" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_FZSToBzmEeGWDo17sU7-yA" name="phone" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_HQMK4BzmEeGWDo17sU7-yA" name="mobile" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_Iz_f8BzmEeGWDo17sU7-yA" name="email" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_J_KSkBzmEeGWDo17sU7-yA" name="fax" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_LIUTABzmEeGWDo17sU7-yA" name="afm" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_MiFiUBzmEeGWDo17sU7-yA" name="doy" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_NxpFsBzmEeGWDo17sU7-yA" name="comments" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_qenu0B2nEeGO3O9QSZV2sg" name="idealWeight" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedOperation xmi:id="_eO9twBq3EeGtzbXyaXGnqg" name="isClientExisting"/>
+      <ownedOperation xmi:id="_mxkykBq4EeGtzbXyaXGnqg" name="setClientsData"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_zx-iABjwEeGeKc-PyQrmzw" name="Snack">
       <generalization xmi:id="_7XI8kBjwEeGeKc-PyQrmzw" general="_r-fXkBjwEeGeKc-PyQrmzw"/>
@@ -141,11 +282,33 @@
       <ownedLiteral xmi:id="__7mzABkAEeGeKc-PyQrmzw" name="9:00" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
       <ownedLiteral xmi:id="_BF6C8BkBEeGeKc-PyQrmzw" name="9:30" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
       <ownedLiteral xmi:id="_CfAj4BkBEeGeKc-PyQrmzw" name="10:00" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
+      <ownedLiteral xmi:id="_CIXP8BvqEeGRKIKKAemf4A" name="10:30" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
+      <ownedLiteral xmi:id="_DU8-4BvqEeGRKIKKAemf4A" name="11:00" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
+      <ownedLiteral xmi:id="_EEOfsBvqEeGRKIKKAemf4A" name="11:30" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
+      <ownedLiteral xmi:id="_ExToIBvqEeGRKIKKAemf4A" name="12:00" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
+      <ownedLiteral xmi:id="_Fe3RsBvqEeGRKIKKAemf4A" name="12:30" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
+      <ownedLiteral xmi:id="_GN2eoBvqEeGRKIKKAemf4A" name="13:00" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
+      <ownedLiteral xmi:id="_G1S5IBvqEeGRKIKKAemf4A" name="13:30" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
+      <ownedLiteral xmi:id="_HpJ_ABvqEeGRKIKKAemf4A" name="14:00" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
+      <ownedLiteral xmi:id="_IRLBQBvqEeGRKIKKAemf4A" name="14:30" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
+      <ownedLiteral xmi:id="_I52x4BvqEeGRKIKKAemf4A" name="15:00" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
+      <ownedLiteral xmi:id="_JmdZMBvqEeGRKIKKAemf4A" name="15:30" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
+      <ownedLiteral xmi:id="_KPPQcBvqEeGRKIKKAemf4A" name="16:00" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
+      <ownedLiteral xmi:id="_K7i80BvqEeGRKIKKAemf4A" name="16:30" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
+      <ownedLiteral xmi:id="_Ls1P0BvqEeGRKIKKAemf4A" name="17:00" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
+      <ownedLiteral xmi:id="_MaxT4BvqEeGRKIKKAemf4A" name="17:30" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
+      <ownedLiteral xmi:id="_NI_r0BvqEeGRKIKKAemf4A" name="18:00" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
+      <ownedLiteral xmi:id="_N0ECEBvqEeGRKIKKAemf4A" name="18:30" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
+      <ownedLiteral xmi:id="_OfhZ4BvqEeGRKIKKAemf4A" name="19:00" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
+      <ownedLiteral xmi:id="_PKr2wBvqEeGRKIKKAemf4A" name="19:30" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
+      <ownedLiteral xmi:id="_QAv8EBvqEeGRKIKKAemf4A" name="20:00" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
+      <ownedLiteral xmi:id="_QwyR4BvqEeGRKIKKAemf4A" name="20:30" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
+      <ownedLiteral xmi:id="_SnZ1QBvqEeGRKIKKAemf4A" name="21:00" classifier="_7TD6kBkAEeGeKc-PyQrmzw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Enumeration" xmi:id="_6c7WEBj7EeGeKc-PyQrmzw" name="Unit">
       <ownedLiteral xmi:id="_3JSeQBj_EeGeKc-PyQrmzw" name="ml" classifier="_6c7WEBj7EeGeKc-PyQrmzw"/>
       <ownedLiteral xmi:id="_5Fo2MBj_EeGeKc-PyQrmzw" name="gr" classifier="_6c7WEBj7EeGeKc-PyQrmzw"/>
-      <ownedLiteral xmi:id="_6ZfDsBj_EeGeKc-PyQrmzw" name="st" classifier="_6c7WEBj7EeGeKc-PyQrmzw"/>
+      <ownedLiteral xmi:id="_6ZfDsBj_EeGeKc-PyQrmzw" name="piece" classifier="_6c7WEBj7EeGeKc-PyQrmzw"/>
       <ownedLiteral xmi:id="_7az90Bj_EeGeKc-PyQrmzw" name="cup" classifier="_6c7WEBj7EeGeKc-PyQrmzw"/>
       <ownedLiteral xmi:id="_9hkO8Bj_EeGeKc-PyQrmzw" name="slice" classifier="_6c7WEBj7EeGeKc-PyQrmzw"/>
       <ownedLiteral xmi:id="_-fdakBj_EeGeKc-PyQrmzw" name="glass" classifier="_6c7WEBj7EeGeKc-PyQrmzw"/>
@@ -215,12 +378,6 @@
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_J3VggBj6EeGeKc-PyQrmzw" memberEnd="_J36IQBj6EeGeKc-PyQrmzw _J494MBj6EeGeKc-PyQrmzw"/>
-    <packagedElement xmi:type="uml:Association" xmi:id="_pKQ3QBkCEeGeKc-PyQrmzw" memberEnd="_pKvYYBkCEeGeKc-PyQrmzw _pLUAIBkCEeGeKc-PyQrmzw">
-      <ownedEnd xmi:id="_pLUAIBkCEeGeKc-PyQrmzw" name="" visibility="private" type="_fskNwBkCEeGeKc-PyQrmzw" association="_pKQ3QBkCEeGeKc-PyQrmzw">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_pLUAIhkCEeGeKc-PyQrmzw" value="1"/>
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_pLUAIRkCEeGeKc-PyQrmzw" value="1"/>
-      </ownedEnd>
-    </packagedElement>
   </uml:Package>
   <RUPAnalysis:Entity xmi:id="_pgKtQBjrEeGeKc-PyQrmzw" base_Class="_pHbdIBjrEeGeKc-PyQrmzw"/>
   <RUPAnalysis:Entity xmi:id="_wDJSEBjrEeGeKc-PyQrmzw" base_Class="_v0cHsBjrEeGeKc-PyQrmzw"/>
@@ -236,5 +393,4 @@
   <RUPAnalysis:Entity xmi:id="_G3ryIBjyEeGeKc-PyQrmzw" base_Class="_GlWE8BjyEeGeKc-PyQrmzw"/>
   <RUPAnalysis:Entity xmi:id="_Bt8FkBj8EeGeKc-PyQrmzw" base_Class="_BeeGMBj8EeGeKc-PyQrmzw"/>
   <RUPAnalysis:Entity xmi:id="_RanAgBkBEeGeKc-PyQrmzw" base_Class="_RH-_cBkBEeGeKc-PyQrmzw"/>
-  <RUPAnalysis:Entity xmi:id="_gFx_ABkCEeGeKc-PyQrmzw" base_Class="_fskNwBkCEeGeKc-PyQrmzw"/>
 </xmi:XMI>

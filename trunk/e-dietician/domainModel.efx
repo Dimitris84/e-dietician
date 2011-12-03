@@ -19,7 +19,7 @@
     <children xmi:type="notation:SemanticListCompartment" xmi:id="_pidMQBjrEeGeKc-PyQrmzw" visible="false" type="SignalCompartment"/>
     <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_pidMQRjrEeGeKc-PyQrmzw" visible="false" type="StructureCompartment"/>
     <element xmi:type="uml:Class" href="ModelFragment_4.efx#_pHbdIBjrEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Patient?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_phgKARjrEeGeKc-PyQrmzw" x="9510" y="1268"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_phgKARjrEeGeKc-PyQrmzw" x="7925" y="634"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_wDhskBjrEeGeKc-PyQrmzw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
     <children xmi:type="notation:DecorationNode" xmi:id="_wDhskhjrEeGeKc-PyQrmzw" type="ImageCompartment">
@@ -33,7 +33,7 @@
     <children xmi:type="notation:SemanticListCompartment" xmi:id="_wDnzNBjrEeGeKc-PyQrmzw" visible="false" type="SignalCompartment"/>
     <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_wDnzNRjrEeGeKc-PyQrmzw" visible="false" type="StructureCompartment"/>
     <element xmi:type="uml:Class" href="ModelFragment_4.efx#_v0cHsBjrEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Food?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wDhskRjrEeGeKc-PyQrmzw" x="24092" y="1268"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wDhskRjrEeGeKc-PyQrmzw" x="24092" y="634" height="6107"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_ykQj8BjrEeGeKc-PyQrmzw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
     <children xmi:type="notation:DecorationNode" xmi:id="_ykWqkBjrEeGeKc-PyQrmzw" type="ImageCompartment">
@@ -47,7 +47,7 @@
     <children xmi:type="notation:SemanticListCompartment" xmi:id="_ykcxMhjrEeGeKc-PyQrmzw" visible="false" type="SignalCompartment"/>
     <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_ykcxMxjrEeGeKc-PyQrmzw" visible="false" type="StructureCompartment"/>
     <element xmi:type="uml:Class" href="ModelFragment_4.efx#_yTEtUBjrEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Address?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ykQj8RjrEeGeKc-PyQrmzw" x="3487" y="1268"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ykQj8RjrEeGeKc-PyQrmzw" x="634" y="634"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_09ivgBjrEeGeKc-PyQrmzw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
     <children xmi:type="notation:DecorationNode" xmi:id="_09ivghjrEeGeKc-PyQrmzw" type="ImageCompartment">
@@ -61,7 +61,7 @@
     <children xmi:type="notation:SemanticListCompartment" xmi:id="_09iviRjrEeGeKc-PyQrmzw" visible="false" type="SignalCompartment"/>
     <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_09o2IBjrEeGeKc-PyQrmzw" visible="false" type="StructureCompartment"/>
     <element xmi:type="uml:Class" href="ModelFragment_4.efx#_0s1aABjrEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Measurement?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_09ivgRjrEeGeKc-PyQrmzw" x="2219" y="4438"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_09ivgRjrEeGeKc-PyQrmzw" x="634" y="5389"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_sKbh0BjwEeGeKc-PyQrmzw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
     <children xmi:type="notation:DecorationNode" xmi:id="_sKhocBjwEeGeKc-PyQrmzw" type="ImageCompartment">
@@ -75,7 +75,7 @@
     <children xmi:type="notation:SemanticListCompartment" xmi:id="_sKnvFBjwEeGeKc-PyQrmzw" visible="false" type="SignalCompartment"/>
     <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_sKnvFRjwEeGeKc-PyQrmzw" visible="false" type="StructureCompartment"/>
     <element xmi:type="uml:Class" href="ModelFragment_4.efx#_r-fXkBjwEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Meal?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sKbh0RjwEeGeKc-PyQrmzw" x="16484" y="17752"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sKbh0RjwEeGeKc-PyQrmzw" x="16801" y="14899"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_yIWRwBjwEeGeKc-PyQrmzw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
     <children xmi:type="notation:DecorationNode" xmi:id="_yIWRwhjwEeGeKc-PyQrmzw" type="ImageCompartment">
@@ -89,7 +89,7 @@
     <children xmi:type="notation:SemanticListCompartment" xmi:id="_yIcYZBjwEeGeKc-PyQrmzw" visible="false" type="SignalCompartment"/>
     <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_yIcYZRjwEeGeKc-PyQrmzw" visible="false" type="StructureCompartment"/>
     <element xmi:type="uml:Class" href="ModelFragment_4.efx#_xy9QkBjwEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Breakfast?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yIWRwRjwEeGeKc-PyQrmzw" x="634" y="14582"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yIWRwRjwEeGeKc-PyQrmzw" x="12046" y="8559"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_0FvykBjwEeGeKc-PyQrmzw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
     <children xmi:type="notation:DecorationNode" xmi:id="_0FvykhjwEeGeKc-PyQrmzw" type="ImageCompartment">
@@ -103,7 +103,7 @@
     <children xmi:type="notation:SemanticListCompartment" xmi:id="_0F15NRjwEeGeKc-PyQrmzw" visible="false" type="SignalCompartment"/>
     <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_0F15NhjwEeGeKc-PyQrmzw" visible="false" type="StructureCompartment"/>
     <element xmi:type="uml:Class" href="ModelFragment_4.efx#_zx-iABjwEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Snack?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0FvykRjwEeGeKc-PyQrmzw" x="6974" y="13948"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0FvykRjwEeGeKc-PyQrmzw" x="14899" y="10144"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_1wCxMBjwEeGeKc-PyQrmzw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
     <children xmi:type="notation:DecorationNode" xmi:id="_1wCxMhjwEeGeKc-PyQrmzw" type="ImageCompartment">
@@ -117,7 +117,7 @@
     <children xmi:type="notation:SemanticListCompartment" xmi:id="_1wCxORjwEeGeKc-PyQrmzw" visible="false" type="SignalCompartment"/>
     <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_1wCxOhjwEeGeKc-PyQrmzw" visible="false" type="StructureCompartment"/>
     <element xmi:type="uml:Class" href="ModelFragment_4.efx#_1kY60BjwEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Lunch?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1wCxMRjwEeGeKc-PyQrmzw" x="12680" y="13948"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1wCxMRjwEeGeKc-PyQrmzw" x="17435" y="8559"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_25S4QBjwEeGeKc-PyQrmzw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
     <children xmi:type="notation:DecorationNode" xmi:id="_25S4QhjwEeGeKc-PyQrmzw" type="ImageCompartment">
@@ -131,7 +131,7 @@
     <children xmi:type="notation:SemanticListCompartment" xmi:id="_25S4SRjwEeGeKc-PyQrmzw" visible="false" type="SignalCompartment"/>
     <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_25S4ShjwEeGeKc-PyQrmzw" visible="false" type="StructureCompartment"/>
     <element xmi:type="uml:Class" href="ModelFragment_4.efx#_2uCDcBjwEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/EvSnack?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_25S4QRjwEeGeKc-PyQrmzw" x="16167" y="14265"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_25S4QRjwEeGeKc-PyQrmzw" x="20288" y="10144"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_43jUsBjwEeGeKc-PyQrmzw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
     <children xmi:type="notation:DecorationNode" xmi:id="_43pbUBjwEeGeKc-PyQrmzw" type="ImageCompartment">
@@ -145,7 +145,7 @@
     <children xmi:type="notation:SemanticListCompartment" xmi:id="_431okBjwEeGeKc-PyQrmzw" visible="false" type="SignalCompartment"/>
     <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_431okRjwEeGeKc-PyQrmzw" visible="false" type="StructureCompartment"/>
     <element xmi:type="uml:Class" href="ModelFragment_4.efx#_4sYmgBjwEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Dinner?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_43jUsRjwEeGeKc-PyQrmzw" x="20605" y="14582"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_43jUsRjwEeGeKc-PyQrmzw" x="23458" y="9510"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_9sOvMBjxEeGeKc-PyQrmzw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
     <children xmi:type="notation:DecorationNode" xmi:id="_9sU10BjxEeGeKc-PyQrmzw" type="ImageCompartment">
@@ -159,7 +159,7 @@
     <children xmi:type="notation:SemanticListCompartment" xmi:id="_9shDEBjxEeGeKc-PyQrmzw" visible="false" type="SignalCompartment"/>
     <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_9shDERjxEeGeKc-PyQrmzw" visible="false" type="StructureCompartment"/>
     <element xmi:type="uml:Class" href="ModelFragment_4.efx#_9bngUBjxEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/DietProgram?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9sOvMRjxEeGeKc-PyQrmzw" x="7925" y="7608"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9sOvMRjxEeGeKc-PyQrmzw" x="6657" y="12997"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_G4EMoBjyEeGeKc-PyQrmzw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
     <children xmi:type="notation:DecorationNode" xmi:id="_G4KTQBjyEeGeKc-PyQrmzw" type="ImageCompartment">
@@ -173,7 +173,7 @@
     <children xmi:type="notation:SemanticListCompartment" xmi:id="_G4QZ4BjyEeGeKc-PyQrmzw" visible="false" type="SignalCompartment"/>
     <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_G4QZ4RjyEeGeKc-PyQrmzw" visible="false" type="StructureCompartment"/>
     <element xmi:type="uml:Class" href="ModelFragment_4.efx#_GlWE8BjyEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/DietProgramDay?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G4EMoRjyEeGeKc-PyQrmzw" x="18386" y="7925"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G4EMoRjyEeGeKc-PyQrmzw" x="16167" y="5389"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_6dBcsBj7EeGeKc-PyQrmzw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
     <children xmi:type="notation:DecorationNode" xmi:id="_6dBcshj7EeGeKc-PyQrmzw" type="ImageCompartment">
@@ -187,7 +187,7 @@
     <children xmi:type="notation:SemanticListCompartment" xmi:id="_6dHjURj7EeGeKc-PyQrmzw" visible="false" type="AttributeCompartment"/>
     <children xmi:type="notation:SemanticListCompartment" xmi:id="_6dHjUhj7EeGeKc-PyQrmzw" visible="false" type="OperationCompartment"/>
     <element xmi:type="uml:Enumeration" href="ModelFragment_4.efx#_6c7WEBj7EeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Unit?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6dBcsRj7EeGeKc-PyQrmzw" x="2536" y="7291"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6dBcsRj7EeGeKc-PyQrmzw" x="634" y="9510"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_BuOZcBj8EeGeKc-PyQrmzw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
     <children xmi:type="notation:DecorationNode" xmi:id="_BuamsBj8EeGeKc-PyQrmzw" type="ImageCompartment">
@@ -201,7 +201,7 @@
     <children xmi:type="notation:SemanticListCompartment" xmi:id="_Buamtxj8EeGeKc-PyQrmzw" visible="false" type="SignalCompartment"/>
     <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_BuamuBj8EeGeKc-PyQrmzw" visible="false" type="StructureCompartment"/>
     <element xmi:type="uml:Class" href="ModelFragment_4.efx#_BeeGMBj8EeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/FoodMeal?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BuOZcRj8EeGeKc-PyQrmzw" x="27896" y="15559"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BuOZcRj8EeGeKc-PyQrmzw" x="24409" y="14899"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_7TQH0BkAEeGeKc-PyQrmzw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
     <children xmi:type="notation:DecorationNode" xmi:id="_7TQH0hkAEeGeKc-PyQrmzw" type="ImageCompartment">
@@ -215,7 +215,7 @@
     <children xmi:type="notation:SemanticListCompartment" xmi:id="_7TQH2RkAEeGeKc-PyQrmzw" visible="false" type="AttributeCompartment"/>
     <children xmi:type="notation:SemanticListCompartment" xmi:id="_7TQH2hkAEeGeKc-PyQrmzw" visible="false" type="OperationCompartment"/>
     <element xmi:type="uml:Enumeration" href="ModelFragment_4.efx#_7TD6kBkAEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Timeslots?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7TQH0RkAEeGeKc-PyQrmzw" x="29798" y="1585"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7TQH0RkAEeGeKc-PyQrmzw" x="28530" y="634"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_RbFhoBkBEeGeKc-PyQrmzw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
     <children xmi:type="notation:DecorationNode" xmi:id="_RbFhohkBEeGeKc-PyQrmzw" type="ImageCompartment">
@@ -229,21 +229,21 @@
     <children xmi:type="notation:SemanticListCompartment" xmi:id="_RbLoQxkBEeGeKc-PyQrmzw" visible="false" type="SignalCompartment"/>
     <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_RbLoRBkBEeGeKc-PyQrmzw" visible="false" type="StructureCompartment"/>
     <element xmi:type="uml:Class" href="ModelFragment_4.efx#_RH-_cBkBEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Appointment?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RbFhoRkBEeGeKc-PyQrmzw" x="13948" y="5389"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RbFhoRkBEeGeKc-PyQrmzw" x="13631" y="1902"/>
   </children>
-  <children xmi:type="umlnotation:UMLShape" xmi:id="_gGES4BkCEeGeKc-PyQrmzw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-    <children xmi:type="notation:DecorationNode" xmi:id="_gGKZgBkCEeGeKc-PyQrmzw" type="ImageCompartment">
-      <layoutConstraint xmi:type="notation:Size" xmi:id="_gGKZgRkCEeGeKc-PyQrmzw" width="1320" height="1320"/>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="__fww8BzkEeGWDo17sU7-yA" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="__gP5IBzkEeGWDo17sU7-yA" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="__gP5IRzkEeGWDo17sU7-yA" width="1320" height="1320"/>
     </children>
-    <children xmi:type="notation:BasicDecorationNode" xmi:id="_gGKZghkCEeGeKc-PyQrmzw" type="Stereotype"/>
-    <children xmi:type="notation:BasicDecorationNode" xmi:id="_gGKZgxkCEeGeKc-PyQrmzw" type="Name"/>
-    <children xmi:type="notation:BasicDecorationNode" xmi:id="_gGKZhBkCEeGeKc-PyQrmzw" type="Parent"/>
-    <children xmi:type="notation:SemanticListCompartment" xmi:id="_gGKZhRkCEeGeKc-PyQrmzw" type="AttributeCompartment"/>
-    <children xmi:type="notation:SemanticListCompartment" xmi:id="_gGKZhhkCEeGeKc-PyQrmzw" type="OperationCompartment"/>
-    <children xmi:type="notation:SemanticListCompartment" xmi:id="_gGKZhxkCEeGeKc-PyQrmzw" visible="false" type="SignalCompartment"/>
-    <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_gGQgIBkCEeGeKc-PyQrmzw" visible="false" type="StructureCompartment"/>
-    <element xmi:type="uml:Class" href="ModelFragment_4.efx#_fskNwBkCEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Calendar?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gGES4RkCEeGeKc-PyQrmzw" x="20605" y="4755"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="__gV_wBzkEeGWDo17sU7-yA" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="__gV_wRzkEeGWDo17sU7-yA" type="Kind"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="__gV_whzkEeGWDo17sU7-yA" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="__gV_wxzkEeGWDo17sU7-yA" type="Parent"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="__gV_xBzkEeGWDo17sU7-yA" type="EnumerationCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="__gV_xRzkEeGWDo17sU7-yA" visible="false" type="AttributeCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="__gV_xhzkEeGWDo17sU7-yA" visible="false" type="OperationCompartment"/>
+    <element xmi:type="uml:Enumeration" href="RUP%20Analysis%20Model.emx#__dqfMBzkEeGWDo17sU7-yA?RUP%20Analysis%20Model/MeasureType?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__fww8RzkEeGWDo17sU7-yA" x="634" y="14265"/>
   </children>
   <element xsi:nil="true"/>
   <edges xmi:type="umlnotation:UMLConnector" xmi:id="_k7EU8BjsEeGeKc-PyQrmzw" source="_phgKABjrEeGeKc-PyQrmzw" target="_ykQj8BjrEeGeKc-PyQrmzw" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -364,7 +364,7 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_MDd6jRjyEeGeKc-PyQrmzw" type="FromRoleLabel">
       <children xmi:type="notation:BasicDecorationNode" xmi:id="_MDd6jxjyEeGeKc-PyQrmzw" type="FromRole"/>
       <element xmi:type="uml:Property" href="ModelFragment_4.efx#_MC_ZYBjyEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/DietProgramDay/dietProgram?"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_MDd6jhjyEeGeKc-PyQrmzw" y="-397"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MDd6jhjyEeGeKc-PyQrmzw" x="1051" y="-262"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_MDd6kBjyEeGeKc-PyQrmzw" type="ToQualifierLabel">
       <children xmi:type="notation:SemanticListCompartment" xmi:id="_MDd6khjyEeGeKc-PyQrmzw" type="QualifierCompartment"/>
@@ -387,9 +387,9 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_MDd6mhjyEeGeKc-PyQrmzw" y="1058"/>
     </children>
     <element xmi:type="uml:Association" href="ModelFragment_4.efx#_MCg4QBjyEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/%3CAssociation%3E?"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MDXz4xjyEeGeKc-PyQrmzw" points="[-67, -5, 172, -5]$[-182, -30, 57, -30]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MDXz4xjyEeGeKc-PyQrmzw" points="[-1784, 373, 6588, -8994]$[-6230, 373, 2142, -8994]$[-6230, 6525, 2142, -2842]"/>
   </edges>
-  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_J5utMBj6EeGeKc-PyQrmzw" source="_9sOvMBjxEeGeKc-PyQrmzw" target="_phgKABjrEeGeKc-PyQrmzw" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_J5utMBj6EeGeKc-PyQrmzw" source="_9sOvMBjxEeGeKc-PyQrmzw" target="_phgKABjrEeGeKc-PyQrmzw" fontHeight="8" roundedBendpointsRadius="4" lineColor="8421504" lineWidth="1" showStereotype="Text">
     <children xmi:type="notation:DecorationNode" xmi:id="_J5utMhj6EeGeKc-PyQrmzw" type="NameLabel">
       <children xmi:type="notation:BasicDecorationNode" xmi:id="_J5utNBj6EeGeKc-PyQrmzw" type="Stereotype"/>
       <children xmi:type="notation:BasicDecorationNode" xmi:id="_J5utNRj6EeGeKc-PyQrmzw" type="Name"/>
@@ -403,7 +403,7 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_J50z0Bj6EeGeKc-PyQrmzw" type="ToRoleLabel">
       <children xmi:type="notation:BasicDecorationNode" xmi:id="_J50z0hj6EeGeKc-PyQrmzw" type="ToRole"/>
       <element xmi:type="uml:Property" href="ModelFragment_4.efx#_J494MBj6EeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Patient/dietProgram?"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_J50z0Rj6EeGeKc-PyQrmzw" x="86" y="1882"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_J50z0Rj6EeGeKc-PyQrmzw" x="159" y="-1043"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_J50z0xj6EeGeKc-PyQrmzw" type="FromMultiplicityLabel">
       <children xmi:type="notation:BasicDecorationNode" xmi:id="_J50z1Rj6EeGeKc-PyQrmzw" type="FromMultiplicity"/>
@@ -413,7 +413,7 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_J50z1hj6EeGeKc-PyQrmzw" type="FromRoleLabel">
       <children xmi:type="notation:BasicDecorationNode" xmi:id="_J50z2Bj6EeGeKc-PyQrmzw" type="FromRole"/>
       <element xmi:type="uml:Property" href="ModelFragment_4.efx#_J36IQBj6EeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/DietProgram/customer?"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_J50z1xj6EeGeKc-PyQrmzw" y="-397"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_J50z1xj6EeGeKc-PyQrmzw" x="8" y="-938"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_J50z2Rj6EeGeKc-PyQrmzw" type="ToQualifierLabel">
       <children xmi:type="notation:SemanticListCompartment" xmi:id="_J566cBj6EeGeKc-PyQrmzw" type="QualifierCompartment"/>
@@ -756,7 +756,7 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_g9mUphj-EeGeKc-PyQrmzw" type="FromRoleLabel">
       <children xmi:type="notation:BasicDecorationNode" xmi:id="_g9mUqBj-EeGeKc-PyQrmzw" type="FromRole"/>
       <element xmi:type="uml:Property" href="ModelFragment_4.efx#_g9UAwBj-EeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/FoodMeal/food?"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_g9mUpxj-EeGeKc-PyQrmzw" x="42" y="-1416"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_g9mUpxj-EeGeKc-PyQrmzw" x="1128" y="-729"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_g9mUqRj-EeGeKc-PyQrmzw" type="ToQualifierLabel">
       <children xmi:type="notation:SemanticListCompartment" xmi:id="_g9mUqxj-EeGeKc-PyQrmzw" type="QualifierCompartment"/>
@@ -828,7 +828,7 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_7giAwhj-EeGeKc-PyQrmzw" y="1058"/>
     </children>
     <element xmi:type="uml:Association" href="ModelFragment_4.efx#_7euC4Bj-EeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/%3CAssociation%3E?"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7gPs4Rj-EeGeKc-PyQrmzw" points="[48, -5, -522, -39]$[503, -14, -67, -48]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7gPs4Rj-EeGeKc-PyQrmzw" points="[1613, -3291, -15968, -1320]$[15823, -3291, -1758, -1320]"/>
   </edges>
   <edges xmi:type="umlnotation:UMLConnector" xmi:id="_mQdf8Bj_EeGeKc-PyQrmzw" source="_phgKABjrEeGeKc-PyQrmzw" target="_09ivgBjrEeGeKc-PyQrmzw" fontHeight="8" roundedBendpointsRadius="4" lineColor="8421504" lineWidth="1" showStereotype="Text">
     <children xmi:type="notation:DecorationNode" xmi:id="_mQdf8hj_EeGeKc-PyQrmzw" type="NameLabel">
@@ -854,7 +854,7 @@
     <children xmi:type="notation:DecorationNode" xmi:id="_mQdf_xj_EeGeKc-PyQrmzw" type="FromRoleLabel">
       <children xmi:type="notation:BasicDecorationNode" xmi:id="_mQdgARj_EeGeKc-PyQrmzw" type="FromRole"/>
       <element xmi:type="uml:Property" href="ModelFragment_4.efx#_mQLMEBj_EeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Patient/measurement?"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_mQdgABj_EeGeKc-PyQrmzw" y="-397"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mQdgABj_EeGeKc-PyQrmzw" x="-351" y="-474"/>
     </children>
     <children xmi:type="notation:DecorationNode" xmi:id="_mQdgAhj_EeGeKc-PyQrmzw" type="ToQualifierLabel">
       <children xmi:type="notation:SemanticListCompartment" xmi:id="_mQdgBBj_EeGeKc-PyQrmzw" type="QualifierCompartment"/>
@@ -927,54 +927,6 @@
     </children>
     <element xmi:type="uml:Association" href="ModelFragment_4.efx#_p4coYBkBEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/%3CAssociation%3E?"/>
     <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_p54LwRkBEeGeKc-PyQrmzw" points="[41, 14, -239, -82]$[223, 92, -57, -4]"/>
-  </edges>
-  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_pLgNYBkCEeGeKc-PyQrmzw" source="_gGES4BkCEeGeKc-PyQrmzw" target="_RbFhoBkBEeGeKc-PyQrmzw" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
-    <children xmi:type="notation:DecorationNode" xmi:id="_pLgNYhkCEeGeKc-PyQrmzw" type="NameLabel">
-      <children xmi:type="notation:BasicDecorationNode" xmi:id="_pLmUABkCEeGeKc-PyQrmzw" type="Stereotype"/>
-      <children xmi:type="notation:BasicDecorationNode" xmi:id="_pLmUARkCEeGeKc-PyQrmzw" type="Name"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_pLgNYxkCEeGeKc-PyQrmzw" y="-186"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_pLmUAhkCEeGeKc-PyQrmzw" type="ToMultiplicityLabel">
-      <children xmi:type="notation:BasicDecorationNode" xmi:id="_pLmUBBkCEeGeKc-PyQrmzw" type="ToMultiplicity"/>
-      <element xmi:type="uml:Property" href="ModelFragment_4.efx#_pLUAIBkCEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/%3CAssociation%3E/%3CProperty%3E?"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_pLmUAxkCEeGeKc-PyQrmzw" y="396"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_pLmUBRkCEeGeKc-PyQrmzw" type="ToRoleLabel">
-      <children xmi:type="notation:BasicDecorationNode" xmi:id="_pLmUBxkCEeGeKc-PyQrmzw" type="ToRole"/>
-      <element xmi:type="uml:Property" href="ModelFragment_4.efx#_pLUAIBkCEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/%3CAssociation%3E/%3CProperty%3E?"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_pLmUBhkCEeGeKc-PyQrmzw" y="-397"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_pLmUCBkCEeGeKc-PyQrmzw" type="FromMultiplicityLabel">
-      <children xmi:type="notation:BasicDecorationNode" xmi:id="_pLmUChkCEeGeKc-PyQrmzw" type="FromMultiplicity"/>
-      <element xmi:type="uml:Property" href="ModelFragment_4.efx#_pKvYYBkCEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Calendar/appointment?"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_pLmUCRkCEeGeKc-PyQrmzw" y="396"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_pLsaoBkCEeGeKc-PyQrmzw" type="FromRoleLabel">
-      <children xmi:type="notation:BasicDecorationNode" xmi:id="_pLsaohkCEeGeKc-PyQrmzw" type="FromRole"/>
-      <element xmi:type="uml:Property" href="ModelFragment_4.efx#_pKvYYBkCEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Calendar/appointment?"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_pLsaoRkCEeGeKc-PyQrmzw" y="-397"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_pLsaoxkCEeGeKc-PyQrmzw" type="ToQualifierLabel">
-      <children xmi:type="notation:SemanticListCompartment" xmi:id="_pLsapRkCEeGeKc-PyQrmzw" type="QualifierCompartment"/>
-      <element xmi:type="uml:Property" href="ModelFragment_4.efx#_pLUAIBkCEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/%3CAssociation%3E/%3CProperty%3E?"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_pLsapBkCEeGeKc-PyQrmzw" y="-186"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_pLsaphkCEeGeKc-PyQrmzw" type="FromQualifierLabel">
-      <children xmi:type="notation:SemanticListCompartment" xmi:id="_pLsaqBkCEeGeKc-PyQrmzw" type="QualifierCompartment"/>
-      <element xmi:type="uml:Property" href="ModelFragment_4.efx#_pKvYYBkCEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Calendar/appointment?"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_pLsapxkCEeGeKc-PyQrmzw" y="-186"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_pLsaqRkCEeGeKc-PyQrmzw" type="ToConstraintLabel">
-      <children xmi:type="notation:ListCompartment" xmi:id="_pLsaqxkCEeGeKc-PyQrmzw" type="ToConstraintCompartment"/>
-      <element xmi:type="uml:Property" href="ModelFragment_4.efx#_pLUAIBkCEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/%3CAssociation%3E/%3CProperty%3E?"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_pLsaqhkCEeGeKc-PyQrmzw" y="1058"/>
-    </children>
-    <children xmi:type="notation:DecorationNode" xmi:id="_pLsarBkCEeGeKc-PyQrmzw" type="FromConstraintLabel">
-      <children xmi:type="notation:ListCompartment" xmi:id="_pLsarhkCEeGeKc-PyQrmzw" type="FromConstraintCompartment"/>
-      <element xmi:type="uml:Property" href="ModelFragment_4.efx#_pKvYYBkCEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Calendar/appointment?"/>
-      <layoutConstraint xmi:type="notation:Location" xmi:id="_pLsarRkCEeGeKc-PyQrmzw" y="1058"/>
-    </children>
-    <element xmi:type="uml:Association" href="ModelFragment_4.efx#_pKQ3QBkCEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/%3CAssociation%3E?"/>
-    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_pLgNYRkCEeGeKc-PyQrmzw" points="[-46, 10, 194, -14]$[-187, -7, 53, -31]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_R8GT8BzmEeGWDo17sU7-yA" id="(0.9639830508474576,0.3214421252371917)"/>
   </edges>
 </umlnotation:UMLDiagram>
