@@ -160,4 +160,10 @@
     </eAnnotations>
     <appliedProfile href="pathmap://RUP_PROFILES/RUPAnalysis.epx#_ptUk0NtREdi6_tWeNeG1pw?RUPAnalysis?"/>
   </profileApplication>
+  <profileApplication xmi:id="__qoG0B3ZEeGKvvdeucnPzw">
+    <eAnnotations xmi:id="__qoG0R3ZEeGKvvdeucnPzw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+    </eAnnotations>
+    <appliedProfile href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+  </profileApplication>
 </uml:Model>
