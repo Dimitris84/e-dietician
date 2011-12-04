@@ -159,7 +159,7 @@
     <children xmi:type="notation:SemanticListCompartment" xmi:id="_9shDEBjxEeGeKc-PyQrmzw" visible="false" type="SignalCompartment"/>
     <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_9shDERjxEeGeKc-PyQrmzw" visible="false" type="StructureCompartment"/>
     <element xmi:type="uml:Class" href="ModelFragment_4.efx#_9bngUBjxEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/DietProgram?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9sOvMRjxEeGeKc-PyQrmzw" x="6657" y="12997"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9sOvMRjxEeGeKc-PyQrmzw" x="6468" y="13332"/>
   </children>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_G4EMoBjyEeGeKc-PyQrmzw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
     <children xmi:type="notation:DecorationNode" xmi:id="_G4KTQBjyEeGeKc-PyQrmzw" type="ImageCompartment">
@@ -231,19 +231,19 @@
     <element xmi:type="uml:Class" href="ModelFragment_4.efx#_RH-_cBkBEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Appointment?"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RbFhoRkBEeGeKc-PyQrmzw" x="13631" y="1902"/>
   </children>
-  <children xmi:type="umlnotation:UMLShape" xmi:id="__fww8BzkEeGWDo17sU7-yA" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-    <children xmi:type="notation:DecorationNode" xmi:id="__gP5IBzkEeGWDo17sU7-yA" type="ImageCompartment">
-      <layoutConstraint xmi:type="notation:Size" xmi:id="__gP5IRzkEeGWDo17sU7-yA" width="1320" height="1320"/>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_HUZTIB5fEeG-HbQn0YBm3w" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HUxtoB5fEeG-HbQn0YBm3w" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_HUxtoR5fEeG-HbQn0YBm3w" width="1320" height="1320"/>
     </children>
-    <children xmi:type="notation:BasicDecorationNode" xmi:id="__gV_wBzkEeGWDo17sU7-yA" type="Stereotype"/>
-    <children xmi:type="notation:BasicDecorationNode" xmi:id="__gV_wRzkEeGWDo17sU7-yA" type="Kind"/>
-    <children xmi:type="notation:BasicDecorationNode" xmi:id="__gV_whzkEeGWDo17sU7-yA" type="Name"/>
-    <children xmi:type="notation:BasicDecorationNode" xmi:id="__gV_wxzkEeGWDo17sU7-yA" type="Parent"/>
-    <children xmi:type="notation:SemanticListCompartment" xmi:id="__gV_xBzkEeGWDo17sU7-yA" type="EnumerationCompartment"/>
-    <children xmi:type="notation:SemanticListCompartment" xmi:id="__gV_xRzkEeGWDo17sU7-yA" visible="false" type="AttributeCompartment"/>
-    <children xmi:type="notation:SemanticListCompartment" xmi:id="__gV_xhzkEeGWDo17sU7-yA" visible="false" type="OperationCompartment"/>
-    <element xmi:type="uml:Enumeration" href="RUP%20Analysis%20Model.emx#__dqfMBzkEeGWDo17sU7-yA?RUP%20Analysis%20Model/MeasureType?"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="__fww8RzkEeGWDo17sU7-yA" x="634" y="14265"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_HUyUsB5fEeG-HbQn0YBm3w" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_HUyUsR5fEeG-HbQn0YBm3w" type="Kind"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_HUy7wB5fEeG-HbQn0YBm3w" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_HUzi0B5fEeG-HbQn0YBm3w" type="Parent"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_HU0J4B5fEeG-HbQn0YBm3w" type="EnumerationCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_HU0J4R5fEeG-HbQn0YBm3w" visible="false" type="AttributeCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_HU0w8B5fEeG-HbQn0YBm3w" visible="false" type="OperationCompartment"/>
+    <element xmi:type="uml:Enumeration" href="RUP%20Analysis%20Model.emx#_HN3NUB5fEeG-HbQn0YBm3w?RUP%20Analysis%20Model/MeasureType?"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HUZTIR5fEeG-HbQn0YBm3w" x="1349" y="14657"/>
   </children>
   <element xsi:nil="true"/>
   <edges xmi:type="umlnotation:UMLConnector" xmi:id="_k7EU8BjsEeGeKc-PyQrmzw" source="_phgKABjrEeGeKc-PyQrmzw" target="_ykQj8BjrEeGeKc-PyQrmzw" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
