@@ -9,7 +9,7 @@
     <references xmi:type="uml:Package" href="ModelFragment_5.efx#_U5SmgBkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Controller%20Classes?"/>
     <references xmi:type="uml:Package" href="ModelFragment_4.efx#_XU0XIBjrEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes?"/>
     <references xmi:type="uml:Collaboration" href="ModelFragment_7.efx#_FoKKoBoIEeGuTprYHcgF3g?RUP%20Analysis%20Model/ClientsPersonalDataManagement%20Realization?"/>
-    <references xmi:type="uml:Collaboration" href="ModelFragment_8.efx#_arX54BkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/GenerateDietProgramme%20Realization?"/>
+    <references xmi:type="uml:Collaboration" href="ModelFragment_8.efx#_arX54BkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/GenerateDietProgram%20Realization?"/>
     <references xmi:type="uml:Collaboration" href="ModelFragment_9.efx#_U9WL8BoIEeGuTprYHcgF3g?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization?"/>
   </eAnnotations>
   <eAnnotations xmi:type="res:DiagramHolder" xmi:id="_twjToBkHEeGeKc-PyQrmzw" source="uml2.diagrams">
@@ -60,7 +60,7 @@
   <packagedElement xmi:type="uml:Package" href="ModelFragment_4.efx#_XU0XIBjrEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes?"/>
   <packagedElement xmi:type="uml:Package" href="ModelFragment_5.efx#_U5SmgBkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Controller%20Classes?"/>
   <packagedElement xmi:type="uml:Package" href="ModelFragment_6.efx#_Xu8lABkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Boundary%20Classes?"/>
-  <packagedElement xmi:type="uml:Collaboration" href="ModelFragment_8.efx#_arX54BkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/GenerateDietProgramme%20Realization?"/>
+  <packagedElement xmi:type="uml:Collaboration" href="ModelFragment_8.efx#_arX54BkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/GenerateDietProgram%20Realization?"/>
   <packagedElement xmi:type="uml:Collaboration" href="ModelFragment_7.efx#_FoKKoBoIEeGuTprYHcgF3g?RUP%20Analysis%20Model/ClientsPersonalDataManagement%20Realization?"/>
   <packagedElement xmi:type="uml:Collaboration" href="ModelFragment_9.efx#_U9WL8BoIEeGuTprYHcgF3g?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization?"/>
   <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_oWthMBq0EeGtzbXyaXGnqg" name="ExecutionEvent1"/>
@@ -135,6 +135,13 @@
   </packagedElement>
   <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_YuHn0B2KEeGPjv3V5pay3w" name="ReceiveOperationEvent20">
     <operation href="ModelFragment_4.efx#_YuGZsB2KEeGPjv3V5pay3w?RUP%20Analysis%20Model/Analysis%20Classes/Address/addAddress?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_HN3NUB5fEeG-HbQn0YBm3w" name="MeasureType">
+    <ownedLiteral xmi:id="_IXZBMB5fEeG-HbQn0YBm3w" name="weight" classifier="_HN3NUB5fEeG-HbQn0YBm3w"/>
+    <ownedLiteral xmi:id="_R97doB5fEeG-HbQn0YBm3w" name="fat" classifier="_HN3NUB5fEeG-HbQn0YBm3w"/>
+    <ownedLiteral xmi:id="_SuKnwB5fEeG-HbQn0YBm3w" name="muscle" classifier="_HN3NUB5fEeG-HbQn0YBm3w"/>
+    <ownedLiteral xmi:id="_VAnLgB5fEeG-HbQn0YBm3w" name="water" classifier="_HN3NUB5fEeG-HbQn0YBm3w"/>
+    <ownedLiteral xmi:id="_VyJ9MB5fEeG-HbQn0YBm3w" name="metabolism" classifier="_HN3NUB5fEeG-HbQn0YBm3w"/>
   </packagedElement>
   <profileApplication xmi:id="_NmhGQRjrEeGeKc-PyQrmzw">
     <eAnnotations xmi:id="_NmhGQhjrEeGeKc-PyQrmzw" source="http://www.eclipse.org/uml2/2.0.0/UML">
