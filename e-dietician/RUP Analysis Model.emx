@@ -143,6 +143,24 @@
     <ownedLiteral xmi:id="_VAnLgB5fEeG-HbQn0YBm3w" name="water" classifier="_HN3NUB5fEeG-HbQn0YBm3w"/>
     <ownedLiteral xmi:id="_VyJ9MB5fEeG-HbQn0YBm3w" name="metabolism" classifier="_HN3NUB5fEeG-HbQn0YBm3w"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_5Le2sB5pEeGzW_f4CE2-cA" name="SendOperationEvent21">
+    <operation href="ModelFragment_5.efx#_5LOYAB5pEeGzW_f4CE2-cA?RUP%20Analysis%20Model/Controller%20Classes/ClientsPersonalDataManagement%20Controller/insertPatient?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_5LfdwB5pEeGzW_f4CE2-cA" name="ReceiveOperationEvent21">
+    <operation href="ModelFragment_5.efx#_5LOYAB5pEeGzW_f4CE2-cA?RUP%20Analysis%20Model/Controller%20Classes/ClientsPersonalDataManagement%20Controller/insertPatient?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="__zpdgB5pEeGzW_f4CE2-cA" name="SendOperationEvent22">
+    <operation href="ModelFragment_4.efx#__zoPYB5pEeGzW_f4CE2-cA?RUP%20Analysis%20Model/Analysis%20Classes/Patient/addPatient?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="__zpdgR5pEeGzW_f4CE2-cA" name="ReceiveOperationEvent22">
+    <operation href="ModelFragment_4.efx#__zoPYB5pEeGzW_f4CE2-cA?RUP%20Analysis%20Model/Analysis%20Classes/Patient/addPatient?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_ByV-0B5qEeGzW_f4CE2-cA" name="SendOperationEvent23">
+    <operation href="ModelFragment_4.efx#_ByVXwB5qEeGzW_f4CE2-cA?RUP%20Analysis%20Model/Analysis%20Classes/Address/addAddress?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_ByWl4B5qEeGzW_f4CE2-cA" name="ReceiveOperationEvent23">
+    <operation href="ModelFragment_4.efx#_ByVXwB5qEeGzW_f4CE2-cA?RUP%20Analysis%20Model/Analysis%20Classes/Address/addAddress?"/>
+  </packagedElement>
   <profileApplication xmi:id="_NmhGQRjrEeGeKc-PyQrmzw">
     <eAnnotations xmi:id="_NmhGQhjrEeGeKc-PyQrmzw" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>

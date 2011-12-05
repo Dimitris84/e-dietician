@@ -1447,7 +1447,6 @@
           <weight xmi:type="uml:LiteralInteger" xmi:id="_Jnl6UBFlEeGlKqM8FMYdvA" value="1"/>
         </edge>
       </ownedBehavior>
-      <extend xmi:id="_1w9JgAmBEeG6-8WYcyNujw" extendedCase="_yA4xMAmBEeG6-8WYcyNujw" extensionLocation="_1xO2UAmBEeG6-8WYcyNujw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_ggpbQAL3EeGzl9RzglytTQ" name="Generate diet program">
       <ownedComment xmi:id="_iRb_QApREeGHyuel2ik9gg" annotatedElement="_ggpbQAL3EeGzl9RzglytTQ">
@@ -3679,95 +3678,6 @@
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_1A9ywAL5EeGzl9RzglytTQ" name="Class1"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_yA4xMAmBEeG6-8WYcyNujw" name="Modify appointment">
-      <ownedComment xmi:id="_6mkNkAmBEeG6-8WYcyNujw" annotatedElement="_yA4xMAmBEeG6-8WYcyNujw">
-        <body>&lt;p>&lt;b>Use Case: Τροποποίηση ραντεβού&lt;/b>&lt;/p>&lt;p>&lt;b>Πρωτεύων actor&lt;/b>: Διαιτολόγος&lt;/p>&lt;p>&lt;b>Ενδιαφερόμενοι&lt;/b>: Πελάτης. Θέλει να αλλάξει την ημερομηνία του επόμενου ραντεβού με τον διαιτολόγο λόγω προσωπικού προβλήματος. Διαιτολόγος. Θέλει να μπορεί να τροποποιεί τα ραντεβού με τους πελάτες του.&lt;/p>&lt;p>&lt;b>Προϋποθέσεις&lt;/b>: Ο διαιτολόγος έχει συνδεθεί στο σύστημα με προσωπικό κωδικό.&lt;/p>&lt;p>&lt;b>Βασική Ροή&lt;/b>&lt;/p>&lt;p>1. Ο διαιτολόγος εισάγει συγκεκριμένη ημερομηνία στο σύστημα&lt;/p>&lt;p>2. Το σύστημα του εμφανίζει όλα τα κλεισμένα ραντεβού για τη συγκεκριμένη μέρα&lt;/p>&lt;p>3. Ο διαιτολόγος επιλέγει συγκεκριμένο ραντεβού&lt;/p>&lt;p>4. Ο διαιτολόγος τροποποιεί τα στοιχεία του ραντεβού&lt;/p>&lt;p>5. Ο διαιτολόγος επιβεβαιώνει τα νέα στοιχεία&lt;/p>&lt;p>6. Το σύστημα αποθηκεύει τις αλλαγές&lt;/p>&lt;p>7. Ο διαιτολόγος ενημερώνει τον πελάτη για την αλλαγή στο ραντεβού&lt;/p>&lt;p>&lt;/p></body>
-      </ownedComment>
-      <ownedBehavior xmi:type="uml:Activity" xmi:id="_eM2wkAmCEeG6-8WYcyNujw" name="Activity1">
-        <eAnnotations xmi:id="_eNWf0AmCEeG6-8WYcyNujw" source="uml2.diagrams"/>
-        <node xmi:type="uml:InitialNode" xmi:id="_fNB0IAmCEeG6-8WYcyNujw" outgoing="_meZI8AmCEeG6-8WYcyNujw"/>
-        <node xmi:type="uml:OpaqueAction" xmi:id="_f1GgwAmCEeG6-8WYcyNujw" name="Εισαγωγή νέας ημερομηνίας στο σύστημα" outgoing="_fQFSsAmDEeG6-8WYcyNujw" incoming="_meZI8AmCEeG6-8WYcyNujw _pJjSMAmDEeG6-8WYcyNujw"/>
-        <node xmi:type="uml:DecisionNode" xmi:id="_q8wKoAmCEeG6-8WYcyNujw" name="Διαθεσιμότητα διαιτολόγου" outgoing="_eEMHUAmDEeG6-8WYcyNujw _mmMkoAmDEeG6-8WYcyNujw" incoming="_fQFSsAmDEeG6-8WYcyNujw"/>
-        <node xmi:type="uml:OpaqueAction" xmi:id="_vspBMAmCEeG6-8WYcyNujw" name="Τροποποίηση ημερομηνίας ραντεβού" outgoing="_dNfv4AmDEeG6-8WYcyNujw" incoming="_eEMHUAmDEeG6-8WYcyNujw"/>
-        <node xmi:type="uml:OpaqueAction" xmi:id="_1h1S8AmCEeG6-8WYcyNujw" name="Επιβεβαίωση ημερομηνίας ραντεβού" outgoing="_cyIpkAmDEeG6-8WYcyNujw" incoming="_dNfv4AmDEeG6-8WYcyNujw"/>
-        <node xmi:type="uml:OpaqueAction" xmi:id="_6hPMMAmCEeG6-8WYcyNujw" name="Αποθήκευση ημερομηνίας ραντεβού" outgoing="_a3HHUAmDEeG6-8WYcyNujw" incoming="_cyIpkAmDEeG6-8WYcyNujw"/>
-        <node xmi:type="uml:OpaqueAction" xmi:id="_-JWiYAmCEeG6-8WYcyNujw" name="Ενημέρωση πελάτη για την αλλαγή στο ραντεβού" outgoing="_Y7yDEAmDEeG6-8WYcyNujw" incoming="_a3HHUAmDEeG6-8WYcyNujw"/>
-        <node xmi:type="uml:ActivityFinalNode" xmi:id="_W0pXcAmDEeG6-8WYcyNujw" incoming="_Y7yDEAmDEeG6-8WYcyNujw"/>
-        <node xmi:type="uml:MergeNode" xmi:id="_jV1nIAmDEeG6-8WYcyNujw" outgoing="_pJjSMAmDEeG6-8WYcyNujw" incoming="_nKTXQAmDEeG6-8WYcyNujw"/>
-        <node xmi:type="uml:OpaqueAction" xmi:id="_kAGFEAmDEeG6-8WYcyNujw" name="Μήνυμα μη διαθεσιμότητας" outgoing="_nKTXQAmDEeG6-8WYcyNujw" incoming="_mmMkoAmDEeG6-8WYcyNujw"/>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_meZI8AmCEeG6-8WYcyNujw" source="_fNB0IAmCEeG6-8WYcyNujw" target="_f1GgwAmCEeG6-8WYcyNujw">
-          <guard xmi:type="uml:OpaqueExpression" xmi:id="_mea-IAmCEeG6-8WYcyNujw">
-            <language></language>
-            <body></body>
-          </guard>
-          <weight xmi:type="uml:LiteralInteger" xmi:id="_mfIv0AmCEeG6-8WYcyNujw" value="1"/>
-        </edge>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_Y7yDEAmDEeG6-8WYcyNujw" source="_-JWiYAmCEeG6-8WYcyNujw" target="_W0pXcAmDEeG6-8WYcyNujw">
-          <guard xmi:type="uml:OpaqueExpression" xmi:id="_Y7yqIAmDEeG6-8WYcyNujw">
-            <language></language>
-            <body></body>
-          </guard>
-          <weight xmi:type="uml:LiteralInteger" xmi:id="_Y7zRMAmDEeG6-8WYcyNujw" value="1"/>
-        </edge>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_a3HHUAmDEeG6-8WYcyNujw" source="_6hPMMAmCEeG6-8WYcyNujw" target="_-JWiYAmCEeG6-8WYcyNujw">
-          <guard xmi:type="uml:OpaqueExpression" xmi:id="_a3IVcAmDEeG6-8WYcyNujw">
-            <language></language>
-            <body></body>
-          </guard>
-          <weight xmi:type="uml:LiteralInteger" xmi:id="_a3I8gAmDEeG6-8WYcyNujw" value="1"/>
-        </edge>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_cyIpkAmDEeG6-8WYcyNujw" source="_1h1S8AmCEeG6-8WYcyNujw" target="_6hPMMAmCEeG6-8WYcyNujw">
-          <guard xmi:type="uml:OpaqueExpression" xmi:id="_cyJ3sAmDEeG6-8WYcyNujw">
-            <language></language>
-            <body></body>
-          </guard>
-          <weight xmi:type="uml:LiteralInteger" xmi:id="_cyJ3sQmDEeG6-8WYcyNujw" value="1"/>
-        </edge>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_dNfv4AmDEeG6-8WYcyNujw" source="_vspBMAmCEeG6-8WYcyNujw" target="_1h1S8AmCEeG6-8WYcyNujw">
-          <guard xmi:type="uml:OpaqueExpression" xmi:id="_dNgW8AmDEeG6-8WYcyNujw">
-            <language></language>
-            <body></body>
-          </guard>
-          <weight xmi:type="uml:LiteralInteger" xmi:id="_dNg-AAmDEeG6-8WYcyNujw" value="1"/>
-        </edge>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_eEMHUAmDEeG6-8WYcyNujw" name="Ναι" source="_q8wKoAmCEeG6-8WYcyNujw" target="_vspBMAmCEeG6-8WYcyNujw">
-          <guard xmi:type="uml:OpaqueExpression" xmi:id="_eEMuYAmDEeG6-8WYcyNujw">
-            <language></language>
-            <body></body>
-          </guard>
-          <weight xmi:type="uml:LiteralInteger" xmi:id="_eENVcAmDEeG6-8WYcyNujw" value="1"/>
-        </edge>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_fQFSsAmDEeG6-8WYcyNujw" source="_f1GgwAmCEeG6-8WYcyNujw" target="_q8wKoAmCEeG6-8WYcyNujw">
-          <guard xmi:type="uml:OpaqueExpression" xmi:id="_fQGg0AmDEeG6-8WYcyNujw">
-            <language></language>
-            <body></body>
-          </guard>
-          <weight xmi:type="uml:LiteralInteger" xmi:id="_fQGg0QmDEeG6-8WYcyNujw" value="1"/>
-        </edge>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_mmMkoAmDEeG6-8WYcyNujw" name="Όχι" source="_q8wKoAmCEeG6-8WYcyNujw" target="_kAGFEAmDEeG6-8WYcyNujw">
-          <guard xmi:type="uml:OpaqueExpression" xmi:id="_mmNLsAmDEeG6-8WYcyNujw">
-            <language></language>
-            <body></body>
-          </guard>
-          <weight xmi:type="uml:LiteralInteger" xmi:id="_mmNywAmDEeG6-8WYcyNujw" value="1"/>
-        </edge>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_nKTXQAmDEeG6-8WYcyNujw" source="_kAGFEAmDEeG6-8WYcyNujw" target="_jV1nIAmDEeG6-8WYcyNujw">
-          <guard xmi:type="uml:OpaqueExpression" xmi:id="_nKUlYAmDEeG6-8WYcyNujw">
-            <language></language>
-            <body></body>
-          </guard>
-          <weight xmi:type="uml:LiteralInteger" xmi:id="_nKUlYQmDEeG6-8WYcyNujw" value="1"/>
-        </edge>
-        <edge xmi:type="uml:ControlFlow" xmi:id="_pJjSMAmDEeG6-8WYcyNujw" source="_jV1nIAmDEeG6-8WYcyNujw" target="_f1GgwAmCEeG6-8WYcyNujw">
-          <guard xmi:type="uml:OpaqueExpression" xmi:id="_pJkgUAmDEeG6-8WYcyNujw">
-            <language></language>
-            <body></body>
-          </guard>
-          <weight xmi:type="uml:LiteralInteger" xmi:id="_pJlHYAmDEeG6-8WYcyNujw" value="1"/>
-        </edge>
-      </ownedBehavior>
-      <extensionPoint xmi:id="_1xO2UAmBEeG6-8WYcyNujw" name="ExtensionPoint1"/>
-    </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_Wm34cBCaEeGMRpv1ox5Ntw" memberEnd="_WnSvMBCaEeGMRpv1ox5Ntw _WnXnsBCaEeGMRpv1ox5Ntw" navigableOwnedEnd="_WnSvMBCaEeGMRpv1ox5Ntw _WnXnsBCaEeGMRpv1ox5Ntw">
       <ownedEnd xmi:id="_WnSvMBCaEeGMRpv1ox5Ntw" name="insert single food" visibility="private" type="_kI_a8AL3EeGzl9RzglytTQ" association="_Wm34cBCaEeGMRpv1ox5Ntw">
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WnWZkRCaEeGMRpv1ox5Ntw" value="1"/>
@@ -3812,7 +3722,6 @@
   <Default:Documentation xmi:id="_kq_40AMYEeGzl9RzglytTQ" base_Comment="_kq-DoAMYEeGzl9RzglytTQ"/>
   <Default:Documentation xmi:id="_JOU_8AMmEeGnePaQPaAEkQ" base_Comment="_JOBd8AMmEeGnePaQPaAEkQ"/>
   <Default:Documentation xmi:id="_uqyn4AisEeGEcPFrSyxwRQ" base_Comment="_unhRcAisEeGEcPFrSyxwRQ"/>
-  <Default:Documentation xmi:id="_6m16YAmBEeG6-8WYcyNujw" base_Comment="_6mkNkAmBEeG6-8WYcyNujw"/>
   <Default:Documentation xmi:id="_KjnfEApREeGHyuel2ik9gg" base_Comment="_KjF6oApREeGHyuel2ik9gg"/>
   <Default:Documentation xmi:id="_VATgYApREeGHyuel2ik9gg" base_Comment="_VASSQApREeGHyuel2ik9gg"/>
   <Default:Documentation xmi:id="_ZctaQApREeGHyuel2ik9gg" base_Comment="_ZcrlEApREeGHyuel2ik9gg"/>

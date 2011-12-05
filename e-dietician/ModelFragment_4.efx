@@ -13,7 +13,7 @@
         <element xsi:nil="true"/>
       </contents>
     </eAnnotations>
-    <packagedElement xmi:type="uml:Class" xmi:id="_yTEtUBjrEeGeKc-PyQrmzw" name="Address">
+    <packagedElement xmi:type="uml:Class" xmi:id="_yTEtUBjrEeGeKc-PyQrmzw" name="Address" clientDependency="_SZYswB5uEeGzW_f4CE2-cA">
       <ownedAttribute xmi:id="_uVqccBzkEeGWDo17sU7-yA" name="ID" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
@@ -32,7 +32,7 @@
       <ownedAttribute xmi:id="_3qRbYBzkEeGWDo17sU7-yA" name="comments" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
-      <ownedOperation xmi:id="_saXAABq4EeGtzbXyaXGnqg" name="setClientsAddress"/>
+      <ownedOperation xmi:id="_ByVXwB5qEeGzW_f4CE2-cA" name="addAddress"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_RH-_cBkBEeGeKc-PyQrmzw" name="Appointment">
       <ownedAttribute xmi:id="_p5fxQBkBEeGeKc-PyQrmzw" name="patient" visibility="private" type="_pHbdIBjrEeGeKc-PyQrmzw" association="_p4coYBkBEeGeKc-PyQrmzw">
@@ -273,7 +273,7 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
       <ownedOperation xmi:id="_eO9twBq3EeGtzbXyaXGnqg" name="isClientExisting"/>
-      <ownedOperation xmi:id="_mxkykBq4EeGtzbXyaXGnqg" name="setClientsData"/>
+      <ownedOperation xmi:id="__zoPYB5pEeGzW_f4CE2-cA" name="addPatient"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_zx-iABjwEeGeKc-PyQrmzw" name="Snack">
       <generalization xmi:id="_7XI8kBjwEeGeKc-PyQrmzw" general="_r-fXkBjwEeGeKc-PyQrmzw"/>
@@ -378,6 +378,9 @@
       </ownedEnd>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_J3VggBj6EeGeKc-PyQrmzw" memberEnd="_J36IQBj6EeGeKc-PyQrmzw _J494MBj6EeGeKc-PyQrmzw"/>
+    <packagedElement xmi:type="uml:Realization" xmi:id="_SZYswB5uEeGzW_f4CE2-cA" client="_yTEtUBjrEeGeKc-PyQrmzw">
+      <supplier xmi:type="uml:Class" href="../../ModelFragment_12.efx#_rKMDAB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/Address?"/>
+    </packagedElement>
   </uml:Package>
   <RUPAnalysis:Entity xmi:id="_pgKtQBjrEeGeKc-PyQrmzw" base_Class="_pHbdIBjrEeGeKc-PyQrmzw"/>
   <RUPAnalysis:Entity xmi:id="_wDJSEBjrEeGeKc-PyQrmzw" base_Class="_v0cHsBjrEeGeKc-PyQrmzw"/>
