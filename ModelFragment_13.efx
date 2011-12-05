@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.fragment" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<uml:Class xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_35WA8B6LEeGzW_f4CE2-cA" name="Food">
+  <eAnnotations xmi:id="_mRPAQR-HEeGNRb-Ky5mQzQ" source="com.ibm.xtools.uml.msl.fragments"/>
+  <eAnnotations xmi:id="_mRPAQB-HEeGNRb-Ky5mQzQ" source="com.ibm.xtools.uml.msl.fragmentContainer">
+    <references xmi:type="uml:Package" href="ModelFragment_6.efx#_dZ-bcB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain?"/>
+  </eAnnotations>
+  <ownedAttribute xmi:id="_35WA8R6LEeGzW_f4CE2-cA" name="ID" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_35WA8h6LEeGzW_f4CE2-cA" name="name" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_35WA8x6LEeGzW_f4CE2-cA" name="calperUnit" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_35WA9B6LEeGzW_f4CE2-cA" name="protperUnit" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_35WA9R6LEeGzW_f4CE2-cA" name="fatperUnit" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_35WA9h6LEeGzW_f4CE2-cA" name="unit" visibility="private">
+    <type xmi:type="uml:Enumeration" href="trunk/e-dietician/ModelFragment_4.efx#_6c7WEBj7EeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Unit?"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_35WA9x6LEeGzW_f4CE2-cA" name="breakfast" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_35WA-B6LEeGzW_f4CE2-cA" name="snack" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_35WA-R6LEeGzW_f4CE2-cA" name="lunch" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_35WA-h6LEeGzW_f4CE2-cA" name="evSnack" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_35WA-x6LEeGzW_f4CE2-cA" name="dinner" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </ownedAttribute>
+  <ownedOperation xmi:id="_2QC18B6NEeGzW_f4CE2-cA" name="addFood(food Food)"/>
+  <ownedOperation xmi:id="_-ly_8B6NEeGzW_f4CE2-cA" name="createFood()"/>
+  <ownedOperation xmi:id="_WSHEQB6OEeGzW_f4CE2-cA" name="Food"/>
+</uml:Class>

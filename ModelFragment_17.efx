@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.fragment" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<uml:Class xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_kXOhcB5lEeGzW_f4CE2-cA" name="ClientsPersonalDataManagement service">
+  <eAnnotations xmi:id="_9bbO8R-HEeGNRb-Ky5mQzQ" source="com.ibm.xtools.uml.msl.fragments"/>
+  <eAnnotations xmi:id="_9bbO8B-HEeGNRb-Ky5mQzQ" source="com.ibm.xtools.uml.msl.fragmentContainer">
+    <references xmi:type="uml:Package" href="ModelFragment_5.efx#_cQHQYB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service?"/>
+  </eAnnotations>
+  <clientDependency xmi:type="uml:Realization" href="ModelFragment_5.efx#_XjHmsB5uEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/%3CRealization%3E?"/>
+  <clientDependency xmi:type="uml:Realization" href="ModelFragment_5.efx#_96qMsB6XEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/%3CRealization%3E?"/>
+  <ownedAttribute xmi:id="_kXOhcR5lEeGzW_f4CE2-cA" name="patient" visibility="private">
+    <type xmi:type="uml:Class" href="trunk/e-dietician/ModelFragment_4.efx#_pHbdIBjrEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Patient?"/>
+    <association href="ModelFragment_5.efx#_kXPvkB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/%3CAssociation%3E?"/>
+  </ownedAttribute>
+  <ownedOperation xmi:id="_kXOhch5lEeGzW_f4CE2-cA" name="validateForm"/>
+  <ownedOperation xmi:id="_12BkgB5uEeGzW_f4CE2-cA" name="insertPatient"/>
+  <ownedOperation xmi:id="_kXPIgB5lEeGzW_f4CE2-cA" name="isClientExisting"/>
+</uml:Class>

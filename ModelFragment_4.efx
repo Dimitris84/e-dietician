@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.fragment" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_bJkfEB5lEeGzW_f4CE2-cA" name="ui">
+  <eAnnotations xmi:id="_zdMkkR5xEeGzW_f4CE2-cA" source="com.ibm.xtools.uml.msl.fragments"/>
+  <eAnnotations xmi:id="_zdMkkB5xEeGzW_f4CE2-cA" source="com.ibm.xtools.uml.msl.fragmentContainer">
+    <references xmi:type="uml:Package" href="ModelFragment_3.efx#_SAXe4B5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician?"/>
+  </eAnnotations>
+  <eAnnotations xmi:id="_bJlGIB5lEeGzW_f4CE2-cA" source="uml2.diagrams" references="_bJlGIR5lEeGzW_f4CE2-cA">
+    <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_bJlGIR5lEeGzW_f4CE2-cA" type="Freeform" name="Main">
+      <element xsi:nil="true"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" xmi:id="_iScmQB5lEeGzW_f4CE2-cA" name="ConfirmClientData UI" clientDependency="_tRO48B5uEeGzW_f4CE2-cA">
+    <ownedAttribute xmi:id="_iScmQR5lEeGzW_f4CE2-cA" name="patient" visibility="private" association="_iSfpkB5lEeGzW_f4CE2-cA">
+      <type xmi:type="uml:Class" href="trunk/e-dietician/ModelFragment_4.efx#_pHbdIBjrEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Patient?"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_iScmQh5lEeGzW_f4CE2-cA" name="Initialise"/>
+    <ownedOperation xmi:id="_iScmQx5lEeGzW_f4CE2-cA" name="ConfirmData"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_iSd0YB5lEeGzW_f4CE2-cA" name="ClientsPersonalDataManagement UI" clientDependency="_uBZKkB5uEeGzW_f4CE2-cA">
+    <ownedAttribute xmi:id="_iSd0YR5lEeGzW_f4CE2-cA" name="clientsPersonalDataManagement Controller" visibility="private" association="_iSg3sB5lEeGzW_f4CE2-cA">
+      <type xmi:type="uml:Class" href="trunk/e-dietician/ModelFragment_5.efx#_NBbnkBqzEeGtzbXyaXGnqg?RUP%20Analysis%20Model/Controller%20Classes/ClientsPersonalDataManagement%20Controller?"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_iSd0Yh5lEeGzW_f4CE2-cA" name="confirmClientData UI" visibility="private" type="_iScmQB5lEeGzW_f4CE2-cA" association="_iShewB5lEeGzW_f4CE2-cA"/>
+    <ownedOperation xmi:id="_iSd0Yx5lEeGzW_f4CE2-cA" name="Insert new patient"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_iSfpkB5lEeGzW_f4CE2-cA" memberEnd="_iScmQR5lEeGzW_f4CE2-cA _iSfpkR5lEeGzW_f4CE2-cA">
+    <ownedEnd xmi:id="_iSfpkR5lEeGzW_f4CE2-cA" name="" visibility="private" type="_iScmQB5lEeGzW_f4CE2-cA" association="_iSfpkB5lEeGzW_f4CE2-cA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_iSg3sB5lEeGzW_f4CE2-cA" memberEnd="_iSd0YR5lEeGzW_f4CE2-cA _iSg3sR5lEeGzW_f4CE2-cA">
+    <ownedEnd xmi:id="_iSg3sR5lEeGzW_f4CE2-cA" name="" visibility="private" type="_iSd0YB5lEeGzW_f4CE2-cA" association="_iSg3sB5lEeGzW_f4CE2-cA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_iShewB5lEeGzW_f4CE2-cA" memberEnd="_iSd0Yh5lEeGzW_f4CE2-cA _iShewR5lEeGzW_f4CE2-cA">
+    <ownedEnd xmi:id="_iShewR5lEeGzW_f4CE2-cA" name="" visibility="private" type="_iSd0YB5lEeGzW_f4CE2-cA" association="_iShewB5lEeGzW_f4CE2-cA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_tRO48B5uEeGzW_f4CE2-cA" client="_iScmQB5lEeGzW_f4CE2-cA">
+    <supplier xmi:type="uml:Class" href="trunk/e-dietician/ModelFragment_6.efx#_NdD_wB2JEeGPjv3V5pay3w?RUP%20Analysis%20Model/Boundary%20Classes/ConfirmClientData%20UI?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_uBZKkB5uEeGzW_f4CE2-cA" client="_iSd0YB5lEeGzW_f4CE2-cA">
+    <supplier xmi:type="uml:Class" href="trunk/e-dietician/ModelFragment_6.efx#_Eyq2YBqzEeGtzbXyaXGnqg?RUP%20Analysis%20Model/Boundary%20Classes/ClientsPersonalDataManagement%20UI?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_sWMG0B6LEeGzW_f4CE2-cA" name="InsertSingleFood UI">
+    <ownedAttribute xmi:id="_sd2_oB6MEeGzW_f4CE2-cA" name="insertSingleFood service" visibility="private" association="_sd1KcB6MEeGzW_f4CE2-cA">
+      <type xmi:type="uml:Class" href="ModelFragment_18.efx#_mZSqkB6LEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/InsertSingleFood%20service?"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sd4NwR6MEeGzW_f4CE2-cA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sd4NwB6MEeGzW_f4CE2-cA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_v12PIB6MEeGzW_f4CE2-cA" name="confirmSingleFood UI" visibility="private" type="_vNUE8B6LEeGzW_f4CE2-cA" association="_v1zy4B6MEeGzW_f4CE2-cA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_v13dQR6MEeGzW_f4CE2-cA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_v13dQB6MEeGzW_f4CE2-cA"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_RHwUsB6NEeGzW_f4CE2-cA" name="Insert Single Food"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_vNUE8B6LEeGzW_f4CE2-cA" name="ConfirmSingleFood UI">
+    <ownedAttribute xmi:id="_ubAo0B6MEeGzW_f4CE2-cA" name="insertSingleFood service" visibility="private" association="_ua_asB6MEeGzW_f4CE2-cA">
+      <type xmi:type="uml:Class" href="ModelFragment_18.efx#_mZSqkB6LEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/InsertSingleFood%20service?"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ubBP4R6MEeGzW_f4CE2-cA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ubBP4B6MEeGzW_f4CE2-cA"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_jdHicB6NEeGzW_f4CE2-cA" name="show()"/>
+    <ownedOperation xmi:id="_pvth4B6NEeGzW_f4CE2-cA" name="Confirm Data"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_sd1KcB6MEeGzW_f4CE2-cA" memberEnd="_sd2_oB6MEeGzW_f4CE2-cA _sd5b4B6MEeGzW_f4CE2-cA">
+    <ownedEnd xmi:id="_sd5b4B6MEeGzW_f4CE2-cA" name="" visibility="private" type="_sWMG0B6LEeGzW_f4CE2-cA" association="_sd1KcB6MEeGzW_f4CE2-cA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_sd6qAR6MEeGzW_f4CE2-cA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_sd6qAB6MEeGzW_f4CE2-cA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ua_asB6MEeGzW_f4CE2-cA" memberEnd="_ubAo0B6MEeGzW_f4CE2-cA _ubB28B6MEeGzW_f4CE2-cA">
+    <ownedEnd xmi:id="_ubB28B6MEeGzW_f4CE2-cA" name="" visibility="private" type="_vNUE8B6LEeGzW_f4CE2-cA" association="_ua_asB6MEeGzW_f4CE2-cA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ubDFEB6MEeGzW_f4CE2-cA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ubCeAB6MEeGzW_f4CE2-cA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_v1zy4B6MEeGzW_f4CE2-cA" memberEnd="_v12PIB6MEeGzW_f4CE2-cA _v14rYB6MEeGzW_f4CE2-cA">
+    <ownedEnd xmi:id="_v14rYB6MEeGzW_f4CE2-cA" name="" visibility="private" type="_sWMG0B6LEeGzW_f4CE2-cA" association="_v1zy4B6MEeGzW_f4CE2-cA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_v15ScR6MEeGzW_f4CE2-cA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_v15ScB6MEeGzW_f4CE2-cA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NwJbgB6UEeGzW_f4CE2-cA" name="Insert Clients Measurement UI">
+    <ownedAttribute xmi:id="_JAjGkB6ZEeGzW_f4CE2-cA" name="clientsMeasurement service" visibility="private" association="_JAgqUB6ZEeGzW_f4CE2-cA">
+      <type xmi:type="uml:Class" href="ModelFragment_16.efx#_AloaoB6XEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/ClientsMeasurement%20service?"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JAjtoR6ZEeGzW_f4CE2-cA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JAjtoB6ZEeGzW_f4CE2-cA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_J2eB8B6ZEeGzW_f4CE2-cA" name="confirm Measurement UI" visibility="private" type="_QOxvMB6WEeGzW_f4CE2-cA" association="_J2cMwB6ZEeGzW_f4CE2-cA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J2fQER6ZEeGzW_f4CE2-cA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_J2fQEB6ZEeGzW_f4CE2-cA"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_hveecB6ZEeGzW_f4CE2-cA" name="show()"/>
+    <ownedOperation xmi:id="_okcyMB6ZEeGzW_f4CE2-cA" name="Insert Measurement Data"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_RfzkIB6UEeGzW_f4CE2-cA" name="Confirm Clients Measurement UI"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Vq7gwB6UEeGzW_f4CE2-cA" name="Clients Form UI">
+    <ownedAttribute xmi:id="_ES_yUB6ZEeGzW_f4CE2-cA" name="insert Clients Measurement UI" visibility="private" type="_NwJbgB6UEeGzW_f4CE2-cA" association="_ES-kMB6ZEeGzW_f4CE2-cA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ETBAcB6ZEeGzW_f4CE2-cA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ETAZYB6ZEeGzW_f4CE2-cA"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_fiaxAB6ZEeGzW_f4CE2-cA" name="Insert Client Measurement"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_QOxvMB6WEeGzW_f4CE2-cA" name="Confirm Measurement UI">
+    <ownedAttribute xmi:id="_n3P_4B6XEeGzW_f4CE2-cA" name="clientsMeasurement service" visibility="private" association="_n3LucB6XEeGzW_f4CE2-cA">
+      <type xmi:type="uml:Class" href="ModelFragment_16.efx#_AloaoB6XEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/ClientsMeasurement%20service?"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_n3ScIB6XEeGzW_f4CE2-cA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_n3R1EB6XEeGzW_f4CE2-cA"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_wQX8EB6ZEeGzW_f4CE2-cA" name="show()"/>
+    <ownedOperation xmi:id="_5NXFMB6ZEeGzW_f4CE2-cA" name="Confirm Data"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_n3LucB6XEeGzW_f4CE2-cA" memberEnd="_n3P_4B6XEeGzW_f4CE2-cA _n3U4YB6XEeGzW_f4CE2-cA">
+    <ownedEnd xmi:id="_n3U4YB6XEeGzW_f4CE2-cA" name="" visibility="private" type="_QOxvMB6WEeGzW_f4CE2-cA" association="_n3LucB6XEeGzW_f4CE2-cA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_n3XUoB6XEeGzW_f4CE2-cA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_n3WtkB6XEeGzW_f4CE2-cA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ES-kMB6ZEeGzW_f4CE2-cA" memberEnd="_ES_yUB6ZEeGzW_f4CE2-cA _ETBngB6ZEeGzW_f4CE2-cA">
+    <ownedEnd xmi:id="_ETBngB6ZEeGzW_f4CE2-cA" name="" visibility="private" type="_Vq7gwB6UEeGzW_f4CE2-cA" association="_ES-kMB6ZEeGzW_f4CE2-cA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ETCOkR6ZEeGzW_f4CE2-cA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ETCOkB6ZEeGzW_f4CE2-cA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JAgqUB6ZEeGzW_f4CE2-cA" memberEnd="_JAjGkB6ZEeGzW_f4CE2-cA _JAkUsB6ZEeGzW_f4CE2-cA">
+    <ownedEnd xmi:id="_JAkUsB6ZEeGzW_f4CE2-cA" name="" visibility="private" type="_NwJbgB6UEeGzW_f4CE2-cA" association="_JAgqUB6ZEeGzW_f4CE2-cA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JAk7wR6ZEeGzW_f4CE2-cA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_JAk7wB6ZEeGzW_f4CE2-cA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_J2cMwB6ZEeGzW_f4CE2-cA" memberEnd="_J2eB8B6ZEeGzW_f4CE2-cA _J2geMB6ZEeGzW_f4CE2-cA">
+    <ownedEnd xmi:id="_J2geMB6ZEeGzW_f4CE2-cA" name="" visibility="private" type="_NwJbgB6UEeGzW_f4CE2-cA" association="_J2cMwB6ZEeGzW_f4CE2-cA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_J2hsUB6ZEeGzW_f4CE2-cA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_J2hFQB6ZEeGzW_f4CE2-cA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_jeNbsB6aEeGzW_f4CE2-cA" name="Login UI">
+    <ownedAttribute xmi:id="_3ULgkB6aEeGzW_f4CE2-cA" name="login service" visibility="private" association="_3UJrYB6aEeGzW_f4CE2-cA">
+      <type xmi:type="uml:Class" href="ModelFragment_20.efx#_o-vsEB6aEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/Login%20service?"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3UMusB6aEeGzW_f4CE2-cA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3UMHoB6aEeGzW_f4CE2-cA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_4YXhcB6aEeGzW_f4CE2-cA" name="main Frame UI" visibility="private" type="_ldhoEB6aEeGzW_f4CE2-cA" association="_4YVFMB6aEeGzW_f4CE2-cA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4YYvkR6aEeGzW_f4CE2-cA" value="1"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4YYvkB6aEeGzW_f4CE2-cA"/>
+    </ownedAttribute>
+    <ownedOperation xmi:id="_GgddgB6bEeGzW_f4CE2-cA" name="Insert credentials"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ldhoEB6aEeGzW_f4CE2-cA" name="Main Frame UI">
+    <ownedOperation xmi:id="_gDEVEB6bEeGzW_f4CE2-cA" name="show"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_3UJrYB6aEeGzW_f4CE2-cA" memberEnd="_3ULgkB6aEeGzW_f4CE2-cA _3UN80B6aEeGzW_f4CE2-cA">
+    <ownedEnd xmi:id="_3UN80B6aEeGzW_f4CE2-cA" name="" visibility="private" type="_jeNbsB6aEeGzW_f4CE2-cA" association="_3UJrYB6aEeGzW_f4CE2-cA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_3UOj4R6aEeGzW_f4CE2-cA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_3UOj4B6aEeGzW_f4CE2-cA"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4YVFMB6aEeGzW_f4CE2-cA" memberEnd="_4YXhcB6aEeGzW_f4CE2-cA _4YZ9sB6aEeGzW_f4CE2-cA">
+    <ownedEnd xmi:id="_4YZ9sB6aEeGzW_f4CE2-cA" name="" visibility="private" type="_jeNbsB6aEeGzW_f4CE2-cA" association="_4YVFMB6aEeGzW_f4CE2-cA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4YbL0R6aEeGzW_f4CE2-cA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4YbL0B6aEeGzW_f4CE2-cA"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Package>

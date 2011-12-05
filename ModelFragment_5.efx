@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.fragment" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_cQHQYB5lEeGzW_f4CE2-cA" name="service">
+  <eAnnotations xmi:id="_zcy78R5xEeGzW_f4CE2-cA" source="com.ibm.xtools.uml.msl.fragments">
+    <references xmi:type="uml:Class" href="ModelFragment_16.efx#_AloaoB6XEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/ClientsMeasurement%20service?"/>
+    <references xmi:type="uml:Class" href="ModelFragment_17.efx#_kXOhcB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/ClientsPersonalDataManagement%20service?"/>
+    <references xmi:type="uml:Class" href="ModelFragment_18.efx#_mZSqkB6LEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/InsertSingleFood%20service?"/>
+    <references xmi:type="uml:Class" href="ModelFragment_20.efx#_o-vsEB6aEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/Login%20service?"/>
+  </eAnnotations>
+  <eAnnotations xmi:id="_zcy78B5xEeGzW_f4CE2-cA" source="com.ibm.xtools.uml.msl.fragmentContainer">
+    <references xmi:type="uml:Package" href="ModelFragment_3.efx#_SAXe4B5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician?"/>
+  </eAnnotations>
+  <eAnnotations xmi:id="_cQJFkB5lEeGzW_f4CE2-cA" source="uml2.diagrams" references="_cQJFkR5lEeGzW_f4CE2-cA">
+    <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_cQJFkR5lEeGzW_f4CE2-cA" type="Freeform" name="Main">
+      <element xsi:nil="true"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Class" href="ModelFragment_17.efx#_kXOhcB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/ClientsPersonalDataManagement%20service?"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_kXPvkB5lEeGzW_f4CE2-cA">
+    <ownedEnd xmi:id="_kXPvkR5lEeGzW_f4CE2-cA" name="" visibility="private" association="_kXPvkB5lEeGzW_f4CE2-cA">
+      <type xmi:type="uml:Class" href="ModelFragment_17.efx#_kXOhcB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/ClientsPersonalDataManagement%20service?"/>
+    </ownedEnd>
+    <memberEnd href="ModelFragment_17.efx#_kXOhcR5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/ClientsPersonalDataManagement%20service/patient?"/>
+    <memberEnd href="#_kXPvkR5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/%3CAssociation%3E/%3CProperty%3E?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_XjHmsB5uEeGzW_f4CE2-cA">
+    <supplier xmi:type="uml:Class" href="trunk/e-dietician/ModelFragment_5.efx#_NBbnkBqzEeGtzbXyaXGnqg?RUP%20Analysis%20Model/Controller%20Classes/ClientsPersonalDataManagement%20Controller?"/>
+    <client xmi:type="uml:Class" href="ModelFragment_17.efx#_kXOhcB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/ClientsPersonalDataManagement%20service?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" href="ModelFragment_18.efx#_mZSqkB6LEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/InsertSingleFood%20service?"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_Pg0okB6MEeGzW_f4CE2-cA">
+    <supplier xmi:type="uml:Class" href="ModelFragment_10.efx#_CW9PUB6MEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/dao/FoodDAO?"/>
+    <client xmi:type="uml:Class" href="ModelFragment_18.efx#_mZSqkB6LEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/InsertSingleFood%20service?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_R6nKcB6MEeGzW_f4CE2-cA">
+    <supplier xmi:type="uml:Class" href="ModelFragment_13.efx#_35WA8B6LEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/Food?"/>
+    <client xmi:type="uml:Class" href="ModelFragment_18.efx#_mZSqkB6LEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/InsertSingleFood%20service?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" href="ModelFragment_16.efx#_AloaoB6XEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/ClientsMeasurement%20service?"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5qoh8B6XEeGzW_f4CE2-cA">
+    <ownedEnd xmi:id="_5qszYB6XEeGzW_f4CE2-cA" name="" visibility="private" association="_5qoh8B6XEeGzW_f4CE2-cA">
+      <type xmi:type="uml:Class" href="ModelFragment_16.efx#_AloaoB6XEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/ClientsMeasurement%20service?"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5quBgB6XEeGzW_f4CE2-cA" value="*"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5qtacB6XEeGzW_f4CE2-cA"/>
+    </ownedEnd>
+    <memberEnd href="ModelFragment_16.efx#_5qq-MB6XEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/ClientsMeasurement%20service/measurement?"/>
+    <memberEnd href="#_5qszYB6XEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/%3CAssociation%3E/%3CProperty%3E?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_96qMsB6XEeGzW_f4CE2-cA">
+    <supplier xmi:type="uml:Class" href="ModelFragment_11.efx#_S3hT4B5mEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/dao/PatientDAO?"/>
+    <client xmi:type="uml:Class" href="ModelFragment_17.efx#_kXOhcB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/ClientsPersonalDataManagement%20service?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" href="ModelFragment_20.efx#_o-vsEB6aEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/Login%20service?"/>
+</uml:Package>

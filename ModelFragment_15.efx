@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.fragment" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<uml:Class xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_rKNRIB5lEeGzW_f4CE2-cA" name="Patient">
+  <eAnnotations xmi:id="_5Du18R-HEeGNRb-Ky5mQzQ" source="com.ibm.xtools.uml.msl.fragments"/>
+  <eAnnotations xmi:id="_5Du18B-HEeGNRb-Ky5mQzQ" source="com.ibm.xtools.uml.msl.fragmentContainer">
+    <references xmi:type="uml:Package" href="ModelFragment_6.efx#_dZ-bcB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain?"/>
+  </eAnnotations>
+  <clientDependency xmi:type="uml:Realization" href="ModelFragment_6.efx#_WTJMkB5uEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/%3CRealization%3E?"/>
+  <ownedAttribute xmi:id="_rKNRIR5lEeGzW_f4CE2-cA" name="address" visibility="private" aggregation="composite">
+    <type xmi:type="uml:Class" href="ModelFragment_12.efx#_rKMDAB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/Address?"/>
+    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rKNRIh5lEeGzW_f4CE2-cA" value="1"/>
+    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rKNRIx5lEeGzW_f4CE2-cA" value="1"/>
+    <association href="ModelFragment_6.efx#_rKQ7gB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/%3CAssociation%3E?"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKNRJB5lEeGzW_f4CE2-cA" name="dietProgram" visibility="private">
+    <type xmi:type="uml:Class" href="trunk/e-dietician/ModelFragment_4.efx#_9bngUBjxEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/DietProgram?"/>
+    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rKNRJR5lEeGzW_f4CE2-cA" value="*"/>
+    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rKNRJh5lEeGzW_f4CE2-cA"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKNRJx5lEeGzW_f4CE2-cA" name="dislikes" visibility="private">
+    <type xmi:type="uml:Class" href="trunk/e-dietician/ModelFragment_4.efx#_v0cHsBjrEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Food?"/>
+    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rKNRKB5lEeGzW_f4CE2-cA" value="*"/>
+    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rKNRKR5lEeGzW_f4CE2-cA"/>
+    <association href="ModelFragment_6.efx#_rKQUcB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/%3CAssociation%3E?"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKNRKh5lEeGzW_f4CE2-cA" name="measurement" visibility="private">
+    <type xmi:type="uml:Class" href="trunk/e-dietician/ModelFragment_4.efx#_0s1aABjrEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Measurement?"/>
+    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rKNRKx5lEeGzW_f4CE2-cA" value="*"/>
+    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rKNRLB5lEeGzW_f4CE2-cA"/>
+    <association href="ModelFragment_6.efx#_rKPtYB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/%3CAssociation%3E?"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKNRLR5lEeGzW_f4CE2-cA" name="nextAppointment" visibility="private">
+    <type xmi:type="uml:Class" href="trunk/e-dietician/ModelFragment_4.efx#_RH-_cBkBEeGeKc-PyQrmzw?RUP%20Analysis%20Model/Analysis%20Classes/Appointment?"/>
+    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rKNRLh5lEeGzW_f4CE2-cA" value="1"/>
+    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rKNRLx5lEeGzW_f4CE2-cA" value="1"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKNRMB5lEeGzW_f4CE2-cA" name="ID" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKNRMR5lEeGzW_f4CE2-cA" name="fname" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKNRMh5lEeGzW_f4CE2-cA" name="lname" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKNRMx5lEeGzW_f4CE2-cA" name="sdate" visibility="private">
+    <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q51ibwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/util/Date?"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKNRNB5lEeGzW_f4CE2-cA" name="edate" visibility="private">
+    <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q51ibwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/util/Date?"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKNRNR5lEeGzW_f4CE2-cA" name="height" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKNRNh5lEeGzW_f4CE2-cA" name="dateBirth" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKNRNx5lEeGzW_f4CE2-cA" name="phone" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKNROB5lEeGzW_f4CE2-cA" name="mobile" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKNROR5lEeGzW_f4CE2-cA" name="email" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKNROh5lEeGzW_f4CE2-cA" name="fax" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKNROx5lEeGzW_f4CE2-cA" name="afm" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKNRPB5lEeGzW_f4CE2-cA" name="doy" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKNRPR5lEeGzW_f4CE2-cA" name="comments" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKNRPh5lEeGzW_f4CE2-cA" name="idealWeight" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </ownedAttribute>
+  <ownedOperation xmi:id="_rKNRPx5lEeGzW_f4CE2-cA" name="isClientExisting"/>
+  <ownedOperation xmi:id="_rKNRQB5lEeGzW_f4CE2-cA" name="addPatinet"/>
+  <ownedOperation xmi:id="_OuJLQB6IEeGzW_f4CE2-cA" name="create Patient"/>
+  <ownedOperation xmi:id="_g3u_IB6OEeGzW_f4CE2-cA" name="Patient"/>
+</uml:Class>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.fragment" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<uml:Class xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_H7AFsB6XEeGzW_f4CE2-cA" name="Measurement">
+  <eAnnotations xmi:id="_tOvk8B-HEeGNRb-Ky5mQzQ" source="com.ibm.xtools.uml.msl.fragments"/>
+  <eAnnotations xmi:id="_tOu94B-HEeGNRb-Ky5mQzQ" source="com.ibm.xtools.uml.msl.fragmentContainer">
+    <references xmi:type="uml:Package" href="ModelFragment_6.efx#_dZ-bcB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain?"/>
+  </eAnnotations>
+  <ownedAttribute xmi:id="_H7AFsR6XEeGzW_f4CE2-cA" name="ID" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_H7AFsh6XEeGzW_f4CE2-cA" name="type" visibility="private">
+    <type xmi:type="uml:Enumeration" href="trunk/e-dietician/RUP%20Analysis%20Model.emx#__dqfMBzkEeGWDo17sU7-yA?RUP%20Analysis%20Model/MeasureType?"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_H7AFsx6XEeGzW_f4CE2-cA" name="date" visibility="private">
+    <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q51ibwddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/util/Date?"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_H7AFtB6XEeGzW_f4CE2-cA" name="value" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_H7AFtR6XEeGzW_f4CE2-cA" name="comments" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </ownedAttribute>
+  <ownedOperation xmi:id="_H7AFth6XEeGzW_f4CE2-cA" name="getLatestMeasurements(patient: Patient)"/>
+  <ownedOperation xmi:id="_H7AFtx6XEeGzW_f4CE2-cA" name="getAllMeasures(patient: Patient)"/>
+  <ownedOperation xmi:id="_DyU4wB6aEeGzW_f4CE2-cA" name="Measurement"/>
+  <ownedOperation xmi:id="_I5fm4B6aEeGzW_f4CE2-cA" name="addMeasurement(measurement: Measurement)"/>
+  <ownedOperation xmi:id="_PF2bcB6aEeGzW_f4CE2-cA" name="addmeasurement(measurement: Measurement)"/>
+</uml:Class>

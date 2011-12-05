@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.fragment" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<uml:Class xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_rKMDAB5lEeGzW_f4CE2-cA" name="Address">
+  <eAnnotations xmi:id="_kgrBkB-HEeGNRb-Ky5mQzQ" source="com.ibm.xtools.uml.msl.fragmentContainer">
+    <references xmi:type="uml:Package" href="ModelFragment_6.efx#_dZ-bcB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain?"/>
+  </eAnnotations>
+  <ownedAttribute xmi:id="_rKMDAR5lEeGzW_f4CE2-cA" name="ID" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKMDAh5lEeGzW_f4CE2-cA" name="street" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKMDAx5lEeGzW_f4CE2-cA" name="number" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKMDBB5lEeGzW_f4CE2-cA" name="town" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKMDBR5lEeGzW_f4CE2-cA" name="zipCode" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </ownedAttribute>
+  <ownedAttribute xmi:id="_rKMDBh5lEeGzW_f4CE2-cA" name="comments" visibility="private">
+    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </ownedAttribute>
+  <ownedOperation xmi:id="_rKMDBx5lEeGzW_f4CE2-cA" name="addAddress"/>
+</uml:Class>

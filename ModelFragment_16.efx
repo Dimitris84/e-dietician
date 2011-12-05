@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.fragment" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<uml:Class xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_AloaoB6XEeGzW_f4CE2-cA" name="ClientsMeasurement service">
+  <eAnnotations xmi:id="_7YfG0B-HEeGNRb-Ky5mQzQ" source="com.ibm.xtools.uml.msl.fragmentContainer">
+    <references xmi:type="uml:Package" href="ModelFragment_5.efx#_cQHQYB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service?"/>
+  </eAnnotations>
+  <ownedAttribute xmi:id="_5qq-MB6XEeGzW_f4CE2-cA" name="measurement" visibility="private">
+    <type xmi:type="uml:Class" href="ModelFragment_14.efx#_H7AFsB6XEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/Measurement?"/>
+    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5qsMUB6XEeGzW_f4CE2-cA" value="1"/>
+    <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5qrlQB6XEeGzW_f4CE2-cA"/>
+    <association href="ModelFragment_5.efx#_5qoh8B6XEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/%3CAssociation%3E?"/>
+  </ownedAttribute>
+  <ownedOperation xmi:id="_tmmdcB6ZEeGzW_f4CE2-cA" name="validateForm()"/>
+  <ownedOperation xmi:id="__yKO8B6ZEeGzW_f4CE2-cA" name="insertMeasurementData()"/>
+</uml:Class>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.fragment" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_s7NUsB5lEeGzW_f4CE2-cA" name="Use Case Realizations">
+  <eAnnotations xmi:id="_JMN1wB5yEeGzW_f4CE2-cA" source="com.ibm.xtools.uml.msl.fragments">
+    <references xmi:type="uml:Collaboration" href="ModelFragment_19.efx#_wX0lgB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/Use%20Case%20Realizations/ClientsPersonalDataManagement%20Realization?"/>
+    <references xmi:type="uml:Collaboration" href="ModelFragment_21.efx#_oNsGwB6TEeGzW_f4CE2-cA?Blank%20Design%20Package/Use%20Case%20Realizations/Insert%20Clients%20Measurements?"/>
+    <references xmi:type="uml:Collaboration" href="ModelFragment_22.efx#_2vkK4B6KEeGzW_f4CE2-cA?Blank%20Design%20Package/Use%20Case%20Realizations/Insert%20Single%20food%20Realization?"/>
+    <references xmi:type="uml:Collaboration" href="ModelFragment_23.efx#_sll28B6aEeGzW_f4CE2-cA?Blank%20Design%20Package/Use%20Case%20Realizations/Login%20Realization?"/>
+  </eAnnotations>
+  <eAnnotations xmi:id="_zWEo4B5xEeGzW_f4CE2-cA" source="com.ibm.xtools.uml.msl.fragmentContainer">
+    <references xmi:type="uml:Package" href="Blank%20Design%20Package.emx#_J9GzEB5lEeGzW_f4CE2-cA?Blank%20Design%20Package?"/>
+  </eAnnotations>
+  <eAnnotations xmi:id="_s7Oi0B5lEeGzW_f4CE2-cA" source="uml2.diagrams" references="_s7Oi0R5lEeGzW_f4CE2-cA">
+    <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_s7Oi0R5lEeGzW_f4CE2-cA" type="Freeform" name="Main">
+      <element xsi:nil="true"/>
+    </contents>
+  </eAnnotations>
+  <packagedElement xmi:type="uml:Collaboration" href="ModelFragment_19.efx#_wX0lgB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/Use%20Case%20Realizations/ClientsPersonalDataManagement%20Realization?"/>
+  <packagedElement xmi:type="uml:ExecutionEvent" xmi:id="_Q017YB5vEeGzW_f4CE2-cA" name="ExecutionEvent1"/>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_RHrX0B5vEeGzW_f4CE2-cA" name="SendOperationEvent1">
+    <operation href="ModelFragment_4.efx#_iSd0Yx5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/ClientsPersonalDataManagement%20UI/Insert%20new%20patient?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_RHrX0R5vEeGzW_f4CE2-cA" name="ReceiveOperationEvent1">
+    <operation href="ModelFragment_4.efx#_iSd0Yx5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/ClientsPersonalDataManagement%20UI/Insert%20new%20patient?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_V7ivcB5vEeGzW_f4CE2-cA" name="SendOperationEvent2">
+    <operation href="ModelFragment_17.efx#_kXOhch5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/ClientsPersonalDataManagement%20service/validateForm?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_V7jWgB5vEeGzW_f4CE2-cA" name="ReceiveOperationEvent2">
+    <operation href="ModelFragment_17.efx#_kXOhch5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/ClientsPersonalDataManagement%20service/validateForm?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_nZM5IB5vEeGzW_f4CE2-cA" name="SendOperationEvent3">
+    <operation href="ModelFragment_17.efx#_kXPIgB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/ClientsPersonalDataManagement%20service/isClientExisting?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_nZNgMB5vEeGzW_f4CE2-cA" name="ReceiveOperationEvent3">
+    <operation href="ModelFragment_17.efx#_kXPIgB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/ClientsPersonalDataManagement%20service/isClientExisting?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_pvBhAB5vEeGzW_f4CE2-cA" name="SendOperationEvent4">
+    <operation href="ModelFragment_11.efx#_pvA58B5vEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/dao/PatientDAO/findClient?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_pvBhAR5vEeGzW_f4CE2-cA" name="ReceiveOperationEvent4">
+    <operation href="ModelFragment_11.efx#_pvA58B5vEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/dao/PatientDAO/findClient?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_FnHz0B5xEeGzW_f4CE2-cA" name="SendOperationEvent5">
+    <operation href="ModelFragment_4.efx#_iScmQh5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/ConfirmClientData%20UI/Initialise?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_FnHz0R5xEeGzW_f4CE2-cA" name="ReceiveOperationEvent5">
+    <operation href="ModelFragment_4.efx#_iScmQh5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/ConfirmClientData%20UI/Initialise?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_LCmlEB5xEeGzW_f4CE2-cA" name="SendOperationEvent6">
+    <operation href="ModelFragment_4.efx#_iScmQx5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/ConfirmClientData%20UI/ConfirmData?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_LCnMIB5xEeGzW_f4CE2-cA" name="ReceiveOperationEvent6">
+    <operation href="ModelFragment_4.efx#_iScmQx5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/ConfirmClientData%20UI/ConfirmData?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_OgSM4B5xEeGzW_f4CE2-cA" name="SendOperationEvent7">
+    <operation href="ModelFragment_17.efx#_12BkgB5uEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/ClientsPersonalDataManagement%20service/insertPatient?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_OgSz8B5xEeGzW_f4CE2-cA" name="ReceiveOperationEvent7">
+    <operation href="ModelFragment_17.efx#_12BkgB5uEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/ClientsPersonalDataManagement%20service/insertPatient?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_QkMlYB5xEeGzW_f4CE2-cA" name="SendOperationEvent8">
+    <operation href="ModelFragment_15.efx#_rKNRQB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/Patient/addPatinet?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_QkMlYR5xEeGzW_f4CE2-cA" name="ReceiveOperationEvent8">
+    <operation href="ModelFragment_15.efx#_rKNRQB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/Patient/addPatinet?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_YSUusB5xEeGzW_f4CE2-cA" name="SendOperationEvent9">
+    <operation href="ModelFragment_12.efx#_rKMDBx5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/Address/addAddress?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_YSVVwB5xEeGzW_f4CE2-cA" name="ReceiveOperationEvent9">
+    <operation href="ModelFragment_12.efx#_rKMDBx5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/Address/addAddress?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_OuJyUB6IEeGzW_f4CE2-cA" name="SendOperationEvent10">
+    <operation href="ModelFragment_15.efx#_OuJLQB6IEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/Patient/create%20Patient?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_OuKZYB6IEeGzW_f4CE2-cA" name="ReceiveOperationEvent10">
+    <operation href="ModelFragment_15.efx#_OuJLQB6IEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/Patient/create%20Patient?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Collaboration" href="ModelFragment_22.efx#_2vkK4B6KEeGzW_f4CE2-cA?Blank%20Design%20Package/Use%20Case%20Realizations/Insert%20Single%20food%20Realization?"/>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_RHxi0B6NEeGzW_f4CE2-cA" name="SendOperationEvent11">
+    <operation href="ModelFragment_4.efx#_RHwUsB6NEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/InsertSingleFood%20UI/Insert%20Single%20Food?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_RH0mIB6NEeGzW_f4CE2-cA" name="ReceiveOperationEvent11">
+    <operation href="ModelFragment_4.efx#_RHwUsB6NEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/InsertSingleFood%20UI/Insert%20Single%20Food?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_Vo49kB6NEeGzW_f4CE2-cA" name="SendOperationEvent12">
+    <operation href="ModelFragment_18.efx#_Vo3vcB6NEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/InsertSingleFood%20service/validateForm()?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_Vo49kR6NEeGzW_f4CE2-cA" name="ReceiveOperationEvent12">
+    <operation href="ModelFragment_18.efx#_Vo3vcB6NEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/InsertSingleFood%20service/validateForm()?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_cwhHkB6NEeGzW_f4CE2-cA" name="SendOperationEvent13">
+    <operation href="ModelFragment_18.efx#_cwgggB6NEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/InsertSingleFood%20service/isFoodExisting?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_cwhHkR6NEeGzW_f4CE2-cA" name="ReceiveOperationEvent13">
+    <operation href="ModelFragment_18.efx#_cwgggB6NEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/InsertSingleFood%20service/isFoodExisting?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_gbPs4B6NEeGzW_f4CE2-cA" name="SendOperationEvent14">
+    <operation href="ModelFragment_10.efx#_gbOewB6NEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/dao/FoodDAO/findFood?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_gbQT8B6NEeGzW_f4CE2-cA" name="ReceiveOperationEvent14">
+    <operation href="ModelFragment_10.efx#_gbOewB6NEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/dao/FoodDAO/findFood?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_jdIJgB6NEeGzW_f4CE2-cA" name="SendOperationEvent15">
+    <operation href="ModelFragment_4.efx#_jdHicB6NEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/ConfirmSingleFood%20UI/show()?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_jdIwkB6NEeGzW_f4CE2-cA" name="ReceiveOperationEvent15">
+    <operation href="ModelFragment_4.efx#_jdHicB6NEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/ConfirmSingleFood%20UI/show()?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_pvuI8B6NEeGzW_f4CE2-cA" name="SendOperationEvent16">
+    <operation href="ModelFragment_4.efx#_pvth4B6NEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/ConfirmSingleFood%20UI/Confirm%20Data?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_pvuwAB6NEeGzW_f4CE2-cA" name="ReceiveOperationEvent16">
+    <operation href="ModelFragment_4.efx#_pvth4B6NEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/ConfirmSingleFood%20UI/Confirm%20Data?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_xEAO4B6NEeGzW_f4CE2-cA" name="SendOperationEvent17">
+    <operation href="ModelFragment_18.efx#_xD_n0B6NEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/InsertSingleFood%20service/insertSingleFood?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_xEA18B6NEeGzW_f4CE2-cA" name="ReceiveOperationEvent17">
+    <operation href="ModelFragment_18.efx#_xD_n0B6NEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/InsertSingleFood%20service/insertSingleFood?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_2QEEEB6NEeGzW_f4CE2-cA" name="SendOperationEvent18">
+    <operation href="ModelFragment_13.efx#_2QC18B6NEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/Food/addFood(food%20Food)?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_2QEEER6NEeGzW_f4CE2-cA" name="ReceiveOperationEvent18">
+    <operation href="ModelFragment_13.efx#_2QC18B6NEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/Food/addFood(food%20Food)?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_-lznAB6NEeGzW_f4CE2-cA" name="SendOperationEvent19">
+    <operation href="ModelFragment_13.efx#_-ly_8B6NEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/Food/createFood()?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_-lznAR6NEeGzW_f4CE2-cA" name="ReceiveOperationEvent19">
+    <operation href="ModelFragment_13.efx#_-ly_8B6NEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/Food/createFood()?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:CreationEvent" xmi:id="_U3ti0R6OEeGzW_f4CE2-cA" name="CreationEvent1"/>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_WSHrUB6OEeGzW_f4CE2-cA" name="SendOperationEvent20">
+    <operation href="ModelFragment_13.efx#_WSHEQB6OEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/Food/Food?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_g3vmMB6OEeGzW_f4CE2-cA" name="SendOperationEvent21">
+    <operation href="ModelFragment_15.efx#_g3u_IB6OEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/Patient/Patient?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Collaboration" href="ModelFragment_21.efx#_oNsGwB6TEeGzW_f4CE2-cA?Blank%20Design%20Package/Use%20Case%20Realizations/Insert%20Clients%20Measurements?"/>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_fib_IB6ZEeGzW_f4CE2-cA" name="SendOperationEvent22">
+    <operation href="ModelFragment_4.efx#_fiaxAB6ZEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/Clients%20Form%20UI/Insert%20Client%20Measurement?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_fib_IR6ZEeGzW_f4CE2-cA" name="ReceiveOperationEvent20">
+    <operation href="ModelFragment_4.efx#_fiaxAB6ZEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/Clients%20Form%20UI/Insert%20Client%20Measurement?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_hvfskB6ZEeGzW_f4CE2-cA" name="SendOperationEvent23">
+    <operation href="ModelFragment_4.efx#_hveecB6ZEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/Insert%20Clients%20Measurement%20UI/show()?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_hvfskR6ZEeGzW_f4CE2-cA" name="ReceiveOperationEvent21">
+    <operation href="ModelFragment_4.efx#_hveecB6ZEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/Insert%20Clients%20Measurement%20UI/show()?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_okdZQB6ZEeGzW_f4CE2-cA" name="SendOperationEvent24">
+    <operation href="ModelFragment_4.efx#_okcyMB6ZEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/Insert%20Clients%20Measurement%20UI/Insert%20Measurement%20Data?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_okdZQR6ZEeGzW_f4CE2-cA" name="ReceiveOperationEvent22">
+    <operation href="ModelFragment_4.efx#_okcyMB6ZEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/Insert%20Clients%20Measurement%20UI/Insert%20Measurement%20Data?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_tmnEgB6ZEeGzW_f4CE2-cA" name="SendOperationEvent25">
+    <operation href="ModelFragment_16.efx#_tmmdcB6ZEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/ClientsMeasurement%20service/validateForm()?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_tmnrkB6ZEeGzW_f4CE2-cA" name="ReceiveOperationEvent23">
+    <operation href="ModelFragment_16.efx#_tmmdcB6ZEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/ClientsMeasurement%20service/validateForm()?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_wQYjIB6ZEeGzW_f4CE2-cA" name="SendOperationEvent26">
+    <operation href="ModelFragment_4.efx#_wQX8EB6ZEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/Confirm%20Measurement%20UI/show()?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_wQZKMB6ZEeGzW_f4CE2-cA" name="ReceiveOperationEvent24">
+    <operation href="ModelFragment_4.efx#_wQX8EB6ZEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/Confirm%20Measurement%20UI/show()?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_5NXsQB6ZEeGzW_f4CE2-cA" name="SendOperationEvent27">
+    <operation href="ModelFragment_4.efx#_5NXFMB6ZEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/Confirm%20Measurement%20UI/Confirm%20Data?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_5NYTUB6ZEeGzW_f4CE2-cA" name="ReceiveOperationEvent25">
+    <operation href="ModelFragment_4.efx#_5NXFMB6ZEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/Confirm%20Measurement%20UI/Confirm%20Data?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="__yK2AB6ZEeGzW_f4CE2-cA" name="SendOperationEvent28">
+    <operation href="ModelFragment_16.efx#__yKO8B6ZEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/ClientsMeasurement%20service/insertMeasurementData()?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="__yK2AR6ZEeGzW_f4CE2-cA" name="ReceiveOperationEvent26">
+    <operation href="ModelFragment_16.efx#__yKO8B6ZEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/ClientsMeasurement%20service/insertMeasurementData()?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_DyWG4B6aEeGzW_f4CE2-cA" name="SendOperationEvent29">
+    <operation href="ModelFragment_14.efx#_DyU4wB6aEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/Measurement/Measurement?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_I5gN8B6aEeGzW_f4CE2-cA" name="SendOperationEvent30">
+    <operation href="ModelFragment_14.efx#_I5fm4B6aEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/Measurement/addMeasurement(measurement%3A%20Measurement)?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_I5g1AB6aEeGzW_f4CE2-cA" name="ReceiveOperationEvent27">
+    <operation href="ModelFragment_14.efx#_I5fm4B6aEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/Measurement/addMeasurement(measurement%3A%20Measurement)?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_PF3CgB6aEeGzW_f4CE2-cA" name="SendOperationEvent31">
+    <operation href="ModelFragment_14.efx#_PF2bcB6aEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/Measurement/addmeasurement(measurement%3A%20Measurement)?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_PF3pkB6aEeGzW_f4CE2-cA" name="ReceiveOperationEvent28">
+    <operation href="ModelFragment_14.efx#_PF2bcB6aEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/Measurement/addmeasurement(measurement%3A%20Measurement)?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Collaboration" href="ModelFragment_23.efx#_sll28B6aEeGzW_f4CE2-cA?Blank%20Design%20Package/Use%20Case%20Realizations/Login%20Realization?"/>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_GgeEkB6bEeGzW_f4CE2-cA" name="SendOperationEvent32">
+    <operation href="ModelFragment_4.efx#_GgddgB6bEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/Login%20UI/Insert%20credentials?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_GgeroB6bEeGzW_f4CE2-cA" name="ReceiveOperationEvent29">
+    <operation href="ModelFragment_4.efx#_GgddgB6bEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/Login%20UI/Insert%20credentials?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_M-6usB6bEeGzW_f4CE2-cA" name="SendOperationEvent33">
+    <operation href="ModelFragment_20.efx#_M-6HoB6bEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/Login%20service/validateForm(username%3A%20String,password%3A%20String)?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_M-6usR6bEeGzW_f4CE2-cA" name="ReceiveOperationEvent30">
+    <operation href="ModelFragment_20.efx#_M-6HoB6bEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/service/Login%20service/validateForm(username%3A%20String,password%3A%20String)?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_Trq6kB6bEeGzW_f4CE2-cA" name="SendOperationEvent34"/>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_TrrhoB6bEeGzW_f4CE2-cA" name="ReceiveOperationEvent31"/>
+  <packagedElement xmi:type="uml:SendOperationEvent" xmi:id="_gDE8IB6bEeGzW_f4CE2-cA" name="SendOperationEvent35">
+    <operation href="ModelFragment_4.efx#_gDEVEB6bEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/Main%20Frame%20UI/show?"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:ReceiveOperationEvent" xmi:id="_gDFjMB6bEeGzW_f4CE2-cA" name="ReceiveOperationEvent32">
+    <operation href="ModelFragment_4.efx#_gDEVEB6bEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/ui/Main%20Frame%20UI/show?"/>
+  </packagedElement>
+</uml:Package>

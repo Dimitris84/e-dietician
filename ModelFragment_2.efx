@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.fragment" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_Q_U4oB5lEeGzW_f4CE2-cA" name="aueb">
+  <eAnnotations xmi:id="_ziqTYB5xEeGzW_f4CE2-cA" source="com.ibm.xtools.uml.msl.fragments">
+    <references xmi:type="uml:Package" href="ModelFragment_3.efx#_SAXe4B5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician?"/>
+  </eAnnotations>
+  <eAnnotations xmi:id="_zipsUB5xEeGzW_f4CE2-cA" source="com.ibm.xtools.uml.msl.fragmentContainer">
+    <references xmi:type="uml:Package" href="ModelFragment_1.efx#_PdMXgB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu?"/>
+  </eAnnotations>
+  <eAnnotations xmi:id="_Q_VfsB5lEeGzW_f4CE2-cA" source="uml2.diagrams"/>
+  <packagedElement xmi:type="uml:Package" href="ModelFragment_3.efx#_SAXe4B5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician?"/>
+</uml:Package>

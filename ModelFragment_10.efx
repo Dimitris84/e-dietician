@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.fragment" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<uml:Class xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_CW9PUB6MEeGzW_f4CE2-cA" name="FoodDAO">
+  <eAnnotations xmi:id="_fq-d8B-HEeGNRb-Ky5mQzQ" source="com.ibm.xtools.uml.msl.fragmentContainer">
+    <references xmi:type="uml:Package" href="ModelFragment_7.efx#_efzbEB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/dao?"/>
+  </eAnnotations>
+  <ownedOperation xmi:id="_gbOewB6NEeGzW_f4CE2-cA" name="findFood"/>
+</uml:Class>
