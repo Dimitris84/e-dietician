@@ -379,7 +379,7 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_J3VggBj6EeGeKc-PyQrmzw" memberEnd="_J36IQBj6EeGeKc-PyQrmzw _J494MBj6EeGeKc-PyQrmzw"/>
     <packagedElement xmi:type="uml:Realization" xmi:id="_SZYswB5uEeGzW_f4CE2-cA" client="_yTEtUBjrEeGeKc-PyQrmzw">
-      <supplier xmi:type="uml:Class" href="../../ModelFragment_12.efx#_rKMDAB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/Address?"/>
+      <supplier xmi:type="uml:Class" href="../../Blank%20Design%20Package.emx#_rKMDAB5lEeGzW_f4CE2-cA?Blank%20Design%20Package/edu/aueb/e-dietician/domain/Address?"/>
     </packagedElement>
   </uml:Package>
   <RUPAnalysis:Entity xmi:id="_pgKtQBjrEeGeKc-PyQrmzw" base_Class="_pHbdIBjrEeGeKc-PyQrmzw"/>
