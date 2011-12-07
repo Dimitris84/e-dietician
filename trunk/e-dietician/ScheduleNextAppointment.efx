@@ -8,7 +8,80 @@
   </eAnnotations>
   <eAnnotations xmi:id="_g96ZgRkFEeGeKc-PyQrmzw" source="com.ibm.xtools.uml.msl.fragments"/>
   <children xmi:type="umlnotation:UMLShape" xmi:id="_vs8PMhkEEeGeKc-PyQrmzw" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
-    <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vs8PMxkEEeGeKc-PyQrmzw" type="interaction_compartment"/>
+    <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vs8PMxkEEeGeKc-PyQrmzw" type="interaction_compartment">
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_BfChUCEoEeGAjaMDPhQl6g" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <eAnnotations xmi:id="_BfDIYCEoEeGAjaMDPhQl6g" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+          <details xmi:id="_BfDIYSEoEeGAjaMDPhQl6g" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+        </eAnnotations>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_BfDIYiEoEeGAjaMDPhQl6g" type="Stereotype"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_BfDIYyEoEeGAjaMDPhQl6g" type="Name"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_BfDvcCEoEeGAjaMDPhQl6g" type="Parent"/>
+        <element xmi:type="uml:Lifeline" href="ModelFragment_9.efx#_Ns55UR3bEeGKvvdeucnPzw?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization/Interaction2/dietician?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BfChUSEoEeGAjaMDPhQl6g" x="529" y="132" width="3306" height="22355"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_BfDvcSEoEeGAjaMDPhQl6g" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <eAnnotations xmi:id="_BfEWgCEoEeGAjaMDPhQl6g" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+          <details xmi:id="_BfEWgSEoEeGAjaMDPhQl6g" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+        </eAnnotations>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_BfEWgiEoEeGAjaMDPhQl6g" type="Stereotype"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_BfE9kCEoEeGAjaMDPhQl6g" type="Name"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_BfFkoCEoEeGAjaMDPhQl6g" type="Parent"/>
+        <element xmi:type="uml:Lifeline" href="ModelFragment_9.efx#_NtDqUB3bEeGKvvdeucnPzw?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization/Interaction2/scheduleNextAppointment%20UI?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BfDvciEoEeGAjaMDPhQl6g" x="529" y="-1"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_BfFkoSEoEeGAjaMDPhQl6g" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <eAnnotations xmi:id="_BfGLsCEoEeGAjaMDPhQl6g" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+          <details xmi:id="_BfGLsSEoEeGAjaMDPhQl6g" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+        </eAnnotations>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_BfGLsiEoEeGAjaMDPhQl6g" type="Stereotype"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_BfGywCEoEeGAjaMDPhQl6g" type="Name"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_BfGywSEoEeGAjaMDPhQl6g" type="Parent"/>
+        <element xmi:type="uml:Lifeline" href="ModelFragment_9.efx#_NtDqUR3bEeGKvvdeucnPzw?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization/Interaction2/scheduleNextAppointment%20Controller?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BfFkoiEoEeGAjaMDPhQl6g" x="529" y="132" width="11773" height="22092"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_BfGywiEoEeGAjaMDPhQl6g" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <eAnnotations xmi:id="_BfHZ0CEoEeGAjaMDPhQl6g" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+          <details xmi:id="_BfHZ0SEoEeGAjaMDPhQl6g" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+        </eAnnotations>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_BfHZ0iEoEeGAjaMDPhQl6g" type="Stereotype"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_BfIA4CEoEeGAjaMDPhQl6g" type="Name"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_BfIA4SEoEeGAjaMDPhQl6g" type="Parent"/>
+        <element xmi:type="uml:Lifeline" href="ModelFragment_9.efx#_NtDqUh3bEeGKvvdeucnPzw?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization/Interaction2/appointment?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BfGywyEoEeGAjaMDPhQl6g" x="529" y="-1"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_BfIn8CEoEeGAjaMDPhQl6g" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <element xmi:type="uml:BehaviorExecutionSpecification" href="ModelFragment_9.efx#_NtDqWR3bEeGKvvdeucnPzw?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization/Interaction2/%3CBehaviorExecutionSpecification%3E?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BfIn8SEoEeGAjaMDPhQl6g" x="-1" y="1453" height="1453"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_BfIn8iEoEeGAjaMDPhQl6g" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <element xmi:type="uml:BehaviorExecutionSpecification" href="ModelFragment_9.efx#_NtDqXB3bEeGKvvdeucnPzw?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization/Interaction2/%3CBehaviorExecutionSpecification%3E?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BfIn8yEoEeGAjaMDPhQl6g" x="-1" y="1453" height="1453"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_BfJPACEoEeGAjaMDPhQl6g" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <element xmi:type="uml:BehaviorExecutionSpecification" href="ModelFragment_9.efx#_NtDqXx3bEeGKvvdeucnPzw?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization/Interaction2/%3CBehaviorExecutionSpecification%3E?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BfJPASEoEeGAjaMDPhQl6g" x="-1" y="1453" height="1453"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_BfJ2ECEoEeGAjaMDPhQl6g" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <element xmi:type="uml:BehaviorExecutionSpecification" href="ModelFragment_9.efx#_NtNbUR3bEeGKvvdeucnPzw?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization/Interaction2/%3CBehaviorExecutionSpecification%3E?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BfJ2ESEoEeGAjaMDPhQl6g" x="-1" y="1453" height="1453"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_BfKdICEoEeGAjaMDPhQl6g" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <element xmi:type="uml:BehaviorExecutionSpecification" href="ModelFragment_9.efx#_NtNbVB3bEeGKvvdeucnPzw?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization/Interaction2/%3CBehaviorExecutionSpecification%3E?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BfKdISEoEeGAjaMDPhQl6g" x="-1" y="1453" height="1453"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_BfLEMCEoEeGAjaMDPhQl6g" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <element xmi:type="uml:BehaviorExecutionSpecification" href="ModelFragment_9.efx#_NtNbWh3bEeGKvvdeucnPzw?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization/Interaction2/%3CBehaviorExecutionSpecification%3E?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BfLEMSEoEeGAjaMDPhQl6g" x="-1" y="1453" height="1453"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_BfLrQCEoEeGAjaMDPhQl6g" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <element xmi:type="uml:BehaviorExecutionSpecification" href="ModelFragment_9.efx#_YLBBgx3cEeGKvvdeucnPzw?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization/Interaction2/%3CBehaviorExecutionSpecification%3E?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BfLrQSEoEeGAjaMDPhQl6g" x="-1" y="1453" height="1453"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_BfLrQiEoEeGAjaMDPhQl6g" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <element xmi:type="uml:BehaviorExecutionSpecification" href="ModelFragment_9.efx#_AR1JYx3dEeGKvvdeucnPzw?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization/Interaction2/%3CBehaviorExecutionSpecification%3E?"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_BfLrQyEoEeGAjaMDPhQl6g" x="-1" y="1453" height="1453"/>
+      </children>
+    </children>
     <children xmi:type="notation:BasicDecorationNode" xmi:id="_vs8PNBkEEeGeKc-PyQrmzw" type="Name"/>
     <element xmi:type="uml:Interaction" href="ModelFragment_9.efx#_vs2IkBkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization/Interaction2?"/>
     <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vs8PNRkEEeGeKc-PyQrmzw" x="793" y="793"/>

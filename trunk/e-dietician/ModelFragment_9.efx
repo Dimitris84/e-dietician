@@ -61,24 +61,12 @@
       <details xmi:id="_g9uMQBkFEeGeKc-PyQrmzw" key="_vs8PMRkEEeGeKc-PyQrmzw" value="Sequence"/>
       <ownedDiagrams xmi:type="umlnotation:UMLDiagram" href="ScheduleNextAppointment.efx#_vs8PMRkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization/Interaction2/ScheduleNextAppointment?"/>
     </eAnnotations>
-    <ownedConnector xmi:id="_NtWlQB3bEeGKvvdeucnPzw">
-      <end xmi:id="_NtWlQR3bEeGKvvdeucnPzw" role="_NtDqUx3bEeGKvvdeucnPzw"/>
-      <end xmi:id="_NtWlQh3bEeGKvvdeucnPzw" role="_NtDqVR3bEeGKvvdeucnPzw"/>
-    </ownedConnector>
     <ownedConnector xmi:id="_NtWlQx3bEeGKvvdeucnPzw">
       <end xmi:id="_NtWlRB3bEeGKvvdeucnPzw" role="_NtDqVB3bEeGKvvdeucnPzw"/>
       <end xmi:id="_NtWlRR3bEeGKvvdeucnPzw" role="_NtDqUx3bEeGKvvdeucnPzw"/>
     </ownedConnector>
-    <ownedConnector xmi:id="_NtWlRh3bEeGKvvdeucnPzw">
-      <end xmi:id="_NtWlRx3bEeGKvvdeucnPzw" role="_NtDqVh3bEeGKvvdeucnPzw"/>
-      <end xmi:id="_NtWlSB3bEeGKvvdeucnPzw" role="_NtDqVR3bEeGKvvdeucnPzw"/>
-    </ownedConnector>
-    <ownedConnector xmi:id="_NtWlSR3bEeGKvvdeucnPzw">
-      <end xmi:id="_NtWlSh3bEeGKvvdeucnPzw" role="_NtDqVR3bEeGKvvdeucnPzw"/>
-      <end xmi:id="_NtWlSx3bEeGKvvdeucnPzw" role="_NtDqVB3bEeGKvvdeucnPzw"/>
-    </ownedConnector>
     <lifeline xmi:id="_Ns55UR3bEeGKvvdeucnPzw" name="dietician" represents="_NtDqVh3bEeGKvvdeucnPzw" coveredBy="_NtDqVx3bEeGKvvdeucnPzw _NtDqZR3bEeGKvvdeucnPzw _NtNbWB3bEeGKvvdeucnPzw"/>
-    <lifeline xmi:id="_NtDqUB3bEeGKvvdeucnPzw" name="scheduleNextAppointment UI" represents="_NtDqVR3bEeGKvvdeucnPzw" coveredBy="_NtDqWB3bEeGKvvdeucnPzw _NtDqWR3bEeGKvvdeucnPzw _NtDqZB3bEeGKvvdeucnPzw _NtDqWh3bEeGKvvdeucnPzw _NtDqYx3bEeGKvvdeucnPzw _NtNbUB3bEeGKvvdeucnPzw _NtNbUR3bEeGKvvdeucnPzw _NtNbVx3bEeGKvvdeucnPzw _NtNbUh3bEeGKvvdeucnPzw _NtNbVh3bEeGKvvdeucnPzw _NtNbWR3bEeGKvvdeucnPzw _NtNbWh3bEeGKvvdeucnPzw _NtNbWx3bEeGKvvdeucnPzw _YLBBgR3cEeGKvvdeucnPzw _YLBBhh3cEeGKvvdeucnPzw"/>
+    <lifeline xmi:id="_NtDqUB3bEeGKvvdeucnPzw" name="scheduleNextAppointment UI" coveredBy="_NtDqWB3bEeGKvvdeucnPzw _NtDqWR3bEeGKvvdeucnPzw _NtDqZB3bEeGKvvdeucnPzw _NtDqWh3bEeGKvvdeucnPzw _NtDqYx3bEeGKvvdeucnPzw _NtNbUB3bEeGKvvdeucnPzw _NtNbUR3bEeGKvvdeucnPzw _NtNbVx3bEeGKvvdeucnPzw _NtNbUh3bEeGKvvdeucnPzw _NtNbVh3bEeGKvvdeucnPzw _NtNbWR3bEeGKvvdeucnPzw _NtNbWh3bEeGKvvdeucnPzw _NtNbWx3bEeGKvvdeucnPzw _YLBBgR3cEeGKvvdeucnPzw _YLBBhh3cEeGKvvdeucnPzw"/>
     <lifeline xmi:id="_NtDqUR3bEeGKvvdeucnPzw" name="scheduleNextAppointment Controller" represents="_NtDqVB3bEeGKvvdeucnPzw" coveredBy="_NtDqWx3bEeGKvvdeucnPzw _NtDqXB3bEeGKvvdeucnPzw _NtDqYh3bEeGKvvdeucnPzw _NtDqXR3bEeGKvvdeucnPzw _NtDqYR3bEeGKvvdeucnPzw _YLBBgh3cEeGKvvdeucnPzw _YLBBgx3cEeGKvvdeucnPzw _YLBBhB3cEeGKvvdeucnPzw _AR1JYR3dEeGKvvdeucnPzw _AR1JZh3dEeGKvvdeucnPzw"/>
     <lifeline xmi:id="_NtDqUh3bEeGKvvdeucnPzw" name="appointment" represents="_NtDqUx3bEeGKvvdeucnPzw" coveredBy="_NtDqXh3bEeGKvvdeucnPzw _NtDqXx3bEeGKvvdeucnPzw _NtDqYB3bEeGKvvdeucnPzw _NtNbUx3bEeGKvvdeucnPzw _NtNbVB3bEeGKvvdeucnPzw _NtNbVR3bEeGKvvdeucnPzw _AR1JYh3dEeGKvvdeucnPzw _AR1JYx3dEeGKvvdeucnPzw _AR1JZB3dEeGKvvdeucnPzw"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NtDqVx3bEeGKvvdeucnPzw" covered="_Ns55UR3bEeGKvvdeucnPzw" message="_NtNbYB3bEeGKvvdeucnPzw"/>
@@ -122,17 +110,17 @@
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YLBBhB3cEeGKvvdeucnPzw" covered="_NtDqUR3bEeGKvvdeucnPzw" message="_YLBBhR3cEeGKvvdeucnPzw"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_YLBBhh3cEeGKvvdeucnPzw" covered="_NtDqUB3bEeGKvvdeucnPzw" message="_YLBBhR3cEeGKvvdeucnPzw"/>
     <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_NtNbWx3bEeGKvvdeucnPzw" covered="_NtDqUB3bEeGKvvdeucnPzw"/>
-    <message xmi:id="_NtNbXB3bEeGKvvdeucnPzw" name="addNewAppointment (appointment : Appointment)" messageSort="reply" receiveEvent="_NtNbVh3bEeGKvvdeucnPzw" sendEvent="_NtNbVR3bEeGKvvdeucnPzw" connector="_NtWlQB3bEeGKvvdeucnPzw"/>
+    <message xmi:id="_NtNbXB3bEeGKvvdeucnPzw" name="addNewAppointment (appointment : Appointment)" messageSort="reply" receiveEvent="_NtNbVh3bEeGKvvdeucnPzw" sendEvent="_NtNbVR3bEeGKvvdeucnPzw"/>
     <message xmi:id="_NtNbXR3bEeGKvvdeucnPzw" name="findAllAppointments" receiveEvent="_NtDqXh3bEeGKvvdeucnPzw" sendEvent="_NtDqXR3bEeGKvvdeucnPzw" connector="_NtWlQx3bEeGKvvdeucnPzw"/>
-    <message xmi:id="_NtNbXh3bEeGKvvdeucnPzw" name="Print schedule" receiveEvent="_NtNbWR3bEeGKvvdeucnPzw" sendEvent="_NtNbWB3bEeGKvvdeucnPzw" connector="_NtWlRh3bEeGKvvdeucnPzw"/>
+    <message xmi:id="_NtNbXh3bEeGKvvdeucnPzw" name="Print schedule" receiveEvent="_NtNbWR3bEeGKvvdeucnPzw" sendEvent="_NtNbWB3bEeGKvvdeucnPzw"/>
     <message xmi:id="_NtNbXx3bEeGKvvdeucnPzw" name="findAllAppointments" messageSort="reply" receiveEvent="_NtDqYR3bEeGKvvdeucnPzw" sendEvent="_NtDqYB3bEeGKvvdeucnPzw" connector="_NtWlQx3bEeGKvvdeucnPzw"/>
-    <message xmi:id="_NtNbYB3bEeGKvvdeucnPzw" name="Schedule next appointment" messageSort="asynchCall" receiveEvent="_NtDqWB3bEeGKvvdeucnPzw" sendEvent="_NtDqVx3bEeGKvvdeucnPzw" connector="_NtWlRh3bEeGKvvdeucnPzw"/>
-    <message xmi:id="_NtNbYR3bEeGKvvdeucnPzw" name="Select one appointment from available appointments" messageSort="asynchCall" receiveEvent="_NtNbUB3bEeGKvvdeucnPzw" sendEvent="_NtDqZR3bEeGKvvdeucnPzw" connector="_NtWlRh3bEeGKvvdeucnPzw"/>
-    <message xmi:id="_NtNbYh3bEeGKvvdeucnPzw" name="getAvailableTimeslots" receiveEvent="_NtDqWx3bEeGKvvdeucnPzw" sendEvent="_NtDqWh3bEeGKvvdeucnPzw" connector="_NtWlSR3bEeGKvvdeucnPzw"/>
-    <message xmi:id="_NtNbYx3bEeGKvvdeucnPzw" name="addNewAppointment (appointment : Appointment)" receiveEvent="_NtNbUx3bEeGKvvdeucnPzw" sendEvent="_NtNbUh3bEeGKvvdeucnPzw" connector="_NtWlQB3bEeGKvvdeucnPzw"/>
-    <message xmi:id="_NtNbZB3bEeGKvvdeucnPzw" name="getAvailableTimeslots" messageSort="reply" receiveEvent="_NtDqYx3bEeGKvvdeucnPzw" sendEvent="_NtDqYh3bEeGKvvdeucnPzw" connector="_NtWlSR3bEeGKvvdeucnPzw"/>
-    <message xmi:id="_YLBBgB3cEeGKvvdeucnPzw" name="\getAllAppointments\" receiveEvent="_YLBBgh3cEeGKvvdeucnPzw" sendEvent="_YLBBgR3cEeGKvvdeucnPzw" connector="_NtWlSR3bEeGKvvdeucnPzw"/>
-    <message xmi:id="_YLBBhR3cEeGKvvdeucnPzw" name="\getAllAppointments\" messageSort="reply" receiveEvent="_YLBBhh3cEeGKvvdeucnPzw" sendEvent="_YLBBhB3cEeGKvvdeucnPzw" connector="_NtWlSR3bEeGKvvdeucnPzw"/>
+    <message xmi:id="_NtNbYB3bEeGKvvdeucnPzw" name="Schedule next appointment" messageSort="asynchCall" receiveEvent="_NtDqWB3bEeGKvvdeucnPzw" sendEvent="_NtDqVx3bEeGKvvdeucnPzw"/>
+    <message xmi:id="_NtNbYR3bEeGKvvdeucnPzw" name="Select one appointment from available appointments" messageSort="asynchCall" receiveEvent="_NtNbUB3bEeGKvvdeucnPzw" sendEvent="_NtDqZR3bEeGKvvdeucnPzw"/>
+    <message xmi:id="_NtNbYh3bEeGKvvdeucnPzw" name="getAvailableTimeslots" receiveEvent="_NtDqWx3bEeGKvvdeucnPzw" sendEvent="_NtDqWh3bEeGKvvdeucnPzw"/>
+    <message xmi:id="_NtNbYx3bEeGKvvdeucnPzw" name="addNewAppointment (appointment : Appointment)" receiveEvent="_NtNbUx3bEeGKvvdeucnPzw" sendEvent="_NtNbUh3bEeGKvvdeucnPzw"/>
+    <message xmi:id="_NtNbZB3bEeGKvvdeucnPzw" name="getAvailableTimeslots" messageSort="reply" receiveEvent="_NtDqYx3bEeGKvvdeucnPzw" sendEvent="_NtDqYh3bEeGKvvdeucnPzw"/>
+    <message xmi:id="_YLBBgB3cEeGKvvdeucnPzw" name="\getAllAppointments\" receiveEvent="_YLBBgh3cEeGKvvdeucnPzw" sendEvent="_YLBBgR3cEeGKvvdeucnPzw"/>
+    <message xmi:id="_YLBBhR3cEeGKvvdeucnPzw" name="\getAllAppointments\" messageSort="reply" receiveEvent="_YLBBhh3cEeGKvvdeucnPzw" sendEvent="_YLBBhB3cEeGKvvdeucnPzw"/>
     <message xmi:id="_AR1JYB3dEeGKvvdeucnPzw" name="\findAllAppointments\" receiveEvent="_AR1JYh3dEeGKvvdeucnPzw" sendEvent="_AR1JYR3dEeGKvvdeucnPzw" connector="_NtWlQx3bEeGKvvdeucnPzw"/>
     <message xmi:id="_AR1JZR3dEeGKvvdeucnPzw" name="\findAllAppointments\" messageSort="reply" receiveEvent="_AR1JZh3dEeGKvvdeucnPzw" sendEvent="_AR1JZB3dEeGKvvdeucnPzw" connector="_NtWlQx3bEeGKvvdeucnPzw"/>
   </ownedBehavior>
@@ -142,10 +130,8 @@
   <ownedAttribute xmi:id="_NtDqVB3bEeGKvvdeucnPzw" name="scheduleNextAppointment Controller">
     <type xmi:type="uml:Class" href="platform:/resource/111201%20e-dietician/trunk/e-dietician/ModelFragment_5.efx#_2r-nUB0JEeGiq7q1WHBvdw?RUP%20Analysis%20Model/Controller%20Classes/ScheduleNextAppointment%20Controller?"/>
   </ownedAttribute>
-  <ownedAttribute xmi:id="_NtDqVR3bEeGKvvdeucnPzw" name="scheduleNextAppointment UI">
-    <type xmi:type="uml:Class" href="platform:/resource/111201%20e-dietician/trunk/e-dietician/ModelFragment_6.efx#_rpJzEB0JEeGiq7q1WHBvdw?RUP%20Analysis%20Model/Boundary%20Classes/ScheduleNextAppointment%20UI?"/>
-  </ownedAttribute>
   <ownedAttribute xmi:id="_NtDqVh3bEeGKvvdeucnPzw" name="dietician">
     <type xmi:type="uml:Actor" href="platform:/resource/111201%20e-dietician/trunk/e-dietician/Blank%20Package1.emx#_HN4zAAL2EeGzl9RzglytTQ?Blank%20Package/Dietician?"/>
   </ownedAttribute>
+  <ownedAttribute xmi:id="_QQQ58CEoEeGAjaMDPhQl6g" name="scheduleNextAppointment UI" visibility="public"/>
 </uml:Collaboration>
