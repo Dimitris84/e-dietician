@@ -4,7 +4,7 @@
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <uml:Collaboration xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:res="http://www.ibm.com/xtools/7.1.0/resources" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_U9WL8BoIEeGuTprYHcgF3g" name="ScheduleNextAppointment Realization">
   <eAnnotations xmi:id="_GT9yUR3aEeGKvvdeucnPzw" source="com.ibm.xtools.uml.msl.fragments">
-    <references xmi:type="umlnotation:UMLDiagram" href="ScheduleNextAppointment.efx#_vs8PMRkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization/Interaction2/ScheduleNextAppointment?"/>
+    <references xmi:type="umlnotation:UMLDiagram" href="ScheduleNextAppointment.efx#_vs8PMRkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization/ScheduleNextAppointment/ScheduleNextAppointment?"/>
   </eAnnotations>
   <eAnnotations xmi:id="_GT9yUB3aEeGKvvdeucnPzw" source="com.ibm.xtools.uml.msl.fragmentContainer">
     <references xmi:type="uml:Model" href="RUP%20Analysis%20Model.emx#_Nma_MBjrEeGeKc-PyQrmzw?RUP%20Analysis%20Model?"/>
@@ -56,10 +56,10 @@
       <element xsi:nil="true"/>
     </contents>
   </eAnnotations>
-  <ownedBehavior xmi:type="uml:Interaction" xmi:id="_vs2IkBkEEeGeKc-PyQrmzw" name="Interaction2">
+  <ownedBehavior xmi:type="uml:Interaction" xmi:id="_vs2IkBkEEeGeKc-PyQrmzw" name="ScheduleNextAppointment">
     <eAnnotations xmi:type="res:DiagramHolder" xmi:id="_g90S4BkFEeGeKc-PyQrmzw" source="uml2.diagrams">
       <details xmi:id="_g9uMQBkFEeGeKc-PyQrmzw" key="_vs8PMRkEEeGeKc-PyQrmzw" value="Sequence"/>
-      <ownedDiagrams xmi:type="umlnotation:UMLDiagram" href="ScheduleNextAppointment.efx#_vs8PMRkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization/Interaction2/ScheduleNextAppointment?"/>
+      <ownedDiagrams xmi:type="umlnotation:UMLDiagram" href="ScheduleNextAppointment.efx#_vs8PMRkEEeGeKc-PyQrmzw?RUP%20Analysis%20Model/ScheduleNextAppointment%20Realization/ScheduleNextAppointment/ScheduleNextAppointment?"/>
     </eAnnotations>
     <ownedConnector xmi:id="_NtWlQx3bEeGKvvdeucnPzw">
       <end xmi:id="_NtWlRB3bEeGKvvdeucnPzw" role="_NtDqVB3bEeGKvvdeucnPzw"/>
