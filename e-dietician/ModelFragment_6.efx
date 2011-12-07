@@ -36,7 +36,11 @@
     <packagedElement xmi:type="uml:Association" xmi:id="_Sam30B2JEeGPjv3V5pay3w" memberEnd="_SbDjwB2JEeGPjv3V5pay3w _SbJDUB2JEeGPjv3V5pay3w">
       <ownedEnd xmi:id="_SbJDUB2JEeGPjv3V5pay3w" name="" visibility="private" type="_NdD_wB2JEeGPjv3V5pay3w" association="_Sam30B2JEeGPjv3V5pay3w"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_nYLl0CEqEeGAjaMDPhQl6g" name="ScheduleNextAppointment UI">
+      <ownedOperation xmi:id="_nYLl0SEqEeGAjaMDPhQl6g" name="Schedule Next appointment"/>
+    </packagedElement>
   </uml:Package>
   <RUPAnalysis:Boundary xmi:id="_FQWQ4BqzEeGtzbXyaXGnqg" base_Class="_Eyq2YBqzEeGtzbXyaXGnqg"/>
   <RUPAnalysis:Boundary xmi:id="_N5_zYB2JEeGPjv3V5pay3w" base_Class="_NdD_wB2JEeGPjv3V5pay3w"/>
+  <RUPAnalysis:Boundary xmi:id="_nYMz8CEqEeGAjaMDPhQl6g" base_Class="_nYLl0CEqEeGAjaMDPhQl6g"/>
 </xmi:XMI>

@@ -24,6 +24,10 @@
     <packagedElement xmi:type="uml:Association" xmi:id="_BOB1gBq0EeGtzbXyaXGnqg" memberEnd="_BOHVEBq0EeGtzbXyaXGnqg _BOK_cBq0EeGtzbXyaXGnqg">
       <ownedEnd xmi:id="_BOK_cBq0EeGtzbXyaXGnqg" name="" visibility="private" type="_NBbnkBqzEeGtzbXyaXGnqg" association="_BOB1gBq0EeGtzbXyaXGnqg"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jlGVwCEqEeGAjaMDPhQl6g" name="ScheduleNextAppointment Controller">
+      <ownedOperation xmi:id="_jlGVwSEqEeGAjaMDPhQl6g" name="Get available timeslots"/>
+    </packagedElement>
   </uml:Package>
   <RUPAnalysis:Control xmi:id="_NV_iUBqzEeGtzbXyaXGnqg" base_Class="_NBbnkBqzEeGtzbXyaXGnqg"/>
+  <RUPAnalysis:Control xmi:id="_jlG80CEqEeGAjaMDPhQl6g" base_Class="_jlGVwCEqEeGAjaMDPhQl6g"/>
 </xmi:XMI>
